@@ -23,7 +23,7 @@ jobs:
           python3 -m pip install --upgrade pip
           pip3 install cookiecutter
       - name: install sphinx-build
-        run: pip3 install sphinx-doc
+        run: pip3 install git+https://github.com/sphinx-doc/sphinx
         
       - name: sphinx build # run main.py
         run: sphinx-build -a -b html generator/source/ output
