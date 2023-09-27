@@ -35,7 +35,7 @@ jobs:
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
-          API_TOKEN_GITHUB: ${{ secrets.HOMEBREW }}
+          API_TOKEN_GITHUB: ${{ secrets.Homebrew }}
         with:
           source-directory: 'output'
           destination-github-username: 'pythonswiftlink'
