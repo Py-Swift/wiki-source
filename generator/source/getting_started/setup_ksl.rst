@@ -3,6 +3,7 @@ Install Swiftonize:
 =========================================
 
 .. code-block:: sh
+
     brew tap pythonswiftlink/tools
     brew install swiftonize_master
 
@@ -15,6 +16,7 @@ Create a new empty folder of your choosing, and cd into it with `Terminal`.
 Now run the following command 
 
 .. code-block:: sh
+    
     python3.10 -m venv venv
     . venv/bin/activate
 
