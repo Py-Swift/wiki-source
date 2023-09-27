@@ -7,7 +7,7 @@ on:
   
 jobs:
   homebrew:
-    name: Bump Homebrew formula
+    name: generate docs
     runs-on: macos-latest
     steps:
       - name: checkout repo content
@@ -24,4 +24,4 @@ jobs:
           pip3 install cookiecutter
 
       - name: execute py script # run main.py
-        run: build.sh
+        run: sh ./build.sh
