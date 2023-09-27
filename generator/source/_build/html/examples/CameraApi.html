@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CameraApi example &mdash; KivySwiftLink 0.0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="HalloWorld example" href="HalloWorld.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> KivySwiftLink
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../documentation.html">Documentation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../modules.html">Examples</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="HalloWorld.html">HalloWorld example</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">CameraApi example</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#wrapper-file">Wrapper file:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#swift">Swift:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#api">Api:</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#addon-classes">Addon Classes:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">KivySwiftLink</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../modules.html">Examples</a> &raquo;</li>
+      <li>CameraApi example</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/examples/CameraApi.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="cameraapi-example">
+<h1>CameraApi example<a class="headerlink" href="#cameraapi-example" title="Permalink to this headline"></a></h1>
+<section id="wrapper-file">
+<h2>Wrapper file:<a class="headerlink" href="#wrapper-file" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">symtable</span> <span class="kn">import</span> <span class="n">Class</span>
+<span class="kn">from</span> <span class="nn">swift_types</span> <span class="kn">import</span> <span class="o">*</span>
+
+
+<span class="k">class</span> <span class="nc">CameraConfigMode</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+
+    <span class="n">QRcode</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">PhotoRaw</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">PhotoPng</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="n">Video</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">Vision</span> <span class="o">=</span> <span class="mi">4</span>
+    <span class="n">CoreML</span> <span class="o">=</span> <span class="mi">5</span>
+
+
+<span class="k">class</span> <span class="nc">KivyTextureKeys</span><span class="p">(</span><span class="n">ObjectStrEnum</span><span class="p">):</span>
+    <span class="n">cfmt</span><span class="o">=</span><span class="s2">&quot;colorfmt&quot;</span>
+    <span class="n">bfmt</span><span class="o">=</span><span class="s2">&quot;bufferfmt&quot;</span>
+
+<span class="nd">@wrapper</span><span class="p">(</span>
+    <span class="n">dispatch_events</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="n">events</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;test&quot;</span><span class="p">,</span><span class="s2">&quot;test2&quot;</span><span class="p">],</span>
+    <span class="n">singleton</span><span class="o">=</span><span class="kc">True</span>
+<span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">CameraApi</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A Wrapper For AVCapture Foundation</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">start_capture</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">callback_cls</span><span class="p">:</span> <span class="nb">object</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">        start_capture</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">stop_capture</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">set_camera_mode</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">select_camera</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">:</span> <span class="n">long</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">take_photo</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">take_multi_photo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">count</span><span class="p">:</span> <span class="n">long</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">select_preview_preset</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">preset</span><span class="p">:</span><span class="nb">str</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">set_focus_point</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="n">double</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">double</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">zoom_camera</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">zoom</span><span class="p">:</span> <span class="n">double</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">set_exposure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">:</span> <span class="n">double</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">auto_exposure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">state</span><span class="p">:</span> <span class="nb">bool</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">set_preview_size</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">update_view_pos</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="nb">float</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">update_view_size</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">float</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="c1">#@send_self</span>
+    <span class="k">def</span> <span class="nf">get_presets</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="c1">#@callback(direct=True)</span>
+    <span class="k">def</span> <span class="nf">returned_image_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="n">long</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="n">long</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="c1"># @callback</span>
+    <span class="c1"># @direct</span>
+    <span class="c1"># def returned_thumbnail_data(self, data: object, width: long, height: long): ...</span>
+
+    <span class="nd">@callback</span>
+    <span class="c1">#@direct</span>
+    <span class="k">def</span> <span class="nf">preview_pixel_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span> <span class="p">,</span><span class="n">width</span><span class="p">:</span> <span class="n">long</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="n">long</span><span class="p">,</span> <span class="n">pixel_count</span><span class="p">:</span> <span class="n">long</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="nd">@callback</span>
+    <span class="c1">#@direct</span>
+    <span class="k">def</span> <span class="nf">blit_buffer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="nd">@callback</span>
+    <span class="k">def</span> <span class="nf">set_camera_texture</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="n">long</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="n">long</span><span class="p">):</span> <span class="o">...</span>
+
+    <span class="c1"># @callback</span>
+    <span class="c1"># def test_values(self, arg0: int, arg1: uint, arg2: uint8, arg3: str, arg4: list[uint8]): ...</span>
+
+    <span class="c1"># @callback</span>
+    <span class="c1"># def test_multi_data_args(self, data0: data, mem: memoryview[uint8], string: str): ...</span>
+    <span class="c1"># @callback</span>
+    <span class="c1"># def change_cam_res(self, width: long, height: long): ...</span>
+
+    <span class="c1"># @callback</span>
+    <span class="c1"># def get_camera_types(self, front: object, back: object): ...</span>
+
+
+    <span class="c1"># @callback()</span>
+    <span class="c1"># def set_preview_presets(self, presets: object): ...</span>
+
+
+
+
+<span class="c1">#python imports</span>
+<span class="kn">from</span> <span class="nn">kivy.uix.floatlayout</span> <span class="kn">import</span> <span class="n">FloatLayout</span>
+<span class="kn">from</span> <span class="nn">kivy.uix.relativelayout</span> <span class="kn">import</span> <span class="n">RelativeLayout</span>
+<span class="kn">from</span> <span class="nn">kivy.properties</span> <span class="kn">import</span> <span class="n">AliasProperty</span><span class="p">,</span> <span class="n">ObjectProperty</span><span class="p">,</span> <span class="n">NumericProperty</span><span class="p">,</span> <span class="n">ListProperty</span><span class="p">,</span> <span class="n">ColorProperty</span>
+<span class="kn">from</span> <span class="nn">kivy.lang</span> <span class="kn">import</span> <span class="n">Builder</span>
+<span class="kn">from</span> <span class="nn">kivy.graphics.texture</span> <span class="kn">import</span> <span class="n">Texture</span>
+
+
+<span class="n">Builder</span><span class="o">.</span><span class="n">load_string</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">&lt;CameraView&gt;:</span>
+<span class="s2">    app: app</span>
+<span class="s2">    canvas:</span>
+<span class="s2">        Rectangle:</span>
+<span class="s2">            texture: self.tex</span>
+<span class="s2">            pos: self.offset_pos</span>
+<span class="s2">            size: self.norm_image_size</span>
+<span class="s2">        Color:</span>
+<span class="s2">            rgb: self.capture_outline_color[:3]</span>
+<span class="s2">            a: self.capture_outline_alpha</span>
+<span class="s2">        Line:</span>
+<span class="s2">            width: 8</span>
+<span class="s2">            rectangle: self.x, self.y - 8 , self.width - 8, self.height - 8</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">)</span>
+
+<span class="nd">@python</span>
+<span class="k">class</span> <span class="nc">CameraView</span><span class="p">(</span><span class="n">RelativeLayout</span><span class="p">,</span> <span class="n">CameraApi</span><span class="p">):</span>
+    <span class="n">tex</span> <span class="o">=</span> <span class="n">ObjectProperty</span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+    <span class="n">touch_pos</span> <span class="o">=</span> <span class="n">ListProperty</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
+    <span class="n">touched</span> <span class="o">=</span>  <span class="n">NumericProperty</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+
+    <span class="n">capture_outline_color</span> <span class="o">=</span> <span class="n">ColorProperty</span><span class="p">()</span>
+    <span class="n">capture_outline_alpha</span> <span class="o">=</span> <span class="n">NumericProperty</span><span class="p">(</span><span class="mf">0.0</span><span class="p">)</span>
+
+    <span class="n">preview_buffersize</span><span class="p">:</span> <span class="nb">int</span>
+
+    <span class="k">def</span> <span class="nf">get_image_ratio</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;_summary_</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            _type_: _description_</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;get_image_ratio&quot;</span><span class="p">)</span>
+        <span class="n">tex</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tex</span>
+        <span class="k">if</span> <span class="n">tex</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">tex</span><span class="o">.</span><span class="n">width</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="n">tex</span><span class="o">.</span><span class="n">height</span><span class="p">)</span>
+        <span class="k">return</span> <span class="mf">1.</span>
+
+    <span class="n">image_ratio</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_image_ratio</span><span class="p">,</span> <span class="n">bind</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;tex&#39;</span><span class="p">,),</span> <span class="n">cache</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">get_norm_image_size</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">tex</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tex</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">tex</span><span class="p">:</span>
+            <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size</span><span class="p">)</span>
+        <span class="n">ratio</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">image_ratio</span>
+        <span class="n">w</span><span class="p">,</span> <span class="n">h</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">size</span>
+        <span class="c1">#tw, th = tex.size</span>
+
+        <span class="c1"># ensure that the width is always maximized to the container width</span>
+
+        <span class="n">iw</span> <span class="o">=</span> <span class="n">w</span>
+        <span class="c1"># calculate the appropriate height</span>
+        <span class="n">ih</span> <span class="o">=</span> <span class="n">iw</span> <span class="o">/</span> <span class="n">ratio</span>
+        <span class="c1"># if the height is too higher, take the height of the container</span>
+        <span class="c1"># and calculate appropriate width. no need to test further. :)</span>
+        <span class="k">if</span> <span class="n">ih</span> <span class="o">&gt;</span> <span class="n">h</span><span class="p">:</span>
+            <span class="n">ih</span> <span class="o">=</span> <span class="n">h</span>
+            <span class="n">iw</span> <span class="o">=</span> <span class="n">ih</span> <span class="o">*</span> <span class="n">ratio</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">iw</span><span class="p">,</span> <span class="n">ih</span><span class="p">]</span>
+
+    <span class="n">norm_image_size</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_norm_image_size</span><span class="p">,</span>
+                                    <span class="n">bind</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;tex&#39;</span><span class="p">,</span> <span class="s1">&#39;size&#39;</span><span class="p">,</span>
+                                        <span class="s1">&#39;image_ratio&#39;</span><span class="p">),</span>
+                                    <span class="n">cache</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+
+    <span class="k">def</span> <span class="nf">get_offset_pos</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">w</span><span class="p">,</span> <span class="n">h</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">size</span>
+        <span class="n">tw</span><span class="p">,</span> <span class="n">th</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">norm_image_size</span>
+
+        <span class="n">offset_x</span> <span class="o">=</span> <span class="p">(</span><span class="n">w</span> <span class="o">-</span> <span class="n">tw</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+        <span class="n">offset_y</span> <span class="o">=</span> <span class="p">(</span><span class="n">h</span> <span class="o">-</span> <span class="n">th</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+
+        <span class="k">return</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">+</span> <span class="n">offset_x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">+</span> <span class="n">offset_y</span><span class="p">]</span>
+
+    <span class="n">offset_pos</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_offset_pos</span><span class="p">,</span>
+                            <span class="n">bind</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;norm_image_size&#39;</span><span class="p">,</span><span class="s1">&#39;pos&#39;</span><span class="p">),</span>
+                            <span class="n">cache</span><span class="o">=</span><span class="kc">True</span>
+                            <span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">):</span>
+        <span class="n">app</span> <span class="o">=</span> <span class="n">ObjectProperty</span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="n">offset_pos</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">send_texture_pos</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="n">norm_image_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">send_texture_size</span><span class="p">)</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">CameraView</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">callback_class</span> <span class="o">=</span> <span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">update_cam</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">canvas</span><span class="o">.</span><span class="n">ask_update</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">preview_buffersize</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_camera_texture</span><span class="p">(</span><span class="mi">2160</span><span class="p">,</span><span class="mi">3840</span><span class="p">)</span>
+
+
+
+    <span class="k">def</span> <span class="nf">set_camera_texture</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Texture</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;set_camera_texture&quot;</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">)</span>
+
+        <span class="n">tex</span><span class="p">:</span> <span class="n">Texture</span> <span class="o">=</span> <span class="n">Texture</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+            <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">),</span>
+            <span class="n">colorfmt</span><span class="o">=</span><span class="s2">&quot;bgra&quot;</span><span class="p">,</span>
+            <span class="n">bufferfmt</span><span class="o">=</span><span class="s2">&quot;ubyte&quot;</span>
+            <span class="p">)</span>
+        <span class="n">tex</span><span class="o">.</span><span class="n">flip_vertical</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tex</span> <span class="o">=</span> <span class="n">tex</span>
+        <span class="c1"># self.preview_buffersize = width * height * 4</span>
+        <span class="k">return</span> <span class="n">tex</span>
+
+    <span class="k">def</span> <span class="nf">new_texture</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">size</span><span class="p">,</span> <span class="n">fmt</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;set_camera_texture&quot;</span><span class="p">,</span> <span class="n">size</span><span class="p">)</span>
+        <span class="n">tex</span><span class="p">:</span> <span class="n">Texture</span> <span class="o">=</span> <span class="n">Texture</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+            <span class="n">size</span><span class="o">=</span><span class="n">size</span><span class="p">,</span>
+            <span class="n">colorfmt</span><span class="o">=</span><span class="n">fmt</span><span class="p">,</span>
+            <span class="n">bufferfmt</span><span class="o">=</span><span class="s2">&quot;ubyte&quot;</span>
+            <span class="p">)</span>
+        <span class="n">tex</span><span class="o">.</span><span class="n">flip_vertical</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tex</span> <span class="o">=</span> <span class="n">tex</span>
+
+    <span class="k">def</span> <span class="nf">blit_buffer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">mem</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;blit_buffer&quot;</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">mem</span><span class="p">))</span>
+        <span class="c1">#self.tex.blit_buffer(mem, colorfmt=&quot;bgra&quot;)</span>
+
+    <span class="k">def</span> <span class="nf">preview_pixel_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">pixel_count</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">pixel_count</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">preview_buffersize</span><span class="p">:</span>
+            <span class="n">tex</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">set_camera_texture</span><span class="p">(</span><span class="n">width</span><span class="p">,</span><span class="n">height</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">preview_buffersize</span> <span class="o">=</span> <span class="n">pixel_count</span>
+            <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;changed resolution to </span><span class="si">{</span><span class="n">width</span><span class="si">}</span><span class="s2">x</span><span class="si">{</span><span class="n">height</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">tex</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tex</span>
+        <span class="k">if</span> <span class="n">tex</span><span class="p">:</span>
+            <span class="n">tex</span><span class="o">.</span><span class="n">blit_buffer</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">colorfmt</span><span class="o">=</span><span class="s2">&quot;bgra&quot;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">update_cam</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">blit_buffer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tex</span><span class="o">.</span><span class="n">blit_buffer</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">colorfmt</span><span class="o">=</span><span class="s2">&quot;bgra&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">update_cam</span><span class="p">()</span>
+
+
+
+    <span class="k">def</span> <span class="nf">returned_image_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">send_texture_pos</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">_</span><span class="p">,</span> <span class="n">pos</span><span class="p">):</span>
+        <span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="o">=</span> <span class="n">pos</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">update_view_pos</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">send_texture_size</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">_</span><span class="p">,</span> <span class="n">size</span><span class="p">):</span>
+        <span class="n">w</span><span class="p">,</span><span class="n">h</span> <span class="o">=</span> <span class="n">size</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">update_view_size</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">h</span><span class="p">)</span>
+
+    <span class="c1"># def test_values(self, arg0: int, arg1: int, arg2: int, arg3: str, arg4: list[int]):</span>
+    <span class="c1">#     print(arg0, arg1, arg2, arg3, arg4)</span>
+</pre></div>
+</div>
+</section>
+<section id="swift">
+<h2>Swift:<a class="headerlink" href="#swift" title="Permalink to this headline"></a></h2>
+<div class="highlight-swift notranslate"><div class="highlight"><pre><span></span><span class="kd">import</span> <span class="nc">Foundation</span>
+<span class="kd">import</span> <span class="nc">AVFoundation</span>
+<span class="c1">//import SwiftyJSON</span>
+<span class="kd">import</span> <span class="nc">KivySwiftLinkSupport</span>
+
+<span class="kd">import</span> <span class="nc">Vision</span>
+
+<span class="c1">//private let photo_output = AVCapturePhotoOutput()</span>
+<span class="kd">private</span> <span class="kd">let</span> <span class="nv">photoPixelFormatType</span> <span class="p">=</span> <span class="n">kCVPixelFormatType_32BGRA</span>
+
+<span class="kd">class</span> <span class="nc">PythonCameraControl</span><span class="p">:</span> <span class="bp">NSObject</span> <span class="p">{</span>
+
+    <span class="kd">private</span> <span class="kd">let</span> <span class="nv">captureSession</span> <span class="p">=</span> <span class="bp">AVCaptureSession</span><span class="p">()</span>
+    <span class="c1">//private let photoSession = AVCaptureSession()</span>
+
+    <span class="kd">var</span> <span class="nv">py_call</span><span class="p">:</span> <span class="n">CameraApiPyCallback</span><span class="p">!</span>
+
+    <span class="kd">var</span> <span class="nv">cameratypes</span><span class="p">:</span> <span class="p">[</span><span class="bp">AVCaptureDevice</span><span class="p">.</span><span class="n">DeviceType</span><span class="p">]</span> <span class="p">=</span> <span class="p">[]</span>
+    <span class="kd">var</span> <span class="nv">available_back_cams</span><span class="p">:</span> <span class="p">[</span><span class="bp">AVCaptureDevice</span><span class="p">.</span><span class="n">DeviceType</span><span class="p">]</span> <span class="p">=</span> <span class="p">[]</span>
+    <span class="kd">private</span> <span class="kd">var</span> <span class="nv">videoDevice</span><span class="p">:</span> <span class="bp">AVCaptureDevice</span><span class="p">!</span>
+    <span class="kd">private</span> <span class="kd">var</span> <span class="nv">currentOutputDevice</span><span class="p">:</span> <span class="bp">AVCaptureOutput</span><span class="p">!</span>
+    <span class="kd">private</span> <span class="kd">var</span> <span class="nv">currentInputDevice</span><span class="p">:</span> <span class="bp">AVCaptureInput</span><span class="p">!</span>
+    <span class="kd">private</span> <span class="kd">var</span> <span class="nv">videoConnection</span><span class="p">:</span> <span class="bp">AVCaptureConnection</span><span class="p">!</span>
+    <span class="kd">private</span> <span class="kd">var</span> <span class="nv">inputCameras_back</span><span class="p">:</span> <span class="p">[</span><span class="bp">AVCaptureDevice</span><span class="p">]</span> <span class="p">=</span> <span class="p">[]</span>
+    <span class="c1">//private var audioConnection: AVCaptureConnection!</span>
+    <span class="kd">var</span> <span class="nv">camStreamRunning</span> <span class="p">=</span> <span class="kc">false</span>
+    <span class="kd">var</span> <span class="nv">current_mode</span><span class="p">:</span> <span class="n">CameraConfigMode</span><span class="p">!</span>
+    <span class="kd">private</span> <span class="kd">let</span> <span class="nv">videoDataOutput</span> <span class="p">=</span> <span class="bp">AVCaptureVideoDataOutput</span><span class="p">()</span>
+
+    <span class="kd">var</span> <span class="nv">current_view</span><span class="p">:</span> <span class="n">UnsafeRawPointer</span><span class="p">!</span>
+    <span class="kd">var</span> <span class="nv">camera_texture_update</span><span class="p">:</span> <span class="n">PythonPointer</span><span class="p">!</span>
+    <span class="kd">var</span> <span class="nv">blit_buffer</span><span class="p">:</span> <span class="p">((</span><span class="n">PythonPointer</span><span class="p">)-&gt;</span><span class="nb">Void</span><span class="p">)</span><span class="o">!</span>
+
+    <span class="kd">var</span> <span class="nv">camera_python_cls</span><span class="p">:</span> <span class="n">PythonObject</span><span class="p">!</span>
+
+
+    <span class="kd">var</span> <span class="nv">tex_x</span><span class="p">:</span> <span class="nb">Double</span> <span class="p">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">tex_y</span><span class="p">:</span> <span class="nb">Double</span> <span class="p">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">tex_w</span><span class="p">:</span> <span class="nb">Double</span> <span class="p">=</span> <span class="mi">1000</span><span class="p">,</span> <span class="n">tex_h</span><span class="p">:</span> <span class="nb">Double</span> <span class="p">=</span> <span class="mi">1000</span>
+    <span class="kd">var</span> <span class="nv">tex_buffer_size</span><span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mi">1920</span><span class="o">*</span><span class="mi">1080</span>
+
+
+
+    <span class="kr">override</span> <span class="kd">init</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kc">super</span><span class="p">.</span><span class="kd">init</span><span class="p">()</span>
+        <span class="n">InitCameraApi_Delegate</span><span class="p">(</span><span class="n">delegate</span><span class="p">:</span> <span class="kc">self</span><span class="p">)</span>
+        <span class="n">add_cameras</span><span class="p">()</span>
+
+    <span class="p">}</span>
+
+
+
+    <span class="kd">func</span> <span class="nf">add_cameras</span><span class="p">()</span> <span class="p">{</span>
+
+        <span class="n">cameratypes</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">contentsOf</span><span class="p">:</span> <span class="p">[.</span><span class="n">builtInDualCamera</span><span class="p">,</span> <span class="p">.</span><span class="n">builtInTelephotoCamera</span><span class="p">,</span> <span class="p">.</span><span class="n">builtInWideAngleCamera</span><span class="p">,</span> <span class="p">.</span><span class="n">builtInMicrophone</span><span class="p">])</span>
+
+        <span class="k">if</span> <span class="cp">#available</span><span class="p">(</span><span class="cp">iOS</span> <span class="mi">13</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">cameratypes</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">contentsOf</span><span class="p">:</span> <span class="p">[.</span><span class="n">builtInDualWideCamera</span><span class="p">,</span> <span class="p">.</span><span class="n">builtInTripleCamera</span><span class="p">,</span> <span class="p">.</span><span class="n">builtInTrueDepthCamera</span><span class="p">,</span> <span class="p">.</span><span class="n">builtInUltraWideCamera</span><span class="p">])</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">startCapture</span><span class="p">(</span><span class="n">mode</span><span class="p">:</span> <span class="n">CameraConfigMode</span><span class="p">){</span>
+        <span class="k">if</span> <span class="n">captureSession</span><span class="p">.</span><span class="n">isRunning</span> <span class="p">{</span>
+            <span class="bp">print</span><span class="p">(</span><span class="s">&quot;already running&quot;</span><span class="p">)</span>
+            <span class="k">return</span>
+        <span class="p">}</span>
+        <span class="bp">print</span><span class="p">(</span><span class="s">&quot;Start Capturing&quot;</span><span class="p">)</span>
+        <span class="n">setMode</span><span class="p">(</span><span class="n">mode</span><span class="p">:</span> <span class="n">mode</span><span class="p">)</span>
+
+        <span class="n">captureSession</span><span class="p">.</span><span class="n">startRunning</span><span class="p">()</span>
+        <span class="n">camStreamRunning</span> <span class="p">=</span> <span class="kc">true</span>
+
+
+    <span class="p">}</span>
+
+
+
+
+    <span class="kd">func</span> <span class="nf">stopCapture</span><span class="p">(){</span>
+        <span class="k">if</span> <span class="o">!</span><span class="n">captureSession</span><span class="p">.</span><span class="n">isRunning</span> <span class="p">{</span>
+            <span class="bp">print</span><span class="p">(</span><span class="s">&quot;already stopped&quot;</span><span class="p">)</span>
+            <span class="k">return</span>
+        <span class="p">}</span>
+        <span class="n">camStreamRunning</span> <span class="p">=</span> <span class="kc">false</span>
+        <span class="n">DispatchQueue</span><span class="p">.</span><span class="n">main</span><span class="p">.</span><span class="n">asyncAfter</span><span class="p">(</span><span class="n">deadline</span><span class="p">:</span> <span class="p">.</span><span class="n">now</span><span class="p">()</span> <span class="p">)</span> <span class="p">{</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">captureSession</span><span class="p">.</span><span class="n">stopRunning</span><span class="p">()</span>
+        <span class="p">}</span>
+
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">setupCaptureSession</span><span class="p">()</span> <span class="p">{</span>
+        <span class="c1">//let captureSession = AVCaptureSession()</span>
+        <span class="cp">#if</span> <span class="o">!</span><span class="cp">targetEnvironment</span><span class="p">(</span><span class="cp">simulator</span><span class="p">)</span>
+
+
+        <span class="k">if</span> <span class="kd">let</span> <span class="nv">captureDevice</span> <span class="p">=</span> <span class="bp">AVCaptureDevice</span><span class="p">.</span><span class="k">default</span><span class="p">(</span><span class="k">for</span><span class="p">:</span> <span class="p">.</span><span class="n">video</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">videoDevice</span> <span class="p">=</span> <span class="n">captureDevice</span>
+            <span class="k">do</span> <span class="p">{</span>
+                <span class="kd">let</span> <span class="nv">input</span> <span class="p">=</span> <span class="k">try</span> <span class="bp">AVCaptureDeviceInput</span><span class="p">(</span><span class="n">device</span><span class="p">:</span> <span class="n">captureDevice</span><span class="p">)</span>
+                <span class="n">currentInputDevice</span> <span class="p">=</span> <span class="n">input</span>
+                <span class="bp">print</span><span class="p">(</span><span class="s">&quot;adding input&quot;</span><span class="p">,</span> <span class="n">input</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">captureSession</span><span class="p">.</span><span class="n">canAddInput</span><span class="p">(</span><span class="n">currentInputDevice</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="n">captureSession</span><span class="p">.</span><span class="n">addInput</span><span class="p">(</span><span class="n">currentInputDevice</span><span class="p">)</span>
+                <span class="p">}</span>
+
+            <span class="p">}</span> <span class="k">catch</span> <span class="kd">let</span> <span class="nv">error</span> <span class="p">{</span>
+                <span class="bp">print</span><span class="p">(</span><span class="s">&quot;Failed to set input device with error: </span><span class="si">\(</span><span class="n">error</span><span class="si">)</span><span class="s">&quot;</span><span class="p">)</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="n">captureSession</span><span class="p">.</span><span class="n">sessionPreset</span> <span class="p">=</span> <span class="p">.</span><span class="n">hd4K3840x2160</span>
+
+        <span class="k">do</span> <span class="p">{</span>
+            <span class="n">videoDataOutput</span><span class="p">.</span><span class="n">videoSettings</span> <span class="p">=</span> <span class="p">[</span><span class="n">kCVPixelBufferPixelFormatTypeKey</span> <span class="k">as</span> <span class="n">AnyHashable</span> <span class="k">as</span><span class="p">!</span> <span class="nb">String</span><span class="p">:</span> <span class="bp">NSNumber</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="n">kCVPixelFormatType_32BGRA</span><span class="p">)]</span>
+            <span class="n">videoDataOutput</span><span class="p">.</span><span class="n">alwaysDiscardsLateVideoFrames</span> <span class="p">=</span> <span class="kc">true</span>
+            <span class="kd">let</span> <span class="nv">queue</span> <span class="p">=</span> <span class="n">DispatchQueue</span><span class="p">(</span><span class="n">label</span><span class="p">:</span> <span class="s">&quot;org.kivy.videosamplequeue&quot;</span><span class="p">)</span>
+            <span class="n">videoDataOutput</span><span class="p">.</span><span class="n">setSampleBufferDelegate</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="n">queue</span><span class="p">:</span> <span class="n">queue</span><span class="p">)</span>
+
+            <span class="k">guard</span> <span class="n">captureSession</span><span class="p">.</span><span class="n">canAddOutput</span><span class="p">(</span><span class="n">videoDataOutput</span><span class="p">)</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="bp">fatalError</span><span class="p">()</span>
+            <span class="p">}</span>
+            <span class="n">captureSession</span><span class="p">.</span><span class="n">addOutput</span><span class="p">(</span><span class="n">videoDataOutput</span><span class="p">)</span>
+
+            <span class="n">videoConnection</span> <span class="p">=</span> <span class="n">videoDataOutput</span><span class="p">.</span><span class="n">connection</span><span class="p">(</span><span class="n">with</span><span class="p">:</span> <span class="p">.</span><span class="n">video</span><span class="p">)</span>
+            <span class="c1">//videoConnection.videoOrientation = .landscapeLeft</span>
+        <span class="p">}</span>
+        <span class="cp">#endif</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">getPresets</span><span class="p">(</span><span class="n">view</span><span class="p">:</span> <span class="n">UnsafeRawPointer</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">let</span> <span class="nv">discoveryBack</span> <span class="p">=</span> <span class="bp">AVCaptureDevice</span><span class="p">.</span><span class="n">DiscoverySession</span><span class="p">.</span><span class="kd">init</span><span class="p">(</span><span class="n">deviceTypes</span><span class="p">:</span> <span class="kc">self</span><span class="p">.</span><span class="n">cameratypes</span><span class="p">,</span> <span class="n">mediaType</span><span class="p">:</span> <span class="p">.</span><span class="n">video</span><span class="p">,</span> <span class="n">position</span><span class="p">:</span> <span class="p">.</span><span class="n">back</span><span class="p">)</span>
+        <span class="kd">let</span> <span class="nv">discoveryFront</span> <span class="p">=</span> <span class="bp">AVCaptureDevice</span><span class="p">.</span><span class="n">DiscoverySession</span><span class="p">.</span><span class="kd">init</span><span class="p">(</span><span class="n">deviceTypes</span><span class="p">:</span> <span class="kc">self</span><span class="p">.</span><span class="n">cameratypes</span><span class="p">,</span> <span class="n">mediaType</span><span class="p">:</span> <span class="p">.</span><span class="n">video</span><span class="p">,</span> <span class="n">position</span><span class="p">:</span> <span class="p">.</span><span class="n">front</span><span class="p">)</span>
+        <span class="kc">self</span><span class="p">.</span><span class="n">inputCameras_back</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">contentsOf</span><span class="p">:</span> <span class="n">discoveryBack</span><span class="p">.</span><span class="n">devices</span><span class="p">)</span>
+        <span class="c1">//print(&quot;targets&quot;, available_back_cams.map({$0.rawValue}))</span>
+        <span class="kd">let</span> <span class="nv">backs</span> <span class="p">=</span> <span class="n">discoveryBack</span><span class="p">.</span><span class="n">devices</span><span class="p">.</span><span class="bp">map</span><span class="p">({</span><span class="nv">$0</span><span class="p">.</span><span class="n">deviceType</span><span class="p">.</span><span class="n">rawValue</span><span class="p">.</span><span class="n">replacingOccurrences</span><span class="p">(</span><span class="n">of</span><span class="p">:</span> <span class="s">&quot;AVCaptureDeviceTypeBuiltIn&quot;</span><span class="p">,</span> <span class="n">with</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">)})</span>
+        <span class="kd">let</span> <span class="nv">fronts</span> <span class="p">=</span> <span class="n">discoveryFront</span><span class="p">.</span><span class="n">devices</span><span class="p">.</span><span class="bp">map</span><span class="p">({</span><span class="nv">$0</span><span class="p">.</span><span class="n">deviceType</span><span class="p">.</span><span class="n">rawValue</span><span class="p">.</span><span class="n">replacingOccurrences</span><span class="p">(</span><span class="n">of</span><span class="p">:</span> <span class="s">&quot;AVCaptureDeviceTypeBuiltIn&quot;</span><span class="p">,</span> <span class="n">with</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">)})</span>
+        <span class="c1">//py_call.get_camera_types(cls: view, front: fronts.asData(), back: backs.asData())</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">removeCaptureDevice</span><span class="p">(</span><span class="n">device</span><span class="p">:</span> <span class="bp">AVCaptureOutput</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="n">captureSession</span><span class="p">.</span><span class="n">outputs</span><span class="p">.</span><span class="bp">contains</span><span class="p">(</span><span class="n">device</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">captureSession</span><span class="p">.</span><span class="n">removeOutput</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="n">currentOutputDevice</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+            <span class="n">currentOutputDevice</span> <span class="p">=</span> <span class="kc">nil</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">PhotoMode</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kd">let</span> <span class="nv">photo_output</span> <span class="p">=</span> <span class="bp">AVCapturePhotoOutput</span><span class="p">()</span>
+        <span class="bp">print</span><span class="p">(</span><span class="s">&quot;setting photo mode: </span><span class="si">\(</span><span class="n">photo_output</span><span class="si">)</span><span class="s">&quot;</span><span class="p">)</span>
+        <span class="n">photo_output</span><span class="p">.</span><span class="n">isHighResolutionCaptureEnabled</span> <span class="p">=</span> <span class="kc">true</span>
+        <span class="k">if</span> <span class="n">captureSession</span><span class="p">.</span><span class="n">canAddOutput</span><span class="p">(</span><span class="n">photo_output</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">captureSession</span><span class="p">.</span><span class="n">addOutput</span><span class="p">(</span><span class="n">photo_output</span><span class="p">)</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span><span class="k">return</span><span class="p">}</span>
+        <span class="n">currentOutputDevice</span> <span class="p">=</span> <span class="n">photo_output</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">QRCodeMode</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kd">let</span> <span class="nv">metadataOutput</span> <span class="p">=</span> <span class="bp">AVCaptureMetadataOutput</span><span class="p">()</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">captureSession</span><span class="p">.</span><span class="n">canAddOutput</span><span class="p">(</span><span class="n">metadataOutput</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">captureSession</span><span class="p">.</span><span class="n">addOutput</span><span class="p">(</span><span class="n">metadataOutput</span><span class="p">)</span>
+
+            <span class="n">metadataOutput</span><span class="p">.</span><span class="n">setMetadataObjectsDelegate</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="n">queue</span><span class="p">:</span> <span class="n">DispatchQueue</span><span class="p">.</span><span class="n">main</span><span class="p">)</span>
+            <span class="n">metadataOutput</span><span class="p">.</span><span class="n">metadataObjectTypes</span> <span class="p">=</span> <span class="p">[.</span><span class="n">qr</span><span class="p">]</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span><span class="k">return</span><span class="p">}</span>
+        <span class="n">currentOutputDevice</span> <span class="p">=</span> <span class="n">metadataOutput</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">CoreMLMode</span><span class="p">()</span> <span class="p">{</span>
+        <span class="c1">//setupCoreML()</span>
+        <span class="c1">//PhotoMode()</span>
+    <span class="p">}</span>
+
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">setMode</span><span class="p">(</span><span class="n">mode</span><span class="p">:</span> <span class="n">CameraConfigMode</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="kd">let</span> <span class="nv">device</span> <span class="p">=</span> <span class="n">currentOutputDevice</span> <span class="p">{</span>
+            <span class="n">removeCaptureDevice</span><span class="p">(</span><span class="n">device</span><span class="p">:</span> <span class="n">device</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="n">current_mode</span> <span class="p">=</span> <span class="n">mode</span>
+        <span class="k">switch</span> <span class="n">mode</span> <span class="p">{</span>
+            <span class="k">case</span> <span class="p">.</span><span class="n">QRcode</span><span class="p">:</span>
+                <span class="n">QRCodeMode</span><span class="p">()</span>
+            <span class="k">case</span> <span class="p">.</span><span class="n">PhotoRaw</span><span class="p">:</span>
+                <span class="n">PhotoMode</span><span class="p">()</span>
+            <span class="k">case</span> <span class="p">.</span><span class="n">PhotoPng</span><span class="p">:</span>
+                <span class="k">break</span>
+            <span class="k">case</span> <span class="p">.</span><span class="n">Video</span><span class="p">:</span>
+                <span class="k">break</span>
+            <span class="k">case</span> <span class="p">.</span><span class="n">Vision</span><span class="p">:</span>
+                <span class="k">break</span>
+                <span class="c1">//VisionTextMode()</span>
+            <span class="k">case</span> <span class="p">.</span><span class="n">CoreML</span><span class="p">:</span>
+                <span class="n">CoreMLMode</span><span class="p">()</span>
+            <span class="k">default</span><span class="p">:</span>
+                <span class="k">break</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">setPreviewSize</span><span class="p">(</span><span class="n">width</span><span class="p">:</span> <span class="nb">Int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">Int</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">let</span> <span class="nv">pixelBufferOptions</span> <span class="p">=</span> <span class="p">[</span>
+            <span class="n">kCVPixelBufferWidthKey</span> <span class="p">:</span> <span class="bp">NSNumber</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="n">width</span><span class="p">),</span>
+            <span class="n">kCVPixelBufferHeightKey</span> <span class="p">:</span> <span class="bp">NSNumber</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="n">height</span><span class="p">),</span>
+            <span class="n">kCVPixelBufferPixelFormatTypeKey</span> <span class="p">:</span> <span class="bp">NSNumber</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="nb">UInt32</span><span class="p">(</span><span class="n">kCVPixelFormatType_32BGRA</span><span class="p">))</span>
+        <span class="p">]</span> <span class="k">as</span> <span class="p">[</span><span class="nb">String</span><span class="p">:</span> <span class="nb">Any</span><span class="p">]</span>
+        <span class="n">videoDataOutput</span><span class="p">.</span><span class="n">videoSettings</span> <span class="p">=</span> <span class="n">pixelBufferOptions</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">capturePhoto</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="kd">let</span> <span class="nv">device</span> <span class="p">=</span> <span class="n">currentOutputDevice</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="n">device</span> <span class="k">is</span> <span class="bp">AVCapturePhotoOutput</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="kd">let</span> <span class="nv">photo_output</span> <span class="p">=</span> <span class="n">device</span> <span class="k">as</span><span class="p">?</span> <span class="bp">AVCapturePhotoOutput</span> <span class="p">{</span>
+                    <span class="kd">let</span> <span class="nv">settings</span> <span class="p">=</span> <span class="bp">AVCapturePhotoSettings</span><span class="p">(</span><span class="n">format</span><span class="p">:</span> <span class="p">[</span><span class="n">kCVPixelBufferPixelFormatTypeKey</span> <span class="k">as</span> <span class="nb">String</span> <span class="p">:</span> <span class="n">photoPixelFormatType</span><span class="p">]</span> <span class="p">)</span>
+                    <span class="kd">let</span> <span class="nv">previewPixelType</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">availablePreviewPhotoPixelFormatTypes</span><span class="p">.</span><span class="bp">first</span><span class="p">!</span>
+                    <span class="kd">let</span> <span class="nv">previewFormat</span> <span class="p">=</span> <span class="p">[</span><span class="n">kCVPixelBufferPixelFormatTypeKey</span> <span class="k">as</span> <span class="nb">String</span><span class="p">:</span> <span class="n">previewPixelType</span><span class="p">,</span>
+                                        <span class="n">kCVPixelBufferWidthKey</span> <span class="k">as</span> <span class="nb">String</span><span class="p">:</span> <span class="mi">160</span><span class="p">,</span>
+                                        <span class="n">kCVPixelBufferHeightKey</span> <span class="k">as</span> <span class="nb">String</span><span class="p">:</span> <span class="mi">160</span><span class="p">]</span>
+                    <span class="n">settings</span><span class="p">.</span><span class="n">previewPhotoFormat</span> <span class="p">=</span> <span class="n">previewFormat</span>
+                    <span class="n">photo_output</span><span class="p">.</span><span class="n">capturePhoto</span><span class="p">(</span><span class="n">with</span><span class="p">:</span> <span class="n">settings</span><span class="p">,</span> <span class="n">delegate</span><span class="p">:</span> <span class="kc">self</span><span class="p">)</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">setFocusPoint</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">Double</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="nb">Double</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">let</span> <span class="nv">focus_point</span> <span class="p">=</span> <span class="n">CGPoint</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">y</span><span class="p">)</span>
+
+        <span class="k">try</span><span class="p">!</span> <span class="n">videoDevice</span><span class="p">.</span><span class="n">lockForConfiguration</span><span class="p">()</span>
+        <span class="n">videoDevice</span><span class="p">.</span><span class="n">focusPointOfInterest</span> <span class="p">=</span> <span class="n">focus_point</span>
+        <span class="n">videoDevice</span><span class="p">.</span><span class="n">exposurePointOfInterest</span> <span class="p">=</span> <span class="n">focus_point</span>
+        <span class="n">videoDevice</span><span class="p">.</span><span class="n">focusMode</span> <span class="p">=</span> <span class="p">.</span><span class="n">autoFocus</span>
+        <span class="n">videoDevice</span><span class="p">.</span><span class="n">exposureMode</span> <span class="p">=</span> <span class="p">.</span><span class="n">autoExpose</span>
+        <span class="n">videoDevice</span><span class="p">.</span><span class="n">unlockForConfiguration</span><span class="p">()</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">extension</span> <span class="nc">PythonCameraControl</span><span class="p">:</span> <span class="n">CameraApi_Delegate</span> <span class="p">{</span>
+
+    <span class="kd">func</span> <span class="nf">set_CameraApi_Callback</span><span class="p">(</span><span class="n">callback</span><span class="p">:</span> <span class="n">CameraApiPyCallback</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">py_call</span> <span class="p">=</span> <span class="n">callback</span>
+        <span class="n">blit_buffer</span> <span class="p">=</span> <span class="n">callback</span><span class="p">.</span><span class="n">blit_buffer</span>
+        <span class="n">setupCaptureSession</span><span class="p">()</span>
+
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">update_view_pos</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">Double</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="nb">Double</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">tex_x</span> <span class="p">=</span> <span class="n">x</span>
+        <span class="n">tex_y</span> <span class="p">=</span> <span class="n">y</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">update_view_size</span><span class="p">(</span><span class="n">width</span><span class="p">:</span> <span class="nb">Double</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">Double</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">tex_w</span> <span class="p">=</span> <span class="n">width</span>
+        <span class="n">tex_h</span> <span class="p">=</span> <span class="n">height</span>
+    <span class="p">}</span>
+
+
+    <span class="kd">func</span> <span class="nf">start_capture</span><span class="p">(</span><span class="n">mode</span><span class="p">:</span> <span class="nb">Int</span><span class="p">,</span> <span class="n">callback_cls</span> <span class="n">callback_class</span><span class="p">:</span> <span class="n">PythonPointer</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">//current_view = cls</span>
+        <span class="c1">//camera_texture_update = callback_class</span>
+        <span class="c1">//callback_class.incref()</span>
+
+
+        <span class="c1">//PythonPointer converted to new type &quot;PythonObject&quot;</span>
+        <span class="c1">//camera_python_cls = callback_class.object</span>
+        <span class="c1">//PythonObject can Dynamic Subscript</span>
+        <span class="c1">//camera_blit_buffer = camera_python_cls.blit_buffer</span>
+        <span class="c1">//camera_canvas_update = camera_python_cls.canvas.ask_update</span>
+        <span class="c1">//camera_texture_update = camera_python_cls.preview_pixel_data</span>
+        <span class="c1">//camera_new_texture = camera_python_cls.new_texture</span>
+
+        <span class="c1">//current_mode = mode</span>
+        <span class="n">startCapture</span><span class="p">(</span><span class="n">mode</span><span class="p">:</span> <span class="p">.</span><span class="kd">init</span><span class="p">(</span><span class="n">rawValue</span><span class="p">:</span> <span class="n">mode</span><span class="p">)</span><span class="o">!</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">stop_capture</span><span class="p">(</span><span class="n">mode</span><span class="p">:</span> <span class="nb">Int</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">stopCapture</span><span class="p">()</span>
+        <span class="c1">//camera_texture_update.decref()</span>
+        <span class="c1">//camera_texture_update = nil</span>
+        <span class="c1">//camera_blit_buffer.decref()</span>
+        <span class="c1">//camera_blit_buffer = nil</span>
+        <span class="c1">//camera_canvas_update.decref()</span>
+        <span class="c1">//camera_canvas_update = nil</span>
+        <span class="n">current_view</span> <span class="p">=</span> <span class="kc">nil</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">get_presets</span><span class="p">()</span> <span class="p">{</span>
+        <span class="c1">//getPresets(view: cls)</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">set_camera_mode</span><span class="p">(</span><span class="n">mode</span><span class="p">:</span> <span class="nb">Int</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">select_camera</span><span class="p">(</span><span class="n">index</span><span class="p">:</span> <span class="nb">Int</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">captureSession</span><span class="p">.</span><span class="n">removeInput</span><span class="p">(</span><span class="n">currentInputDevice</span><span class="p">)</span>
+        <span class="n">videoDevice</span> <span class="p">=</span> <span class="n">inputCameras_back</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
+        <span class="n">currentInputDevice</span> <span class="p">=</span> <span class="k">try</span><span class="p">!</span> <span class="bp">AVCaptureDeviceInput</span><span class="p">(</span><span class="n">device</span><span class="p">:</span> <span class="n">videoDevice</span><span class="p">)</span>
+        <span class="n">captureSession</span><span class="p">.</span><span class="n">addInput</span><span class="p">(</span><span class="n">currentInputDevice</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">take_photo</span><span class="p">()</span> <span class="p">{</span>
+        <span class="n">capturePhoto</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">take_multi_photo</span><span class="p">(</span><span class="bp">count</span><span class="p">:</span> <span class="nb">Int</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">set_preview_size</span><span class="p">(</span><span class="n">width</span><span class="p">:</span> <span class="nb">Int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">Int</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">setPreviewSize</span><span class="p">(</span><span class="n">width</span><span class="p">:</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="n">height</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">select_preview_preset</span><span class="p">(</span><span class="n">preset</span><span class="p">:</span> <span class="nb">String</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">DispatchQueue</span><span class="p">.</span><span class="n">global</span><span class="p">().</span><span class="k">async</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="kc">self</span><span class="p">.</span><span class="n">captureSession</span><span class="p">.</span><span class="n">isRunning</span> <span class="p">{</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">stopCapture</span><span class="p">()</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">captureSession</span><span class="p">.</span><span class="n">sessionPreset</span> <span class="p">=</span> <span class="p">.</span><span class="kd">init</span><span class="p">(</span><span class="n">rawValue</span><span class="p">:</span> <span class="n">preset</span><span class="p">)</span>
+            <span class="k">if</span> <span class="kd">let</span> <span class="nv">mode</span> <span class="p">=</span> <span class="kc">self</span><span class="p">.</span><span class="n">current_mode</span> <span class="p">{</span>
+                <span class="kc">self</span><span class="p">.</span><span class="n">startCapture</span><span class="p">(</span><span class="n">mode</span><span class="p">:</span> <span class="n">mode</span><span class="p">)</span>
+            <span class="p">}</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">captureSession</span><span class="p">.</span><span class="n">sessionPreset</span> <span class="p">=</span> <span class="p">.</span><span class="kd">init</span><span class="p">(</span><span class="n">rawValue</span><span class="p">:</span> <span class="n">preset</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">set_focus_point</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">Double</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="nb">Double</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">setFocusPoint</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">zoom_camera</span><span class="p">(</span><span class="n">zoom</span><span class="p">:</span> <span class="nb">Double</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">try</span><span class="p">!</span> <span class="n">videoDevice</span><span class="p">.</span><span class="n">lockForConfiguration</span><span class="p">()</span>
+        <span class="n">videoDevice</span><span class="p">.</span><span class="n">videoZoomFactor</span> <span class="p">=</span> <span class="n">CGFloat</span><span class="p">(</span><span class="n">zoom</span><span class="p">)</span>
+        <span class="n">videoDevice</span><span class="p">.</span><span class="n">unlockForConfiguration</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">set_exposure</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="nb">Double</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">try</span><span class="p">!</span> <span class="n">videoDevice</span><span class="p">.</span><span class="n">lockForConfiguration</span><span class="p">()</span>
+        <span class="n">videoDevice</span><span class="p">.</span><span class="n">setExposureTargetBias</span><span class="p">(</span><span class="nb">Float</span><span class="p">(</span><span class="n">value</span><span class="p">))</span> <span class="p">{</span> <span class="p">(</span><span class="n">time</span><span class="p">)</span> <span class="k">in</span>
+            <span class="bp">print</span><span class="p">(</span><span class="n">time</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="n">videoDevice</span><span class="p">.</span><span class="n">unlockForConfiguration</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">auto_exposure</span><span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="nb">Bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">try</span><span class="p">!</span> <span class="n">videoDevice</span><span class="p">.</span><span class="n">lockForConfiguration</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">state</span> <span class="p">{</span>
+            <span class="n">videoDevice</span><span class="p">.</span><span class="n">exposureMode</span> <span class="p">=</span> <span class="p">.</span><span class="n">locked</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">videoDevice</span><span class="p">.</span><span class="n">exposureMode</span> <span class="p">=</span> <span class="p">.</span><span class="n">autoExpose</span>
+        <span class="p">}</span>
+        <span class="n">videoDevice</span><span class="p">.</span><span class="n">unlockForConfiguration</span><span class="p">()</span>
+    <span class="p">}</span>
+
+
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+<section id="api">
+<h2>Api:<a class="headerlink" href="#api" title="Permalink to this headline"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="camera_api.CameraConfigMode">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">camera_api.</span></span><span class="sig-name descname"><span class="pre">CameraConfigMode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraConfigMode"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraConfigMode" title="Permalink to this definition"></a></dt>
+<dd><p>An enumeration.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraConfigMode.CoreML">
+<span class="sig-name descname"><span class="pre">CoreML</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">7</span></em><a class="headerlink" href="#camera_api.CameraConfigMode.CoreML" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraConfigMode.PhotoPng">
+<span class="sig-name descname"><span class="pre">PhotoPng</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#camera_api.CameraConfigMode.PhotoPng" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraConfigMode.PhotoRaw">
+<span class="sig-name descname"><span class="pre">PhotoRaw</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#camera_api.CameraConfigMode.PhotoRaw" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraConfigMode.QRcode">
+<span class="sig-name descname"><span class="pre">QRcode</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#camera_api.CameraConfigMode.QRcode" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraConfigMode.Video">
+<span class="sig-name descname"><span class="pre">Video</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#camera_api.CameraConfigMode.Video" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraConfigMode.Vision">
+<span class="sig-name descname"><span class="pre">Vision</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#camera_api.CameraConfigMode.Vision" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="camera_api.CameraApi">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">camera_api.</span></span><span class="sig-name descname"><span class="pre">CameraApi</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback_class</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#camera_api.CameraApi.Callbacks" title="camera_api.CameraApi.Callbacks"><span class="pre">camera_api.CameraApi.Callbacks</span></a></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi" title="Permalink to this definition"></a></dt>
+<dd><p>A Wrapper For AVCapture Foundation</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.auto_exposure">
+<span class="sig-name descname"><span class="pre">auto_exposure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">state</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.auto_exposure"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.auto_exposure" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.select_camera">
+<span class="sig-name descname"><span class="pre">select_camera</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">index</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.select_camera"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.select_camera" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.select_preview_preset">
+<span class="sig-name descname"><span class="pre">select_preview_preset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">preset</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.String_Bytes.str" title="swift_types.String_Bytes.str"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.select_preview_preset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.select_preview_preset" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.set_camera_mode">
+<span class="sig-name descname"><span class="pre">set_camera_mode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.set_camera_mode"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.set_camera_mode" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.set_exposure">
+<span class="sig-name descname"><span class="pre">set_exposure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.set_exposure"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.set_exposure" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.set_focus_point">
+<span class="sig-name descname"><span class="pre">set_focus_point</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.set_focus_point"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.set_focus_point" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.start_capture">
+<span class="sig-name descname"><span class="pre">start_capture</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#camera_api.CameraConfigMode" title="camera_api.CameraConfigMode"><span class="pre">camera_api.CameraConfigMode</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">callback_cls</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">object</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.start_capture"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.start_capture" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.stop_capture">
+<span class="sig-name descname"><span class="pre">stop_capture</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.stop_capture"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.stop_capture" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.take_multi_photo">
+<span class="sig-name descname"><span class="pre">take_multi_photo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">count</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.take_multi_photo"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.take_multi_photo" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.take_photo">
+<span class="sig-name descname"><span class="pre">take_photo</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.take_photo"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.take_photo" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.update_view_pos">
+<span class="sig-name descname"><span class="pre">update_view_pos</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.update_view_pos"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.update_view_pos" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.zoom_camera">
+<span class="sig-name descname"><span class="pre">zoom_camera</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">zoom</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraApi.zoom_camera"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraApi.zoom_camera" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="camera_api.CameraApi.Callbacks">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">camera_api.CameraApi.</span></span><span class="sig-name descname"><span class="pre">Callbacks</span></span><a class="headerlink" href="#camera_api.CameraApi.Callbacks" title="Permalink to this definition"></a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.Callbacks.blit_buffer">
+<span class="sig-name descname"><span class="pre">blit_buffer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">object</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_api.CameraApi.Callbacks.blit_buffer" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.Callbacks.get_presets">
+<span class="sig-name descname"><span class="pre">get_presets</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#camera_api.CameraApi.Callbacks.get_presets" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.Callbacks.preview_pixel_data">
+<span class="sig-name descname"><span class="pre">preview_pixel_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">object</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">pixel_count</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_api.CameraApi.Callbacks.preview_pixel_data" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.Callbacks.returned_image_data">
+<span class="sig-name descname"><span class="pre">returned_image_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">object</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_api.CameraApi.Callbacks.returned_image_data" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.Callbacks.set_camera_texture">
+<span class="sig-name descname"><span class="pre">set_camera_texture</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_api.CameraApi.Callbacks.set_camera_texture" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.Callbacks.set_preview_size">
+<span class="sig-name descname"><span class="pre">set_preview_size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_api.CameraApi.Callbacks.set_preview_size" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraApi.Callbacks.update_view_size">
+<span class="sig-name descname"><span class="pre">update_view_size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_api.CameraApi.Callbacks.update_view_size" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<section id="addon-classes">
+<h3>Addon Classes:<a class="headerlink" href="#addon-classes" title="Permalink to this headline"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="camera_api.CameraView">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">camera_api.</span></span><span class="sig-name descname"><span class="pre">CameraView</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kw</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraView"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraView" title="Permalink to this definition"></a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraView.blit_buffer">
+<span class="sig-name descname"><span class="pre">blit_buffer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">object</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraView.blit_buffer"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraView.blit_buffer" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraView.capture_outline_alpha">
+<span class="sig-name descname"><span class="pre">capture_outline_alpha</span></span><a class="headerlink" href="#camera_api.CameraView.capture_outline_alpha" title="Permalink to this definition"></a></dt>
+<dd><p>NumericProperty(defaultvalue=0, <a href="#id1"><span class="problematic" id="id2">**</span></a>kw)
+Property that represents a numeric value.</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><cite>defaultvalue</cite>: int or float, defaults to 0</dt><dd><p>Specifies the default value of the property.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">wid</span> <span class="o">=</span> <span class="n">Widget</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">wid</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">42</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">wid</span><span class="o">.</span><span class="n">x</span><span class="p">)</span>
+<span class="go">42</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">wid</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;plop&quot;</span>
+<span class="go"> Traceback (most recent call last):</span>
+<span class="go">   File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span>
+<span class="go">   File &quot;properties.pyx&quot;, line 93, in kivy.properties.Property.__set__</span>
+<span class="go">   File &quot;properties.pyx&quot;, line 111, in kivy.properties.Property.set</span>
+<span class="go">   File &quot;properties.pyx&quot;, line 159, in kivy.properties.NumericProperty.check</span>
+<span class="go"> ValueError: NumericProperty accept only int/float</span>
+</pre></div>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 1.4.1: </span>NumericProperty can now accept custom text and tuple value to indicate a
+type, like “in”, “pt”, “px”, “cm”, “mm”, in the format: ‘10pt’ or (10,
+‘pt’).</p>
+</div>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraView.capture_outline_color">
+<span class="sig-name descname"><span class="pre">capture_outline_color</span></span><a class="headerlink" href="#camera_api.CameraView.capture_outline_color" title="Permalink to this definition"></a></dt>
+<dd><p>ColorProperty(defaultvalue=0, <a href="#id3"><span class="problematic" id="id4">**</span></a>kw)
+Property that represents a color. The assignment can take either:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>a collection of 3 or 4 float values between 0-1 (kivy default)</p></li>
+<li><p>a string in the format #rrggbb or #rrggbbaa</p></li>
+<li><p>a string representing color name (eg. ‘red’, ‘yellow’, ‘green’)</p></li>
+</ul>
+<p>Object <code class="xref py py-obj docutils literal notranslate"><span class="pre">colormap</span></code> is used to retreive color from color
+name and names definitions can be found at this
+<a class="reference external" href="https://www.w3.org/TR/SVG11/types.html#ColorKeywords">link</a>. Color can
+be assinged in different formats, but it will be returned as
+<code class="xref py py-class docutils literal notranslate"><span class="pre">ObservableList</span></code> of 4 float elements with values
+between 0-1.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><cite>defaultvalue</cite>: list or string, defaults to [1.0, 1.0, 1.0, 1.0]</dt><dd><p>Specifies the default value of the property.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 1.10.0.</span></p>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 2.0.0: </span>Color value will be dispatched when set through indexing or slicing,
+but when setting with slice you must ensure that slice has 4 components
+with float values between 0-1.
+Assingning color name as value is now supported.
+Value <cite>None</cite> is allowed as default value for property.</p>
+</div>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraView.get_image_ratio">
+<span class="sig-name descname"><span class="pre">get_image_ratio</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraView.get_image_ratio"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraView.get_image_ratio" title="Permalink to this definition"></a></dt>
+<dd><p>_summary_</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>_type_: _description_</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraView.get_norm_image_size">
+<span class="sig-name descname"><span class="pre">get_norm_image_size</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraView.get_norm_image_size"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraView.get_norm_image_size" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraView.get_offset_pos">
+<span class="sig-name descname"><span class="pre">get_offset_pos</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraView.get_offset_pos"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraView.get_offset_pos" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraView.image_ratio">
+<span class="sig-name descname"><span class="pre">image_ratio</span></span><a class="headerlink" href="#camera_api.CameraView.image_ratio" title="Permalink to this definition"></a></dt>
+<dd><p>AliasProperty(getter, setter=None, rebind=False, <a href="#id5"><span class="problematic" id="id6">**</span></a>kwargs)
+Create a property with a custom getter and setter.</p>
+<blockquote>
+<div><p>If you don’t find a Property class that fits to your needs, you can make
+your own by creating custom Python getter and setter methods.</p>
+<p>Example from kivy/uix/widget.py where <cite>x</cite> and <cite>width</cite> are instances of
+<code class="xref py py-class docutils literal notranslate"><span class="pre">NumericProperty</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">get_right</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span>
+<span class="k">def</span> <span class="nf">set_right</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">value</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span>
+<span class="n">right</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_right</span><span class="p">,</span> <span class="n">set_right</span><span class="p">,</span> <span class="n">bind</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;width&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+<p>If <cite>x</cite> were a non Kivy property then you have to return <cite>True</cite> from setter
+to dispatch new value of <cite>right</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">set_right</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">value</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span>
+    <span class="k">return</span> <span class="kc">True</span>
+</pre></div>
+</div>
+<p>Usually <cite>bind</cite> list should contain all Kivy properties used in getter
+method. If you return <cite>True</cite> it will cause a dispatch which one should do
+when the property value has changed, but keep in mind that the property
+could already have dispatched the changed value if a kivy property the
+alias property is bound was set in the setter, causing a second dispatch
+if the setter returns <cite>True</cite>.</p>
+<p>If you want to cache the value returned by getter then pass <cite>cache=True</cite>.
+This way getter will only be called if new value is set or one of the
+binded properties changes. In both cases new value of alias property will
+be cached again.</p>
+<p>To make property readonly pass <cite>None</cite> as setter. This way <cite>AttributeError</cite>
+will be raised on every set attempt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">right</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_right</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">bind</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;width&#39;</span><span class="p">],</span> <span class="n">cache</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><cite>getter</cite>: function</dt><dd><p>Function to use as a property getter.</p>
+</dd>
+<dt><cite>setter</cite>: function</dt><dd><p>Function to use as a property setter. Callbacks bound to the
+alias property won’t be called when the property is set (e.g.
+<cite>right = 10</cite>), unless the setter returns <cite>True</cite>.</p>
+</dd>
+<dt><cite>bind</cite>: list/tuple</dt><dd><p>Properties to observe for changes as property name strings.
+Changing values of this properties will dispatch value of the
+alias property.</p>
+</dd>
+<dt><cite>cache</cite>: boolean</dt><dd><p>If <cite>True</cite>, the value will be cached until one of the binded
+elements changes or if setter returns <cite>True</cite>.</p>
+</dd>
+<dt><cite>rebind</cite>: bool, defaults to <cite>False</cite></dt><dd><p>See <code class="xref py py-class docutils literal notranslate"><span class="pre">ObjectProperty</span></code> for details.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 1.9.0: </span><cite>rebind</cite> has been introduced.</p>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 1.4.0: </span>Parameter <cite>cache</cite> added.</p>
+</div>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraView.new_texture">
+<span class="sig-name descname"><span class="pre">new_texture</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fmt</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraView.new_texture"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraView.new_texture" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraView.norm_image_size">
+<span class="sig-name descname"><span class="pre">norm_image_size</span></span><a class="headerlink" href="#camera_api.CameraView.norm_image_size" title="Permalink to this definition"></a></dt>
+<dd><p>AliasProperty(getter, setter=None, rebind=False, <a href="#id7"><span class="problematic" id="id8">**</span></a>kwargs)
+Create a property with a custom getter and setter.</p>
+<blockquote>
+<div><p>If you don’t find a Property class that fits to your needs, you can make
+your own by creating custom Python getter and setter methods.</p>
+<p>Example from kivy/uix/widget.py where <cite>x</cite> and <cite>width</cite> are instances of
+<code class="xref py py-class docutils literal notranslate"><span class="pre">NumericProperty</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">get_right</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span>
+<span class="k">def</span> <span class="nf">set_right</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">value</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span>
+<span class="n">right</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_right</span><span class="p">,</span> <span class="n">set_right</span><span class="p">,</span> <span class="n">bind</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;width&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+<p>If <cite>x</cite> were a non Kivy property then you have to return <cite>True</cite> from setter
+to dispatch new value of <cite>right</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">set_right</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">value</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span>
+    <span class="k">return</span> <span class="kc">True</span>
+</pre></div>
+</div>
+<p>Usually <cite>bind</cite> list should contain all Kivy properties used in getter
+method. If you return <cite>True</cite> it will cause a dispatch which one should do
+when the property value has changed, but keep in mind that the property
+could already have dispatched the changed value if a kivy property the
+alias property is bound was set in the setter, causing a second dispatch
+if the setter returns <cite>True</cite>.</p>
+<p>If you want to cache the value returned by getter then pass <cite>cache=True</cite>.
+This way getter will only be called if new value is set or one of the
+binded properties changes. In both cases new value of alias property will
+be cached again.</p>
+<p>To make property readonly pass <cite>None</cite> as setter. This way <cite>AttributeError</cite>
+will be raised on every set attempt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">right</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_right</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">bind</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;width&#39;</span><span class="p">],</span> <span class="n">cache</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><cite>getter</cite>: function</dt><dd><p>Function to use as a property getter.</p>
+</dd>
+<dt><cite>setter</cite>: function</dt><dd><p>Function to use as a property setter. Callbacks bound to the
+alias property won’t be called when the property is set (e.g.
+<cite>right = 10</cite>), unless the setter returns <cite>True</cite>.</p>
+</dd>
+<dt><cite>bind</cite>: list/tuple</dt><dd><p>Properties to observe for changes as property name strings.
+Changing values of this properties will dispatch value of the
+alias property.</p>
+</dd>
+<dt><cite>cache</cite>: boolean</dt><dd><p>If <cite>True</cite>, the value will be cached until one of the binded
+elements changes or if setter returns <cite>True</cite>.</p>
+</dd>
+<dt><cite>rebind</cite>: bool, defaults to <cite>False</cite></dt><dd><p>See <code class="xref py py-class docutils literal notranslate"><span class="pre">ObjectProperty</span></code> for details.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 1.9.0: </span><cite>rebind</cite> has been introduced.</p>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 1.4.0: </span>Parameter <cite>cache</cite> added.</p>
+</div>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraView.offset_pos">
+<span class="sig-name descname"><span class="pre">offset_pos</span></span><a class="headerlink" href="#camera_api.CameraView.offset_pos" title="Permalink to this definition"></a></dt>
+<dd><p>AliasProperty(getter, setter=None, rebind=False, <a href="#id9"><span class="problematic" id="id10">**</span></a>kwargs)
+Create a property with a custom getter and setter.</p>
+<blockquote>
+<div><p>If you don’t find a Property class that fits to your needs, you can make
+your own by creating custom Python getter and setter methods.</p>
+<p>Example from kivy/uix/widget.py where <cite>x</cite> and <cite>width</cite> are instances of
+<code class="xref py py-class docutils literal notranslate"><span class="pre">NumericProperty</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">get_right</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span>
+<span class="k">def</span> <span class="nf">set_right</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">value</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span>
+<span class="n">right</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_right</span><span class="p">,</span> <span class="n">set_right</span><span class="p">,</span> <span class="n">bind</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;width&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+<p>If <cite>x</cite> were a non Kivy property then you have to return <cite>True</cite> from setter
+to dispatch new value of <cite>right</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">set_right</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">value</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span>
+    <span class="k">return</span> <span class="kc">True</span>
+</pre></div>
+</div>
+<p>Usually <cite>bind</cite> list should contain all Kivy properties used in getter
+method. If you return <cite>True</cite> it will cause a dispatch which one should do
+when the property value has changed, but keep in mind that the property
+could already have dispatched the changed value if a kivy property the
+alias property is bound was set in the setter, causing a second dispatch
+if the setter returns <cite>True</cite>.</p>
+<p>If you want to cache the value returned by getter then pass <cite>cache=True</cite>.
+This way getter will only be called if new value is set or one of the
+binded properties changes. In both cases new value of alias property will
+be cached again.</p>
+<p>To make property readonly pass <cite>None</cite> as setter. This way <cite>AttributeError</cite>
+will be raised on every set attempt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">right</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_right</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">bind</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="s1">&#39;width&#39;</span><span class="p">],</span> <span class="n">cache</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><cite>getter</cite>: function</dt><dd><p>Function to use as a property getter.</p>
+</dd>
+<dt><cite>setter</cite>: function</dt><dd><p>Function to use as a property setter. Callbacks bound to the
+alias property won’t be called when the property is set (e.g.
+<cite>right = 10</cite>), unless the setter returns <cite>True</cite>.</p>
+</dd>
+<dt><cite>bind</cite>: list/tuple</dt><dd><p>Properties to observe for changes as property name strings.
+Changing values of this properties will dispatch value of the
+alias property.</p>
+</dd>
+<dt><cite>cache</cite>: boolean</dt><dd><p>If <cite>True</cite>, the value will be cached until one of the binded
+elements changes or if setter returns <cite>True</cite>.</p>
+</dd>
+<dt><cite>rebind</cite>: bool, defaults to <cite>False</cite></dt><dd><p>See <code class="xref py py-class docutils literal notranslate"><span class="pre">ObjectProperty</span></code> for details.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 1.9.0: </span><cite>rebind</cite> has been introduced.</p>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 1.4.0: </span>Parameter <cite>cache</cite> added.</p>
+</div>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraView.preview_buffersize">
+<span class="sig-name descname"><span class="pre">preview_buffersize</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></em><a class="headerlink" href="#camera_api.CameraView.preview_buffersize" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraView.preview_pixel_data">
+<span class="sig-name descname"><span class="pre">preview_pixel_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">object</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">pixel_count</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraView.preview_pixel_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraView.preview_pixel_data" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraView.returned_image_data">
+<span class="sig-name descname"><span class="pre">returned_image_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">object</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraView.returned_image_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraView.returned_image_data" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraView.send_texture_pos">
+<span class="sig-name descname"><span class="pre">send_texture_pos</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraView.send_texture_pos"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraView.send_texture_pos" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraView.send_texture_size">
+<span class="sig-name descname"><span class="pre">send_texture_size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">size</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/camera_api.html#CameraView.send_texture_size"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraView.send_texture_size" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="camera_api.CameraView.set_camera_texture">
+<span class="sig-name descname"><span class="pre">set_camera_texture</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="../documentation.html#swift_types.SignedIntegers.int" title="swift_types.SignedIntegers.int"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">kivy.graphics.texture.Texture</span></span></span><a class="reference internal" href="../_modules/camera_api.html#CameraView.set_camera_texture"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#camera_api.CameraView.set_camera_texture" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraView.tex">
+<span class="sig-name descname"><span class="pre">tex</span></span><a class="headerlink" href="#camera_api.CameraView.tex" title="Permalink to this definition"></a></dt>
+<dd><p>ObjectProperty(defaultvalue=None, rebind=False, <a href="#id11"><span class="problematic" id="id12">**</span></a>kw)
+Property that represents a Python object.</p>
+<blockquote>
+<div><dl class="field-list">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl>
+<dt><cite>defaultvalue</cite>: object type</dt><dd><p>Specifies the default value of the property.</p>
+</dd>
+<dt><cite>rebind</cite>: bool, defaults to False</dt><dd><p>Whether kv rules using this object as an intermediate attribute
+in a kv rule, will update the bound property when this object
+changes.</p>
+<p>That is the standard behavior is that if there’s a kv rule
+<code class="docutils literal notranslate"><span class="pre">text:</span> <span class="pre">self.a.b.c.d</span></code>, where <code class="docutils literal notranslate"><span class="pre">a</span></code>, <code class="docutils literal notranslate"><span class="pre">b</span></code>, and <code class="docutils literal notranslate"><span class="pre">c</span></code> are
+properties with <code class="docutils literal notranslate"><span class="pre">rebind</span></code> <code class="docutils literal notranslate"><span class="pre">False</span></code> and <code class="docutils literal notranslate"><span class="pre">d</span></code> is a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">StringProperty</span></code>. Then when the rule is applied, <code class="docutils literal notranslate"><span class="pre">text</span></code>
+becomes bound only to <code class="docutils literal notranslate"><span class="pre">d</span></code>. If <code class="docutils literal notranslate"><span class="pre">a</span></code>, <code class="docutils literal notranslate"><span class="pre">b</span></code>, or <code class="docutils literal notranslate"><span class="pre">c</span></code> change,
+<code class="docutils literal notranslate"><span class="pre">text</span></code> still remains bound to <code class="docutils literal notranslate"><span class="pre">d</span></code>. Furthermore, if any of them
+were <code class="docutils literal notranslate"><span class="pre">None</span></code> when the rule was initially evaluated, e.g. <code class="docutils literal notranslate"><span class="pre">b</span></code> was
+<code class="docutils literal notranslate"><span class="pre">None</span></code>; then <code class="docutils literal notranslate"><span class="pre">text</span></code> is bound to <code class="docutils literal notranslate"><span class="pre">b</span></code> and will not become bound
+to <code class="docutils literal notranslate"><span class="pre">d</span></code> even when <code class="docutils literal notranslate"><span class="pre">b</span></code> is changed to not be <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<p>By setting <code class="docutils literal notranslate"><span class="pre">rebind</span></code> to <code class="docutils literal notranslate"><span class="pre">True</span></code>, however, the rule will be
+re-evaluated and all the properties rebound when that intermediate
+property changes. E.g. in the example above, whenever <code class="docutils literal notranslate"><span class="pre">b</span></code> changes
+or becomes not <code class="docutils literal notranslate"><span class="pre">None</span></code> if it was <code class="docutils literal notranslate"><span class="pre">None</span></code> before, <code class="docutils literal notranslate"><span class="pre">text</span></code> is
+evaluated again and becomes rebound to <code class="docutils literal notranslate"><span class="pre">d</span></code>. The overall result is
+that <code class="docutils literal notranslate"><span class="pre">text</span></code> is now bound to all the properties among <code class="docutils literal notranslate"><span class="pre">a</span></code>,
+<code class="docutils literal notranslate"><span class="pre">b</span></code>, or <code class="docutils literal notranslate"><span class="pre">c</span></code> that have <code class="docutils literal notranslate"><span class="pre">rebind</span></code> set to <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p>
+</dd>
+<dt><cite>**kwargs</cite>: a list of keyword arguments</dt><dd><dl class="simple">
+<dt><cite>baseclass</cite></dt><dd><p>If kwargs includes a <cite>baseclass</cite> argument, this value will be
+used for validation: <cite>isinstance(value, kwargs[‘baseclass’])</cite>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>To mark the property as changed, you must reassign a new python object.</p>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 1.9.0: </span><cite>rebind</cite> has been introduced.</p>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 1.7.0: </span><cite>baseclass</cite> parameter added.</p>
+</div>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraView.touch_pos">
+<span class="sig-name descname"><span class="pre">touch_pos</span></span><a class="headerlink" href="#camera_api.CameraView.touch_pos" title="Permalink to this definition"></a></dt>
+<dd><p>ListProperty(defaultvalue=0, <a href="#id13"><span class="problematic" id="id14">**</span></a>kw)
+Property that represents a list.</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><cite>defaultvalue</cite>: list, defaults to []</dt><dd><p>Specifies the default value of the property.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When assigning a list to a <code class="xref py py-class docutils literal notranslate"><span class="pre">ListProperty</span></code>, the list stored in
+the property is a shallow copy of the list and not the original list. This can
+be demonstrated with the following example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">class</span> <span class="nc">MyWidget</span><span class="p">(</span><span class="n">Widget</span><span class="p">):</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="n">my_list</span> <span class="o">=</span> <span class="n">ListProperty</span><span class="p">([])</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">widget</span> <span class="o">=</span> <span class="n">MyWidget</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;hi&#39;</span><span class="p">:</span> <span class="s1">&#39;hello&#39;</span><span class="p">}]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">widget</span><span class="o">.</span><span class="n">my_list</span> <span class="o">=</span> <span class="n">my_list</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">my_list</span> <span class="ow">is</span> <span class="n">widget</span><span class="o">.</span><span class="n">my_list</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">my_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">,</span> <span class="n">widget</span><span class="o">.</span><span class="n">my_list</span><span class="p">)</span>
+<span class="go">[1, 5, {&#39;hi&#39;: &#39;hello&#39;}, 10] [1, 5, {&#39;hi&#39;: &#39;hello&#39;}]</span>
+</pre></div>
+</div>
+<p>However, changes to nested levels will affect the property as well,
+since the property uses a shallow copy of my_list.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">my_list</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="s1">&#39;hi&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;bye&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">my_list</span><span class="p">,</span> <span class="n">widget</span><span class="o">.</span><span class="n">my_list</span><span class="p">)</span>
+<span class="go">[1, 5, {&#39;hi&#39;: &#39;bye&#39;}, 10] [1, 5, {&#39;hi&#39;: &#39;bye&#39;}]</span>
+</pre></div>
+</div>
+</div>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="camera_api.CameraView.touched">
+<span class="sig-name descname"><span class="pre">touched</span></span><a class="headerlink" href="#camera_api.CameraView.touched" title="Permalink to this definition"></a></dt>
+<dd><p>NumericProperty(defaultvalue=0, <a href="#id15"><span class="problematic" id="id16">**</span></a>kw)
+Property that represents a numeric value.</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><cite>defaultvalue</cite>: int or float, defaults to 0</dt><dd><p>Specifies the default value of the property.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">wid</span> <span class="o">=</span> <span class="n">Widget</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">wid</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">42</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">wid</span><span class="o">.</span><span class="n">x</span><span class="p">)</span>
+<span class="go">42</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">wid</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;plop&quot;</span>
+<span class="go"> Traceback (most recent call last):</span>
+<span class="go">   File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span>
+<span class="go">   File &quot;properties.pyx&quot;, line 93, in kivy.properties.Property.__set__</span>
+<span class="go">   File &quot;properties.pyx&quot;, line 111, in kivy.properties.Property.set</span>
+<span class="go">   File &quot;properties.pyx&quot;, line 159, in kivy.properties.NumericProperty.check</span>
+<span class="go"> ValueError: NumericProperty accept only int/float</span>
+</pre></div>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 1.4.1: </span>NumericProperty can now accept custom text and tuple value to indicate a
+type, like “in”, “pt”, “px”, “cm”, “mm”, in the format: ‘10pt’ or (10,
+‘pt’).</p>
+</div>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="HalloWorld.html" class="btn btn-neutral float-left" title="HalloWorld example" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

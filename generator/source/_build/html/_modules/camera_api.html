@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>camera_api &mdash; KivySwiftLink 0.0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> KivySwiftLink
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../documentation.html">Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modules.html">Examples</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">KivySwiftLink</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Module code</a> &raquo;</li>
+      <li>camera_api</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for camera_api</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">symtable</span> <span class="kn">import</span> <span class="n">Class</span>
+<span class="kn">from</span> <span class="nn">swift_types</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">enum</span> <span class="kn">import</span> <span class="n">Enum</span>
+<span class="n">ObjectStrEnum</span> <span class="o">=</span> <span class="n">Enum</span>
+
+<div class="viewcode-block" id="CameraConfigMode"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraConfigMode">[docs]</a><span class="k">class</span> <span class="nc">CameraConfigMode</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="n">QRcode</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">PhotoRaw</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">PhotoPng</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="n">Video</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">Vision</span> <span class="o">=</span> <span class="mi">4</span>
+    <span class="n">CoreML</span> <span class="o">=</span> <span class="mi">7</span></div>
+
+
+<span class="k">class</span> <span class="nc">KivyTextureKeys</span><span class="p">(</span><span class="n">ObjectStrEnum</span><span class="p">):</span>
+    <span class="n">cfmt</span> <span class="o">=</span> <span class="s1">&#39;colorfmt&#39;</span>
+    <span class="n">bfmt</span> <span class="o">=</span> <span class="s1">&#39;bufferfmt&#39;</span>
+
+
+<div class="viewcode-block" id="CameraApi"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi">[docs]</a><span class="k">class</span> <span class="nc">CameraApi</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A Wrapper For AVCapture Foundation</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">class</span> <span class="nc">Callbacks</span><span class="p">:</span>
+            <span class="k">def</span> <span class="nf">set_preview_size</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+                <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">                &quot;&quot;&quot;</span>
+
+            <span class="k">def</span> <span class="nf">update_view_size</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">float</span><span class="p">):</span>
+                <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">                &quot;&quot;&quot;</span>
+                
+            <span class="k">def</span> <span class="nf">get_presets</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+                <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">                &quot;&quot;&quot;</span>
+            
+            <span class="k">def</span> <span class="nf">returned_image_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+                <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">                &quot;&quot;&quot;</span>
+            
+            <span class="k">def</span> <span class="nf">preview_pixel_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">pixel_count</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+                <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">                &quot;&quot;&quot;</span>
+            
+            <span class="k">def</span> <span class="nf">blit_buffer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span><span class="p">):</span>
+                <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">                &quot;&quot;&quot;</span>
+
+            
+            <span class="k">def</span> <span class="nf">set_camera_texture</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+                <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">                &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">callback_class</span><span class="p">:</span> <span class="n">Callbacks</span><span class="p">):</span><span class="o">...</span>
+    
+<div class="viewcode-block" id="CameraApi.start_capture"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.start_capture">[docs]</a>    <span class="k">def</span> <span class="nf">start_capture</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">:</span> <span class="n">CameraConfigMode</span><span class="p">,</span> <span class="n">callback_cls</span><span class="p">:</span> <span class="nb">object</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="CameraApi.stop_capture"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.stop_capture">[docs]</a>    <span class="k">def</span> <span class="nf">stop_capture</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="CameraApi.set_camera_mode"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.set_camera_mode">[docs]</a>    <span class="k">def</span> <span class="nf">set_camera_mode</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="CameraApi.select_camera"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.select_camera">[docs]</a>    <span class="k">def</span> <span class="nf">select_camera</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="CameraApi.take_photo"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.take_photo">[docs]</a>    <span class="k">def</span> <span class="nf">take_photo</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="CameraApi.take_multi_photo"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.take_multi_photo">[docs]</a>    <span class="k">def</span> <span class="nf">take_multi_photo</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">count</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="CameraApi.select_preview_preset"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.select_preview_preset">[docs]</a>    <span class="k">def</span> <span class="nf">select_preview_preset</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">preset</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="CameraApi.set_focus_point"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.set_focus_point">[docs]</a>    <span class="k">def</span> <span class="nf">set_focus_point</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="nb">float</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="CameraApi.zoom_camera"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.zoom_camera">[docs]</a>    <span class="k">def</span> <span class="nf">zoom_camera</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">zoom</span><span class="p">:</span> <span class="nb">float</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="CameraApi.set_exposure"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.set_exposure">[docs]</a>    <span class="k">def</span> <span class="nf">set_exposure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">:</span> <span class="nb">float</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="CameraApi.auto_exposure"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.auto_exposure">[docs]</a>    <span class="k">def</span> <span class="nf">auto_exposure</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">state</span><span class="p">:</span> <span class="nb">bool</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+        
+<div class="viewcode-block" id="CameraApi.update_view_pos"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraApi.update_view_pos">[docs]</a>    <span class="k">def</span> <span class="nf">update_view_pos</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="nb">float</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div></div>
+        
+        
+
+
+<span class="kn">from</span> <span class="nn">kivy.uix.floatlayout</span> <span class="kn">import</span> <span class="n">FloatLayout</span>
+<span class="kn">from</span> <span class="nn">kivy.uix.relativelayout</span> <span class="kn">import</span> <span class="n">RelativeLayout</span>
+<span class="kn">from</span> <span class="nn">kivy.properties</span> <span class="kn">import</span> <span class="n">AliasProperty</span><span class="p">,</span> <span class="n">ObjectProperty</span><span class="p">,</span> <span class="n">NumericProperty</span><span class="p">,</span> <span class="n">ListProperty</span><span class="p">,</span> <span class="n">ColorProperty</span>
+<span class="kn">from</span> <span class="nn">kivy.lang</span> <span class="kn">import</span> <span class="n">Builder</span>
+<span class="kn">from</span> <span class="nn">kivy.graphics.texture</span> <span class="kn">import</span> <span class="n">Texture</span>
+<span class="n">Builder</span><span class="o">.</span><span class="n">load_string</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">&lt;CameraView&gt;:</span>
+<span class="s2">    app: app</span>
+<span class="s2">    canvas:</span>
+<span class="s2">        Rectangle:</span>
+<span class="s2">            texture: self.tex</span>
+<span class="s2">            pos: self.offset_pos</span>
+<span class="s2">            size: self.norm_image_size</span>
+<span class="s2">        Color:</span>
+<span class="s2">            rgb: self.capture_outline_color[:3]</span>
+<span class="s2">            a: self.capture_outline_alpha</span>
+<span class="s2">        Line:</span>
+<span class="s2">            width: 8</span>
+<span class="s2">            rectangle: self.x, self.y - 8 , self.width - 8, self.height - 8         </span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="CameraView"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraView">[docs]</a><span class="k">class</span> <span class="nc">CameraView</span><span class="p">(</span><span class="n">RelativeLayout</span><span class="p">,</span> <span class="n">CameraApi</span><span class="p">):</span>
+    <span class="n">tex</span> <span class="o">=</span> <span class="n">ObjectProperty</span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+    <span class="n">touch_pos</span> <span class="o">=</span> <span class="n">ListProperty</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+    <span class="n">touched</span> <span class="o">=</span> <span class="n">NumericProperty</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">capture_outline_color</span> <span class="o">=</span> <span class="n">ColorProperty</span><span class="p">()</span>
+    <span class="n">capture_outline_alpha</span> <span class="o">=</span> <span class="n">NumericProperty</span><span class="p">(</span><span class="mf">0.0</span><span class="p">)</span>
+    <span class="n">preview_buffersize</span><span class="p">:</span> <span class="nb">int</span>
+
+<div class="viewcode-block" id="CameraView.get_image_ratio"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraView.get_image_ratio">[docs]</a>    <span class="k">def</span> <span class="nf">get_image_ratio</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;_summary_</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            _type_: _description_</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;get_image_ratio&#39;</span><span class="p">)</span>
+        <span class="n">tex</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tex</span>
+        <span class="k">if</span> <span class="n">tex</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">tex</span><span class="o">.</span><span class="n">width</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="n">tex</span><span class="o">.</span><span class="n">height</span><span class="p">)</span>
+        <span class="k">return</span> <span class="mf">1.0</span></div>
+    <span class="n">image_ratio</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_image_ratio</span><span class="p">,</span> <span class="n">bind</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;tex&#39;</span><span class="p">,),</span> <span class="n">cache</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<div class="viewcode-block" id="CameraView.get_norm_image_size"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraView.get_norm_image_size">[docs]</a>    <span class="k">def</span> <span class="nf">get_norm_image_size</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">tex</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tex</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">tex</span><span class="p">:</span>
+            <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size</span><span class="p">)</span>
+        <span class="n">ratio</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">image_ratio</span>
+        <span class="n">w</span><span class="p">,</span> <span class="n">h</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">size</span>
+        <span class="n">iw</span> <span class="o">=</span> <span class="n">w</span>
+        <span class="n">ih</span> <span class="o">=</span> <span class="n">iw</span> <span class="o">/</span> <span class="n">ratio</span>
+        <span class="k">if</span> <span class="n">ih</span> <span class="o">&gt;</span> <span class="n">h</span><span class="p">:</span>
+            <span class="n">ih</span> <span class="o">=</span> <span class="n">h</span>
+            <span class="n">iw</span> <span class="o">=</span> <span class="n">ih</span> <span class="o">*</span> <span class="n">ratio</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">iw</span><span class="p">,</span> <span class="n">ih</span><span class="p">]</span></div>
+    <span class="n">norm_image_size</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_norm_image_size</span><span class="p">,</span> <span class="n">bind</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;tex&#39;</span><span class="p">,</span> <span class="s1">&#39;size&#39;</span><span class="p">,</span> <span class="s1">&#39;image_ratio&#39;</span><span class="p">),</span> <span class="n">cache</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<div class="viewcode-block" id="CameraView.get_offset_pos"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraView.get_offset_pos">[docs]</a>    <span class="k">def</span> <span class="nf">get_offset_pos</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">w</span><span class="p">,</span> <span class="n">h</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">size</span>
+        <span class="n">tw</span><span class="p">,</span> <span class="n">th</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">norm_image_size</span>
+        <span class="n">offset_x</span> <span class="o">=</span> <span class="p">(</span><span class="n">w</span> <span class="o">-</span> <span class="n">tw</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+        <span class="n">offset_y</span> <span class="o">=</span> <span class="p">(</span><span class="n">h</span> <span class="o">-</span> <span class="n">th</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+        <span class="k">return</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">+</span> <span class="n">offset_x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">+</span> <span class="n">offset_y</span><span class="p">]</span></div>
+    <span class="n">offset_pos</span> <span class="o">=</span> <span class="n">AliasProperty</span><span class="p">(</span><span class="n">get_offset_pos</span><span class="p">,</span> <span class="n">bind</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;norm_image_size&#39;</span><span class="p">,</span> <span class="s1">&#39;pos&#39;</span><span class="p">),</span> <span class="n">cache</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">):</span>
+        <span class="n">app</span> <span class="o">=</span> <span class="n">ObjectProperty</span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="n">offset_pos</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">send_texture_pos</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="n">norm_image_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">send_texture_size</span><span class="p">)</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">CameraView</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">callback_class</span><span class="o">=</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">update_cam</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">canvas</span><span class="o">.</span><span class="n">ask_update</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">preview_buffersize</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_camera_texture</span><span class="p">(</span><span class="mi">2160</span><span class="p">,</span> <span class="mi">3840</span><span class="p">)</span>
+
+<div class="viewcode-block" id="CameraView.set_camera_texture"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraView.set_camera_texture">[docs]</a>    <span class="k">def</span> <span class="nf">set_camera_texture</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span><span class="n">Texture</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;set_camera_texture&#39;</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">)</span>
+        <span class="n">tex</span><span class="p">:</span> <span class="n">Texture</span> <span class="o">=</span> <span class="n">Texture</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">),</span> <span class="n">colorfmt</span><span class="o">=</span><span class="s1">&#39;bgra&#39;</span><span class="p">,</span> <span class="n">bufferfmt</span><span class="o">=</span><span class="s1">&#39;ubyte&#39;</span><span class="p">)</span>
+        <span class="n">tex</span><span class="o">.</span><span class="n">flip_vertical</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tex</span> <span class="o">=</span> <span class="n">tex</span>
+        <span class="k">return</span> <span class="n">tex</span></div>
+
+<div class="viewcode-block" id="CameraView.new_texture"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraView.new_texture">[docs]</a>    <span class="k">def</span> <span class="nf">new_texture</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">size</span><span class="p">,</span> <span class="n">fmt</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;set_camera_texture&#39;</span><span class="p">,</span> <span class="n">size</span><span class="p">)</span>
+        <span class="n">tex</span><span class="p">:</span> <span class="n">Texture</span> <span class="o">=</span> <span class="n">Texture</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="n">size</span><span class="p">,</span> <span class="n">colorfmt</span><span class="o">=</span><span class="n">fmt</span><span class="p">,</span> <span class="n">bufferfmt</span><span class="o">=</span><span class="s1">&#39;ubyte&#39;</span><span class="p">)</span>
+        <span class="n">tex</span><span class="o">.</span><span class="n">flip_vertical</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tex</span> <span class="o">=</span> <span class="n">tex</span></div>
+
+    <span class="k">def</span> <span class="nf">blit_buffer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mem</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;blit_buffer&#39;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">mem</span><span class="p">))</span>
+
+<div class="viewcode-block" id="CameraView.preview_pixel_data"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraView.preview_pixel_data">[docs]</a>    <span class="k">def</span> <span class="nf">preview_pixel_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">pixel_count</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">pixel_count</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">preview_buffersize</span><span class="p">:</span>
+            <span class="n">tex</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">set_camera_texture</span><span class="p">(</span><span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">preview_buffersize</span> <span class="o">=</span> <span class="n">pixel_count</span>
+            <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="sa">f</span><span class="s1">&#39;changed resolution to </span><span class="si">{</span><span class="n">width</span><span class="si">}</span><span class="s1">x</span><span class="si">{</span><span class="n">height</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">tex</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tex</span>
+        <span class="k">if</span> <span class="n">tex</span><span class="p">:</span>
+            <span class="n">tex</span><span class="o">.</span><span class="n">blit_buffer</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">colorfmt</span><span class="o">=</span><span class="s1">&#39;bgra&#39;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">update_cam</span><span class="p">()</span></div>
+
+<div class="viewcode-block" id="CameraView.blit_buffer"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraView.blit_buffer">[docs]</a>    <span class="k">def</span> <span class="nf">blit_buffer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tex</span><span class="o">.</span><span class="n">blit_buffer</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">colorfmt</span><span class="o">=</span><span class="s1">&#39;bgra&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">update_cam</span><span class="p">()</span></div>
+
+<div class="viewcode-block" id="CameraView.returned_image_data"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraView.returned_image_data">[docs]</a>    <span class="k">def</span> <span class="nf">returned_image_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="nb">object</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="CameraView.send_texture_pos"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraView.send_texture_pos">[docs]</a>    <span class="k">def</span> <span class="nf">send_texture_pos</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">pos</span><span class="p">):</span>
+        <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">pos</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">update_view_pos</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="CameraView.send_texture_size"><a class="viewcode-back" href="../examples/CameraApi.html#camera_api.CameraView.send_texture_size">[docs]</a>    <span class="k">def</span> <span class="nf">send_texture_size</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">size</span><span class="p">):</span>
+        <span class="n">w</span><span class="p">,</span> <span class="n">h</span> <span class="o">=</span> <span class="n">size</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">update_view_size</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">h</span><span class="p">)</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

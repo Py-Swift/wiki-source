@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>swift_types &mdash; KivySwiftLink 0.0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> KivySwiftLink
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../documentation.html">Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modules.html">Examples</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">KivySwiftLink</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Module code</a> &raquo;</li>
+      <li>swift_types</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for swift_types</h1><div class="highlight"><pre>
+<span></span>
+<span class="c1"># from typing import List,Tuple,TypeVar</span>
+<span class="c1"># from enum import Enum</span>
+<span class="c1"># from collections.abc import Sequence as sequence</span>
+<span class="c1">#from ctypes import c_int8 as</span>
+<span class="kn">from</span> <span class="nn">builtins</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">subprocess</span> <span class="kn">import</span> <span class="n">call</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span> <span class="k">as</span> <span class="nb">list</span>
+
+<span class="c1"># __all__ = im[</span>
+<span class="c1">#     &quot;long&quot;,</span>
+<span class="c1">#     &quot;ulong&quot;,</span>
+<span class="c1">#     &quot;longlong&quot;,</span>
+<span class="c1">#     &quot;ulonglong&quot;,</span>
+<span class="c1">#     &quot;uint8&quot;,</span>
+<span class="c1">#     &quot;int16&quot;,</span>
+<span class="c1">#     &quot;uint16&quot;,</span>
+<span class="c1">#     &quot;int32&quot;,</span>
+<span class="c1">#     &quot;uint32&quot;,</span>
+<span class="c1">#     &quot;data&quot;,</span>
+<span class="c1">#     &quot;json&quot;,</span>
+<span class="c1">#     &quot;jsondata&quot;,</span>
+<span class="c1">#     &quot;uint&quot;,</span>
+<span class="c1">#     &quot;double&quot;,</span>
+<span class="c1">#     &quot;float32&quot;,</span>
+<span class="c1">#     ## other types</span>
+<span class="c1">#     &quot;TypeVar&quot;,</span>
+<span class="c1">#     &quot;struct&quot;,</span>
+<span class="c1">#     &quot;List&quot;,</span>
+<span class="c1">#     &quot;Tuple&quot;,</span>
+<span class="c1">#     &quot;callback&quot;,</span>
+<span class="c1">#     &quot;call_class&quot;,</span>
+<span class="c1">#     &quot;call_target&quot;,</span>
+<span class="c1">#     &quot;swift_func&quot;,</span>
+<span class="c1">#     &quot;EventDispatcher&quot;,</span>
+<span class="c1">#     &quot;Codable&quot;,</span>
+<span class="c1">#     &quot;direct&quot;,</span>
+<span class="c1">#     &quot;wrapper&quot;,</span>
+<span class="c1">#     &quot;python&quot;,</span>
+<span class="c1">#     &quot;Enum&quot;,</span>
+<span class="c1">#     &quot;send_self&quot;,</span>
+<span class="c1">#     &quot;sequence&quot;,</span>
+<span class="c1">#     &quot;ObjectStrEnum&quot;,</span>
+<span class="c1">#     &quot;ObjectIntEnum&quot;</span>
+<span class="c1">#     ]</span>
+
+
+
+<div class="viewcode-block" id="SignedIntegers"><a class="viewcode-back" href="../documentation.html#swift_types.SignedIntegers">[docs]</a><span class="k">class</span> <span class="nc">SignedIntegers</span><span class="p">:</span>
+
+<div class="viewcode-block" id="SignedIntegers.int"><a class="viewcode-back" href="../documentation.html#swift_types.SignedIntegers.int">[docs]</a>    <span class="k">class</span> <span class="nc">int</span><span class="p">(</span><span class="nb">int</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        | python | &lt;-&gt; | swift |</span>
+<span class="sd">        +========+=====+=======+</span>
+<span class="sd">        |   int  |     |  Int  |</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="SignedIntegers.int32"><a class="viewcode-back" href="../documentation.html#swift_types.SignedIntegers.int32">[docs]</a>    <span class="k">class</span> <span class="nc">int32</span><span class="p">(</span><span class="nb">int</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        | python | &lt;-&gt; | swift |</span>
+<span class="sd">        +========+=====+=======+</span>
+<span class="sd">        | int    |     | Int32 |</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+        
+<div class="viewcode-block" id="SignedIntegers.int16"><a class="viewcode-back" href="../documentation.html#swift_types.SignedIntegers.int16">[docs]</a>    <span class="k">class</span> <span class="nc">int16</span><span class="p">(</span><span class="nb">int</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        | python | &lt;-&gt; | swift |</span>
+<span class="sd">        +========+=====+=======+</span>
+<span class="sd">        | int    |     | Int16 |</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="SignedIntegers.int8"><a class="viewcode-back" href="../documentation.html#swift_types.SignedIntegers.int8">[docs]</a>    <span class="k">class</span> <span class="nc">int8</span><span class="p">():</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        | python | &lt;-&gt; | swift |</span>
+<span class="sd">        +========+=====+=======+</span>
+<span class="sd">        | int    |     | Int8  |</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        &quot;&quot;&quot;</span></div></div>
+
+<div class="viewcode-block" id="UnsignedIntegers"><a class="viewcode-back" href="../documentation.html#swift_types.UnsignedIntegers">[docs]</a><span class="k">class</span> <span class="nc">UnsignedIntegers</span><span class="p">:</span>
+
+<div class="viewcode-block" id="UnsignedIntegers.uint"><a class="viewcode-back" href="../documentation.html#swift_types.UnsignedIntegers.uint">[docs]</a>    <span class="k">class</span> <span class="nc">uint</span><span class="p">():</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        | python | &lt;-&gt; | swift |</span>
+<span class="sd">        +========+=====+=======+</span>
+<span class="sd">        | int    |     | UInt  |</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+
+<div class="viewcode-block" id="UnsignedIntegers.uint32"><a class="viewcode-back" href="../documentation.html#swift_types.UnsignedIntegers.uint32">[docs]</a>    <span class="k">class</span> <span class="nc">uint32</span><span class="p">():</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        +--------+-----+---------+</span>
+<span class="sd">        | python | &lt;-&gt; | swift   |</span>
+<span class="sd">        +========+=====+=========+</span>
+<span class="sd">        | int    |     | UInt32  |</span>
+<span class="sd">        +--------+-----+---------+</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+
+<div class="viewcode-block" id="UnsignedIntegers.uint16"><a class="viewcode-back" href="../documentation.html#swift_types.UnsignedIntegers.uint16">[docs]</a>    <span class="k">class</span> <span class="nc">uint16</span><span class="p">():</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        +--------+-----+--------+</span>
+<span class="sd">        | python | &lt;-&gt; |  swift |</span>
+<span class="sd">        +========+=====+========+</span>
+<span class="sd">        |   int  |     | UInt16 |</span>
+<span class="sd">        +--------+-----+--------+</span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+        
+
+
+<div class="viewcode-block" id="UnsignedIntegers.uint8"><a class="viewcode-back" href="../documentation.html#swift_types.UnsignedIntegers.uint8">[docs]</a>    <span class="k">class</span> <span class="nc">uint8</span><span class="p">():</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        | python | &lt;-&gt; | swift |</span>
+<span class="sd">        +========+=====+=======+</span>
+<span class="sd">        |   int  |     | UInt8 |</span>
+<span class="sd">        +--------+-----+-------+</span>
+<span class="sd">        &quot;&quot;&quot;</span></div></div>
+    
+<div class="viewcode-block" id="String_Bytes"><a class="viewcode-back" href="../documentation.html#swift_types.String_Bytes">[docs]</a><span class="k">class</span> <span class="nc">String_Bytes</span><span class="p">():</span>
+
+<div class="viewcode-block" id="String_Bytes.str"><a class="viewcode-back" href="../documentation.html#swift_types.String_Bytes.str">[docs]</a>    <span class="k">class</span> <span class="nc">str</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        py: :attr:`str` &lt;-&gt; swift: :attr:`String`</span>
+<span class="sd">        &quot;&quot;&quot;</span></div></div>
+<div class="viewcode-block" id="Sequences"><a class="viewcode-back" href="../documentation.html#swift_types.Sequences">[docs]</a><span class="k">class</span> <span class="nc">Sequences</span><span class="p">:</span>
+<div class="viewcode-block" id="Sequences.list"><a class="viewcode-back" href="../documentation.html#swift_types.Sequences.list">[docs]</a>    <span class="k">class</span> <span class="nc">list</span><span class="p">():</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        +------------+-----+-------------+</span>
+<span class="sd">        |   python   | &lt;-&gt; |    swift    |</span>
+<span class="sd">        +============+=====+=============+</span>
+<span class="sd">        | list[type] |     | Array&lt;type&gt; |</span>
+<span class="sd">        +------------+-----+-------------+</span>
+
+<span class="sd">            +-------------------------------------+</span>
+<span class="sd">            |           Python &lt;-&gt; Swift          |</span>
+<span class="sd">            +=====================================+</span>
+<span class="sd">            | list[**int**] &lt;-&gt; Array&lt;**Int**&gt;    |</span>
+<span class="sd">            +-------------------------------------+</span>
+<span class="sd">            | list[**int**] &lt;-&gt; Array&lt;**UInt8**&gt;  |</span>
+<span class="sd">            +-------------------------------------+</span>
+<span class="sd">            | list[**str**] &lt;-&gt; Array&lt;**String**&gt; |</span>
+<span class="sd">            +-------------------------------------+</span>
+<span class="sd">            </span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+        
+<div class="viewcode-block" id="Sequences.memoryview"><a class="viewcode-back" href="../documentation.html#swift_types.Sequences.memoryview">[docs]</a>    <span class="k">class</span> <span class="nc">memoryview</span><span class="p">():</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        +------------------+-----+-------------+</span>
+<span class="sd">        |      python      | &lt;-&gt; |    swift    |</span>
+<span class="sd">        +==================+=====+=============+</span>
+<span class="sd">        | memoryview[type] |     | Array&lt;type&gt; |</span>
+<span class="sd">        +------------------+-----+-------------+</span>
+
+<span class="sd">            +-------------------------------------------+</span>
+<span class="sd">            |              Python &lt;-&gt; Swift             |</span>
+<span class="sd">            +===========================================+</span>
+<span class="sd">            | memoryview[**int**] &lt;-&gt; Array&lt;**Int**&gt;    |</span>
+<span class="sd">            +-------------------------------------------+</span>
+<span class="sd">            | memoryview[**int**] &lt;-&gt; Array&lt;**UInt8**&gt;  |</span>
+<span class="sd">            +-------------------------------------------+</span>
+<span class="sd">            | memoryview[**str**] &lt;-&gt; Array&lt;**String**&gt; |</span>
+<span class="sd">            +-------------------------------------------+</span>
+<span class="sd">            </span>
+<span class="sd">        &quot;&quot;&quot;</span></div>
+        
+<div class="viewcode-block" id="Sequences.data"><a class="viewcode-back" href="../documentation.html#swift_types.Sequences.data">[docs]</a>    <span class="k">class</span> <span class="nc">data</span><span class="p">():</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        py: memoryview[:attr:`uint8`] &lt;-&gt; swift: Data</span>
+<span class="sd">        &quot;&quot;&quot;</span></div></div>
+
+
+<div class="viewcode-block" id="ClassDecorators"><a class="viewcode-back" href="../documentation.html#swift_types.ClassDecorators">[docs]</a><span class="k">class</span> <span class="nc">ClassDecorators</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="ClassDecorators.wrapper"><a class="viewcode-back" href="../documentation.html#swift_types.ClassDecorators.wrapper">[docs]</a>    <span class="k">class</span> <span class="nc">wrapper</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">singleton</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">event_dispatch</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">events</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]):</span> <span class="o">...</span>
+        
+        <span class="k">def</span> <span class="fm">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="o">*</span><span class="n">args</span><span class="p">):</span> <span class="o">...</span></div>
+        
+<div class="viewcode-block" id="ClassDecorators.python"><a class="viewcode-back" href="../documentation.html#swift_types.ClassDecorators.python">[docs]</a>    <span class="k">class</span> <span class="nc">python</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">        &quot;&quot;&quot;</span></div></div>
+
+<div class="viewcode-block" id="FunctionDecorators"><a class="viewcode-back" href="../documentation.html#swift_types.FunctionDecorators">[docs]</a><span class="k">class</span> <span class="nc">FunctionDecorators</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="FunctionDecorators.callback"><a class="viewcode-back" href="../documentation.html#swift_types.FunctionDecorators.callback">[docs]</a>    <span class="k">class</span> <span class="nc">callback</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        callback</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">optional</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">direct</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span><span class="o">...</span>
+        
+        <span class="k">def</span> <span class="fm">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="o">*</span><span class="n">args</span><span class="p">):</span> <span class="o">...</span></div>
+        
+<div class="viewcode-block" id="FunctionDecorators.swift_function"><a class="viewcode-back" href="../documentation.html#swift_types.FunctionDecorators.swift_function">[docs]</a>    <span class="k">class</span> <span class="nc">swift_function</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">        &quot;&quot;&quot;</span></div></div>
+        
+        
+<span class="c1"># callback = FunctionDecorators.callback()</span>
+<span class="c1"># wrapper = ClassDecorators.wrapper()</span>
+<span class="c1"># python = ClassDecorators.python()</span>
+
+
+
+<span class="c1"># long = object</span>
+<span class="c1"># ulong = object</span>
+<span class="c1"># longlong = object</span>
+<span class="c1"># ulonglong = object</span>
+<span class="c1"># uint8 = object</span>
+<span class="c1"># short = object</span>
+<span class="c1"># int16 = object</span>
+<span class="c1"># ushort = object</span>
+<span class="c1"># uint16 = object</span>
+<span class="c1"># data = object</span>
+<span class="c1"># json = object</span>
+<span class="c1"># jsondata = object</span>
+<span class="c1"># uint = object</span>
+<span class="c1"># double = object</span>
+<span class="c1"># float32 = object</span>
+<span class="c1"># longdouble = object</span>
+
+
+<span class="c1"># def EventDispatcher(_(): list[str])(): ...</span>
+
+<span class="c1"># def callback(direct(): bool)(): ...</span>
+
+<span class="c1"># def call_class(class_name(): str)(): ...</span>
+
+<span class="c1"># def call_target(class_name(): str)(): ...</span>
+
+<span class="c1"># def swift_func()(): ...</span>
+
+<span class="c1"># def _direct()(): ...</span>
+
+<span class="c1"># #def codable()(): ...</span>
+
+<span class="c1"># class Codable(): ...</span>
+
+<span class="c1"># #def wrapper(dispatch_events(): bool = False, events(): list[str] = [], singleton(): bool = True)(): ...</span>
+
+<span class="c1"># class wrapper():</span>
+    
+<span class="c1">#     def __init__(self, *args, **kwargs): ...</span>
+    
+<span class="c1">#     def __call__(self, *args, **kwargs): ...</span>
+
+<span class="c1"># def python(): ...</span>
+
+
+<span class="c1"># def send_self(): ...</span>
+
+<span class="c1"># ObjectStrEnum = Enum</span>
+
+<span class="c1"># ObjectIntEnum = Enum</span>
+
+<span class="c1"># direct = _direct()</span>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
