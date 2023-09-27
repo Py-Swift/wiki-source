@@ -31,4 +31,15 @@ jobs:
         
       - name: sphinx build # run main.py
         run: sphinx-build -a -b html generator/source/ output
+
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.HOMEBREW }}
+        with:
+          source-directory: 'output'
+          destination-github-username: 'pythonswiftlink'
+          destination-repository-name: 'wiki'
+          user-email: pythonswiftlink@gmail.com
+          target-branch: master
         
