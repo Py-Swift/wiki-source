@@ -5,6 +5,7 @@ Making your first wrapper:
 Part 1
 ======
 
+
 In this example a project with the name ``my_project`` was used.
 Open the Xcode project. (my_project-ios)
 
