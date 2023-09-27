@@ -21,7 +21,11 @@ jobs:
       - name: install python packages
         run: |
           python3 -m pip install --upgrade pip
-          pip3 install cookiecutter
+          pip3 install git+https://github.com/sphinx-doc/sphinx
+          pip3 install sphinx-copybutton
+          pip3 install git+https://github.com/psychowasp/sphinx_rtd_theme
+
+          
       - name: install sphinx-build
         run: pip3 install git+https://github.com/sphinx-doc/sphinx
         
