@@ -13,7 +13,7 @@ Welcome to ``PythonSwiftLink``'s documentation!
    getting_started
    documentation
    learn_swift
-   write_wrapper
+
    examples
 
 
