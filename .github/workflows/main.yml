@@ -24,4 +24,4 @@ jobs:
           pip3 install cookiecutter
 
       - name: execute py script # run main.py
-        run: sh ./build.sh
+        run: sphinx-build -a -b html generator/source/ output
