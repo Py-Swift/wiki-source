@@ -13,31 +13,40 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content
 
-      - name: setup python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10' # install the python version needed
+      - name: install uv
+        run: brew install uv
 
-      - name: install python packages
-        run: |
-          python3 -m pip install --upgrade pip
-          pip3 install git+https://github.com/sphinx-doc/sphinx
-          pip3 install sphinx-copybutton
-          pip3 install git+https://github.com/psychowasp/sphinx_rtd_theme
-          pip3 install kivy
+      - name: uv sync
+        run: uv sync
+
+      - name: mkdocs build
+        run: uv run mkdocs build
+      
+      # - name: setup python
+      #   uses: actions/setup-python@v4
+      #   with:
+      #     python-version: '3.10' # install the python version needed
+
+      # - name: install python packages
+      #   run: |
+      #     python3 -m pip install --upgrade pip
+      #     pip3 install git+https://github.com/sphinx-doc/sphinx
+      #     pip3 install sphinx-copybutton
+      #     pip3 install git+https://github.com/psychowasp/sphinx_rtd_theme
+      #     pip3 install kivy
           
-      - name: install sphinx-build
-        run: pip3 install git+https://github.com/sphinx-doc/sphinx
+      # - name: install sphinx-build
+      #   run: pip3 install git+https://github.com/sphinx-doc/sphinx
         
-      - name: sphinx build # run main.py
-        run: sphinx-build -a -b html generator/source/ output
+      # - name: sphinx build # run main.py
+      #   run: sphinx-build -a -b html generator/source/ output
 
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.Homebrew }}
         with:
-          source-directory: 'output'
+          source-directory: 'site'
           destination-github-username: 'pythonswiftlink'
           destination-repository-name: 'wiki'
           user-email: pythonswiftlink@gmail.com
