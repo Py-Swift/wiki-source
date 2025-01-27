@@ -21,8 +21,11 @@ nav:
     - Wrapper Examples:  
       - wrapper_examples/hello_world.md
 
-
 markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -30,3 +33,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+ 
+
+
+plugins:
+  - search
+  - table-reader
