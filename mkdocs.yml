@@ -12,7 +12,14 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light Mode
-
+nav:
+  - Setup: setup.md
+  - New Project:
+    - Kivy: project/kivy/create.md
+  - Wrapping Swift: 
+    - Types: wrapper_docs/types.md
+    - Wrapper Examples:  
+      - wrapper_examples/hello_world.md
 
 
 markdown_extensions:
