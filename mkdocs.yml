@@ -1,0 +1,25 @@
+site_name: PythonSwiftLink Wiki
+site_url: https://github.com/PythonSwiftLink
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
