@@ -1,48 +1,48 @@
 Python, cast from/to,Swift
-**int**,:fontawesome-solid-arrows-left-right:,**Int**
-**int32**,:fontawesome-solid-arrows-left-right:,**Int32**
-**int16**,:fontawesome-solid-arrows-left-right: ,**Int16**
-**int8**,:fontawesome-solid-arrows-left-right: ,**Int8**
+int,:fontawesome-solid-arrows-left-right:,Int
+int32,:fontawesome-solid-arrows-left-right:,Int32
+int16,:fontawesome-solid-arrows-left-right: ,Int16
+int8,:fontawesome-solid-arrows-left-right: ,Int8
  , , 
-**uint**,:fontawesome-solid-arrows-left-right: ,**UInt**
-**uint32**,:fontawesome-solid-arrows-left-right: ,**UInt32**
-**uint16**,:fontawesome-solid-arrows-left-right: ,**UInt16**
-**uint8**,:fontawesome-solid-arrows-left-right: ,**UInt8**
+uint,:fontawesome-solid-arrows-left-right: ,UInt
+uint32,:fontawesome-solid-arrows-left-right: ,UInt32
+uint16,:fontawesome-solid-arrows-left-right: ,UInt16
+uint8,:fontawesome-solid-arrows-left-right: ,UInt8
  , , 
-**float**,:fontawesome-solid-arrows-left-right: ,**Double**
-**double**,:fontawesome-solid-arrows-left-right: ,**Double**
-**float32**,:fontawesome-solid-arrows-left-right: ,**Float**
-**float16**,:fontawesome-solid-arrows-left-right: ,**Float16**
+float,:fontawesome-solid-arrows-left-right: ,Double
+double,:fontawesome-solid-arrows-left-right: ,Double
+float32,:fontawesome-solid-arrows-left-right: ,Float
+float16,:fontawesome-solid-arrows-left-right: ,Float16
  , , 
-**object**,:fontawesome-solid-arrows-left-right:,**PyPointer**
-**str**,:fontawesome-solid-arrows-left-right: ,**String**
-**bytes**,:fontawesome-solid-arrows-left-right: ,**Data**
-**bytes**,:fontawesome-solid-arrows-left-right: ,**[UInt8]**
-**bytearray**,:fontawesome-solid-arrows-left-right: ,**Data**
-**bytearray**,:fontawesome-solid-arrows-left-right: ,**[UInt8]**
-**memoryview**,:fontawesome-solid-arrows-left-right: ,**Data**
-**memoryview**,:fontawesome-solid-arrows-left-right: ,**[UInt8]**
+object,:fontawesome-solid-arrows-left-right:,PyPointer
+str,:fontawesome-solid-arrows-left-right: ,String
+bytes,:fontawesome-solid-arrows-left-right: ,Data
+bytes,:fontawesome-solid-arrows-left-right: ,[UInt8]
+bytearray,:fontawesome-solid-arrows-left-right: ,Data
+bytearray,:fontawesome-solid-arrows-left-right: ,[UInt8]
+memoryview,:fontawesome-solid-arrows-left-right: ,Data
+memoryview,:fontawesome-solid-arrows-left-right: ,[UInt8]
  , , 
-**list[int]**,:fontawesome-solid-arrows-left-right:,**[Int]**
-**list[int32]**,:fontawesome-solid-arrows-left-right:,**[Int32]**
-**list[int16]**,:fontawesome-solid-arrows-left-right: ,**[Int16]**
-**list[int8]**,:fontawesome-solid-arrows-left-right: ,**[Int8]**
+list[int],:fontawesome-solid-arrows-left-right:,[Int]
+list[int32],:fontawesome-solid-arrows-left-right:,[Int32]
+list[int16],:fontawesome-solid-arrows-left-right: ,[Int16]
+list[int8],:fontawesome-solid-arrows-left-right: ,[Int8]
  , , 
-**list[uint]**,:fontawesome-solid-arrows-left-right: ,**[UInt]**
-**list[uint32]**,:fontawesome-solid-arrows-left-right: ,**[UInt32]**
-**list[uint16]**,:fontawesome-solid-arrows-left-right: ,**[UInt16]**
-**list[uint8]**,:fontawesome-solid-arrows-left-right: ,**[UInt8]**
+list[uint],:fontawesome-solid-arrows-left-right: ,[UInt]
+list[uint32],:fontawesome-solid-arrows-left-right: ,[UInt32]
+list[uint16],:fontawesome-solid-arrows-left-right: ,[UInt16]
+list[uint8],:fontawesome-solid-arrows-left-right: ,[UInt8]
  , , 
-**list[float]**,:fontawesome-solid-arrows-left-right: ,**[Double]**
-**list[double]**,:fontawesome-solid-arrows-left-right: ,**[Double]**
-**list[float32]**,:fontawesome-solid-arrows-left-right: ,**[Float32]**
-**list[float16]**,:fontawesome-solid-arrows-left-right: ,**[Float16]**
+list[float],:fontawesome-solid-arrows-left-right: ,[Double]
+list[double],:fontawesome-solid-arrows-left-right: ,[Double]
+list[float32],:fontawesome-solid-arrows-left-right: ,[Float]
+list[float16],:fontawesome-solid-arrows-left-right: ,[Float16]
  , , 
-**list[object]**,:fontawesome-solid-arrows-left-right:,**[PyPointer]**
-**list[str]**,:fontawesome-solid-arrows-left-right: ,**[String]**
-**list[bytes]**,:fontawesome-solid-arrows-left-right: ,**[Data]**
-**list[bytes]**,:fontawesome-solid-arrows-left-right: ,**[[UInt8]]**
-**list[bytearray]**,:fontawesome-solid-arrows-left-right: ,**[Data]**
-**list[bytearray]**,:fontawesome-solid-arrows-left-right: ,**[[UInt8]]**
-**list[memoryview]**,:fontawesome-solid-arrows-left-right: ,**[Data]**
-**list[memoryview]**,:fontawesome-solid-arrows-left-right: ,**[[UInt8]]**
+list[object],:fontawesome-solid-arrows-left-right:,[PyPointer]
+list[str],:fontawesome-solid-arrows-left-right: ,[String]
+list[bytes],:fontawesome-solid-arrows-left-right: ,[Data]
+list[bytes],:fontawesome-solid-arrows-left-right: ,[[UInt8]]
+list[bytearray],:fontawesome-solid-arrows-left-right: ,[Data]
+list[bytearray],:fontawesome-solid-arrows-left-right: ,[[UInt8]]
+list[memoryview],:fontawesome-solid-arrows-left-right: ,[Data]
+list[memoryview],:fontawesome-solid-arrows-left-right: ,[[UInt8]]

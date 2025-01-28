@@ -11,4 +11,4 @@
     ```sh
     psproject kivy create MyProject -p kivy_project
     ```
-    *if kivy_project is located else where enter full path.*
+    <span style="font-size:1.2em;">if kivy_project is located else where enter full path</span>

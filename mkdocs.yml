@@ -13,9 +13,13 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light Mode
-
+  
   features:
     - content.code.copy
+    - navigation.expand
+    - navigation.path
+
+
 nav:
   - Setup: setup.md
   - New Project:
@@ -46,3 +50,7 @@ plugins:
   - search
   - table-reader
   - mkdocstrings
+
+
+extra_css:
+  - stylesheets/extra.css
