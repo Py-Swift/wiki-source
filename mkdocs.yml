@@ -1,5 +1,6 @@
 site_name: PythonSwiftLink Wiki
 site_url: https://github.com/PythonSwiftLink
+repo_url: https://github.com/PythonSwiftLink/PythonSwiftLink
 theme:
   name: material
   palette:
@@ -12,6 +13,9 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light Mode
+
+  features:
+    - content.code.copy
 nav:
   - Setup: setup.md
   - New Project:
@@ -33,6 +37,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
  
 
 

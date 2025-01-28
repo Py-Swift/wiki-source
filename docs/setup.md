@@ -1,38 +1,37 @@
 
 
 
-### Add Brew Tap
+!!! info "Add Brew Tap"
 
-```sh
-brew tap PythonSwiftLink/tools
-```
+    ```sh
+    brew tap PythonSwiftLink/tools
+    ```
 * * *
 ## PSProject
 
-### Install PSProject
+!!! info "Install PSProject"
 
-```sh
-brew install psproject
-```
+    ```sh
+    brew install psproject
+    ```
 
-### Upgrade PSProject
+!!! info "Upgrade PSProject"
 
-```sh
-brew update
-brew upgrade --formula psproject
-```
-* * *
+    ```sh
+    brew update
+    brew upgrade --formula psproject
+    ```
+
 ## Swiftonize
+!!! info "Install Swiftonize"
 
-### Install Swiftonize
+    ```sh
+    brew install swiftonize
+    ```
 
-```sh
-brew install swiftonize
-```
+!!! info "Upgrade Swiftonize"
 
-### Upgrade Swiftonize
-
-```sh
-brew update
-brew upgrade --formula swiftonize
-```
+    ```sh
+    brew update
+    brew upgrade --formula swiftonize
+    ```
