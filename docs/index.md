@@ -1,4 +1,4 @@
-# Welcome to PythonSwiftLink Wiki
+# Welcome to Py-Swift Wiki
 * * *
 <!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
