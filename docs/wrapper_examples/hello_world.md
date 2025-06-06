@@ -58,7 +58,9 @@ struct hello_world: PyModuleProtocol {
     ]
 }
 ```
+
 ==
+
 ```py title="hello_world.py"
 
 class HelloWorld:
