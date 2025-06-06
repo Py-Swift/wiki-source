@@ -22,7 +22,7 @@
     brew upgrade --formula psproject
     ```
 
-## Swiftonize
+<!-- ## Swiftonize
 !!! info "Install Swiftonize"
 
     ```sh
@@ -34,4 +34,4 @@
     ```sh
     brew update
     brew upgrade --formula swiftonize
-    ```
+    ``` -->

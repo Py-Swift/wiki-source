@@ -2,7 +2,7 @@ from gc import callbacks
 from swift_types import *
 
 
-@wrapper
+#@wrapper
 class AudioPlayerExample:
 
     class Callbacks:
