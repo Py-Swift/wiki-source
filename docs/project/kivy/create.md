@@ -1,12 +1,12 @@
 
 
 
-!!! info First create uv project which psproject will use the pyproject.toml as project info
+!!! info "First create uv project which psproject will use the pyproject.toml as project info"
     ```sh
     psproject init kivy_app
     ```
 
-!!! info You should now have a kivy_app/pyproject.toml looking like this:
+!!! info "You should now have a kivy_app/pyproject.toml looking like this:"
     ```toml
     [project]
     name = "kivy-app" # have no effect on the xcode app name
@@ -45,7 +45,7 @@
     ```
 
 
-!!! info Now change the following properties to run a kivy based app:
+!!! info "Now change the following properties to run a kivy based app:"
     ```toml
     [project]
     dependencies = [
@@ -62,7 +62,7 @@
     name = "MyKivyApp" # example
     ```
 
-!!! info To create the xcode project, type the following command
+!!! info "To create the xcode project, type the following command"
     ```sh
     psproject create --uv kivy_app
     ```
