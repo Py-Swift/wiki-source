@@ -3,7 +3,7 @@
 
 !!! info "First create uv project which psproject will use the pyproject.toml as project info"
     ```sh
-    psproject init kivy_app
+    psproject init HelloWorld
     ```
 
 !!! info "You should now have a kivy_app/pyproject.toml looking like this:"
@@ -62,7 +62,12 @@
     name = "MyKivyApp" # example
     ```
 
+!!! info "cd into the new project"
+    ```sh
+    cd HelloWorld
+    ```
+
 !!! info "To create the xcode project, type the following command"
     ```sh
-    psproject create --uv kivy_app
+    psproject create xcode --ios
     ```
