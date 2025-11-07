@@ -1,0 +1,44 @@
+[project]
+name = "helloworld"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "xxx", email = "xxx@xxx.xxx" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+newapp = "newapp:main"
+
+[build-system]
+requires = ["uv_build>=0.9.2,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+iphoneos = []
+[tool.psproject]
+app_name = "HelloWorld"
+backends = []
+cythonized = false
+extra_index = []
+pip_install_app = false
+
+[tool.psproject.ios]
+backends = []
+extra_index = []
+
+[tool.psproject.ios.info_plist]
+
+[tool.psproject.ios.swift_packages]
+
+[tool.psproject.macos]
+backends = []
+extra_index = []
+
+[tool.psproject.macos.info_plist]
+
+[tool.psproject.macos.swift_packages]
+
+[tool.psproject.swift_packages]

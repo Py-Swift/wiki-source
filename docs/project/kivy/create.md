@@ -6,7 +6,12 @@
     psproject init HelloWorld
     ```
 
-!!! info "You should now have a kivy_app/pyproject.toml looking like this:"
+!!! info "You should now have a HelloWorld/pyproject.toml looking like this:"
+    ```toml
+    --8<-- "docs/project/kivy/pyproject.toml
+    ```
+
+!!! info "You should now have a HelloWorld/pyproject.toml looking like this:"
     ```toml
     [project]
     name = "kivy-app" # have no effect on the xcode app name
