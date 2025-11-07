@@ -8,7 +8,7 @@
 
 !!! info "You should now have a HelloWorld/pyproject.toml looking like this:"
     ```toml
-    --8<-- "docs/project/kivy/pyproject.toml
+    --8<-- "docs/project/kivy/pyproject.toml"
     ```
 
 !!! info "Now change the following properties to run a kivy based app:"
