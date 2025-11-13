@@ -271,8 +271,9 @@ Make sure you're building for the right platform:
 ls *.whl
 
 # Should see files like:
-# MyApp-0.1.0-cp310-cp310-macosx_13_0_arm64.whl
-# MyApp-0.1.0-cp310-cp310-macosx_13_0_x86_64.whl
+# MyApp-0.1.0-cp313-cp313-ios_13_0_iphoneos_arm64.whl
+# MyApp-0.1.0-cp313-cp313-ios_13_0_iphonesimulator_arm64.whl
+# MyApp-0.1.0-cp313-cp313-ios_13_0_iphonesimulator_x86_64.whl
 ```
 
 ## Advanced: Type Hints for Performance
