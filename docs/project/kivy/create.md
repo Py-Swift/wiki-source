@@ -23,8 +23,8 @@
 
 
 !!! info "Now change the following properties to run a kivy based app:"
-    ```toml hl_lines="24-26"
-    --8<-- "docs/project/kivy/pyproject.toml"
+    ```toml hl_lines="10-12 26-28"
+    --8<-- "docs/project/kivy/pyproject_post.toml"
     ```
 
 

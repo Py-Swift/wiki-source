@@ -21,9 +21,7 @@ iphoneos = []
 
 [tool.psproject]
 app_name = "HelloWorld"
-backends = [
-    "kivyschool.kivylauncher"
-]
+backends = []
 cythonized = false
 extra_index = []
 pip_install_app = false
