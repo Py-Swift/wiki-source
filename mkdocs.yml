@@ -34,6 +34,7 @@ nav:
       - wrapper_examples/device_info.md
       - wrapper_examples/firebase_auth.md
       - wrapper_examples/audio_arpeggiator.md
+      - wrapper_examples/uikit_viewcontroller.md
 
 markdown_extensions:
   - attr_list
