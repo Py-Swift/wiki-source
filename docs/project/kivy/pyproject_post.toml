@@ -7,7 +7,9 @@ authors = [
     { name = "Py-Swift", email = "xyz@mail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "kivy>=2.3.1",
+]
 
 [project.scripts]
 helloworld = "helloworld:main"
