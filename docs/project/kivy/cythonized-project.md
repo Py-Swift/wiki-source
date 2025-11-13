@@ -104,7 +104,7 @@ psproject init MyFastApp --cythonized
 cd MyFastApp
 
 # Add your Python code
-cat > main.py << 'EOF'
+```py main.py
 def calculate_fibonacci(n: int) -> int:
     """Calculate fibonacci number - will be cythonized for speed."""
     if n <= 1:
@@ -117,7 +117,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-EOF
+```
 
 # Build the cythonized wheel
 psproject update app
@@ -293,6 +293,321 @@ def process_data(data: list[int]) -> int:
 ```
 
 After cythonization, this becomes highly optimized C code!
+
+## Pure Python Mode
+
+Cython supports **Pure Python Mode**, which allows you to write Python code that remains valid Python but includes type annotations and hints that Cython uses for optimization. This is ideal for projects that need to run both as interpreted Python and as compiled extensions.
+
+### Three Approaches to Pure Python Mode
+
+#### 1. Using the `cython` Module (Decorators and Magic Attributes)
+
+Import the `cython` module and use decorators to add type information:
+
+```python
+import cython
+
+# Declare typed variables
+@cython.locals(x=cython.int, y=cython.int)
+def add_numbers(x, y):
+    return x + y
+
+# Create a cdef class (extension type)
+@cython.cclass
+class FastCalculator:
+    # Declare attributes
+    value: cython.int
+    
+    def __init__(self, initial_value: int):
+        self.value = initial_value
+    
+    @cython.cfunc  # C function (internal use)
+    @cython.returns(cython.int)
+    def _internal_calc(self, n: cython.int) -> cython.int:
+        return self.value * n
+    
+    @cython.ccall  # cpdef function (callable from Python and C)
+    def calculate(self, n: cython.int) -> cython.int:
+        return self._internal_calc(n) + self.value
+
+# Check if code is compiled
+if cython.compiled:
+    print("Running as compiled extension!")
+else:
+    print("Running as interpreted Python")
+```
+
+When run as Python, this code uses the fake `cython` module (from `Cython.Shadow`). When compiled, it becomes optimized C code.
+
+#### 2. Using PEP-484 Type Annotations
+
+Use standard Python type hints with `cython` types:
+
+```python
+import cython
+
+def process_array(data: list[int], multiplier: cython.int) -> int:
+    """Process array with Cython optimizations."""
+    total: cython.int = 0
+    value: cython.int
+    
+    for value in data:
+        total += value * multiplier
+    
+    return total
+
+@cython.cclass
+class Point:
+    x: cython.double
+    y: cython.double
+    
+    def __init__(self, x: float, y: float):
+        self.x = x
+        self.y = y
+    
+    def distance(self) -> cython.double:
+        return cython.sqrt(self.x * self.x + self.y * self.y)
+```
+
+!!! tip "Type Annotation Benefits"
+    - Works with static type checkers (mypy, pyright)
+    - Compatible with IDE autocomplete
+    - Provides Cython optimizations when compiled
+    - Remains valid Python when interpreted
+
+#### 3. Using Augmenting `.pxd` Files
+
+Keep your `.py` file as pure Python and create a matching `.pxd` file with type declarations:
+
+**my_module.py** (pure Python):
+```python
+def calculate_distance(x1, y1, x2, y2):
+    dx = x2 - x1
+    dy = y2 - y1
+    return (dx * dx + dy * dy) ** 0.5
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def move(self, dx, dy):
+        self.x += dx
+        self.y += dy
+```
+
+**my_module.pxd** (Cython type declarations):
+```python
+cpdef double calculate_distance(double x1, double y1, double x2, double y2)
+
+cdef class Point:
+    cdef public double x, y
+    cpdef move(self, double dx, double dy)
+```
+
+When Cython compiles `my_module.py`, it reads `my_module.pxd` and applies the type declarations automatically!
+
+### Practical Example: Optimized Math Module
+
+Here's a complete example combining all approaches:
+
+```python
+# fast_math.py
+import cython
+from cython.cimports.libc import math
+
+@cython.cfunc
+@cython.returns(cython.double)
+def _fast_sqrt(x: cython.double) -> cython.double:
+    """Internal C function for square root."""
+    if cython.compiled:
+        return math.sqrt(x)
+    else:
+        import math as py_math
+        return py_math.sqrt(x)
+
+@cython.ccall
+def euclidean_distance(
+    x1: cython.double,
+    y1: cython.double,
+    x2: cython.double,
+    y2: cython.double
+) -> cython.double:
+    """Calculate Euclidean distance - optimized when compiled."""
+    dx: cython.double = x2 - x1
+    dy: cython.double = y2 - y1
+    return _fast_sqrt(dx * dx + dy * dy)
+
+@cython.cclass
+class Vector2D:
+    """2D vector with Cython optimizations."""
+    x: cython.double
+    y: cython.double
+    
+    def __init__(self, x: float, y: float):
+        self.x = x
+        self.y = y
+    
+    @cython.ccall
+    def magnitude(self) -> cython.double:
+        """Calculate vector magnitude."""
+        return _fast_sqrt(self.x * self.x + self.y * self.y)
+    
+    @cython.ccall
+    def normalize(self) -> None:
+        """Normalize the vector in-place."""
+        mag: cython.double = self.magnitude()
+        if mag > 0:
+            self.x /= mag
+            self.y /= mag
+    
+    def __repr__(self) -> str:
+        return f"Vector2D({self.x}, {self.y})"
+
+# This works in both interpreted and compiled mode!
+if __name__ == "__main__":
+    v = Vector2D(3.0, 4.0)
+    print(f"Vector: {v}")
+    print(f"Magnitude: {v.magnitude()}")
+    
+    v.normalize()
+    print(f"Normalized: {v}")
+    
+    dist = euclidean_distance(0, 0, 3, 4)
+    print(f"Distance: {dist}")
+```
+
+### Available Cython Types
+
+When using pure Python mode, you can use these types:
+
+```python
+import cython
+
+# Integer types
+x: cython.int          # C int
+y: cython.long         # C long
+z: cython.longlong     # C long long
+
+# Unsigned integers
+ux: cython.uint        # unsigned int
+uy: cython.ulong       # unsigned long
+
+# Floating point
+f: cython.float        # C float
+d: cython.double       # C double
+
+# Boolean
+b: cython.bint         # C boolean (0/1)
+
+# Python types (for clarity)
+py_int: int            # Python int object
+py_list: list          # Python list object
+py_dict: dict          # Python dict object
+
+# Pointers (advanced)
+ptr: cython.p_int      # int*
+pptr: cython.pp_int    # int**
+```
+
+### Managing the GIL (Global Interpreter Lock)
+
+For performance-critical sections, you can release the GIL:
+
+```python
+import cython
+
+@cython.cfunc
+@cython.nogil  # This function can run without the GIL
+def cpu_intensive_calculation(n: cython.int) -> cython.long:
+    """Pure C calculation, no Python objects."""
+    result: cython.long = 0
+    i: cython.int
+    
+    for i in range(n):
+        result += i * i
+    
+    return result
+
+def process_data(data: list[int]) -> int:
+    """Process data, releasing GIL for C operations."""
+    result: cython.long
+    
+    # Release GIL for the intensive calculation
+    with cython.nogil:
+        result = cpu_intensive_calculation(len(data))
+    
+    # GIL automatically reacquired here
+    return int(result)
+```
+
+### Using in Cythonized Projects
+
+When using `psproject init MyApp --cythonized`, you can write pure Python mode code that:
+
+1. **Runs normally** when testing in Python
+2. **Gets optimized** during the cythonization process
+3. **Maintains compatibility** with debugging tools
+
+Example workflow:
+
+```python
+# my_app/calculations.py
+import cython
+
+@cython.cfunc
+@cython.returns(cython.double)
+def _calculate_tax(amount: cython.double, rate: cython.double) -> cython.double:
+    return amount * rate
+
+@cython.ccall
+def process_transaction(amount: float, tax_rate: float) -> dict:
+    """Process a transaction with tax calculation."""
+    tax: cython.double = _calculate_tax(amount, tax_rate)
+    total: cython.double = amount + tax
+    
+    return {
+        'amount': amount,
+        'tax': tax,
+        'total': total,
+        'compiled': cython.compiled
+    }
+
+# When you run: psproject update app
+# This gets converted to .pyx and compiled to native code!
+```
+
+!!! tip "Pure Python Mode Advantages"
+    - ✅ Code runs without Cython installed (uses fallback)
+    - ✅ Easier debugging with standard Python tools
+    - ✅ Compatible with code coverage tools
+    - ✅ Type hints help with IDE autocomplete
+    - ✅ Gradual optimization (add types where needed)
+    - ✅ Same codebase for development and production
+
+!!! warning "Limitations"
+    Some Cython features require `.pyx` syntax:
+    
+    - C arrays: `cdef int arr[100]`
+    - C structs and unions
+    - Complex pointer arithmetic
+    - Inline C code
+    
+    For these, you need to write `.pyx` files directly.
+
+!!! info "Runtime Dependency"
+    Pure Python mode code imports `cython`. To avoid the runtime dependency, add this to your files:
+    
+    ```python
+    try:
+        import cython
+    except ImportError:
+        class _FakeCython:
+            compiled = False
+            def __getattr__(self, name):
+                return lambda *args, **kwargs: (lambda f: f) if callable(args[0] if args else None) else object
+        cython = _FakeCython()
+    ```
 
 ## Best Practices
 
