@@ -36,7 +36,7 @@
 
 /* Make table of contents narrower */
 .md-sidebar--secondary {
-  width: 5rem; /* Default is 12.1rem, adjust as needed */
+  width: 10rem; /* Default is 12.1rem, adjust as needed */
 }
 
 /* Optionally reduce TOC font size */
