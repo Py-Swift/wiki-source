@@ -102,9 +102,9 @@ psproject init MyFastApp --cythonized
 
 # Navigate to the project
 cd MyFastApp
-
+```
 # Add your Python code
-```py main.py
+```py
 def calculate_fibonacci(n: int) -> int:
     """Calculate fibonacci number - will be cythonized for speed."""
     if n <= 1:
@@ -120,16 +120,18 @@ if __name__ == "__main__":
 ```
 
 # Build the cythonized wheel
+```sh
 psproject update app
+```
 
 # Update the package index
+```sh
 psproject update simple
+```
 
 # Create Xcode project
+```sh
 psproject create xcode
-
-# Open in Xcode
-open *.xcodeproj
 ```
 
 ## Development Workflow
