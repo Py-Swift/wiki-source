@@ -21,8 +21,9 @@ theme:
 
 
 nav:
-  - Setup: setup.md
-  - New Project:
+  
+  - PSProject:
+    - setup-install: setup.md
     - kivy-project: project/kivy/create.md
     - cythonized-project: project/kivy/cythonized-project.md
     - pyproject-configuration: project/kivy/pyproject-configuration.md
