@@ -23,12 +23,17 @@ theme:
 nav:
   - Setup: setup.md
   - New Project:
-    - Kivy: project/kivy/create.md
-    - toml file: project/kivy/pyproject-configuration.md
+    - kivy-project: project/kivy/create.md
+    - pyproject-configuration: project/kivy/pyproject-configuration.md
   - Wrapping Swift: 
-    - Types: wrapper_docs/types.md
-    - Wrapper Examples:  
+    #- Types: wrapper_docs/types.md
+    - type-casting: wrapper_docs/other_types.md
+    - wrapper-examples:  
       - wrapper_examples/hello_world.md
+      - wrapper_examples/battery_level.md
+      - wrapper_examples/device_info.md
+      - wrapper_examples/firebase_auth.md
+      - wrapper_examples/audio_arpeggiator.md
 
 markdown_extensions:
   - attr_list

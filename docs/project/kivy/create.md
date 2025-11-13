@@ -32,3 +32,8 @@
     ```sh
     psproject create xcode
     ```
+
+!!! info "To update the xcode project's site-packages, type the following command"
+    ```sh
+    psproject update site-packages
+    ```

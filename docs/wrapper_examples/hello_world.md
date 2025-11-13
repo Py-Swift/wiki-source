@@ -1,16 +1,13 @@
 
 ## Getting started
 
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- -->
-
-
+This tutorial demonstrates how to create a Swift class that can be called from Python using PythonSwiftLink. You'll learn how to wrap Swift code to make it accessible from Python, including passing data between the two languages and implementing callbacks. We'll build a simple HelloWorld class that showcases the fundamental patterns you'll use when bridging Swift and Python code.
 
 ## HelloWorld Part 1
 
 Call **Swift** from **Python**:
 
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+Let's start with a basic Swift class that we want to use from Python. This class has a simple method that prints a string to the console.
 
 ```swift title="HelloWorld.swift"
 
@@ -26,8 +23,10 @@ public class HelloWorld {
 
 }
 ```
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
 
+To make this Swift class accessible from Python, we need to add PySwiftKit decorators. The `@PyClass` decorator marks the class as exportable to Python, `@PyInit` wraps the initializer, and `@PyMethod` exposes methods to Python. We also need to define a module structure using `@PyModule` that lists all the classes we want to export.
+
+Here's the same class with the necessary wrappers:
 
 ```swift title="HelloWorld.swift"
 import PySwiftKit
@@ -59,7 +58,9 @@ struct hello_world: PyModuleProtocol {
 }
 ```
 
-==
+The `@PyModule` struct defines a Python module named `hello_world` that contains our HelloWorld class. The `py_classes` array lists all classes that should be available in the module.
+
+Once compiled, this creates a Python module that can be imported and used like any native Python class:
 
 ```py title="hello_world.py"
 
@@ -73,8 +74,7 @@ class HelloWorld:
 
 ## HelloWorld Part 2
 
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
-
+Now let's explore how to implement callbacks from Swift back to Python. This is useful when you want Swift code to notify Python about events or results. We'll pass a Python function to Swift and call it from within a Swift method.
 
 Make callback from **Swift** to **Python**:
 
