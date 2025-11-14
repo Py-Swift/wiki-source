@@ -221,6 +221,32 @@ struct firebase_auth: PyModuleProtocol {
 
 The `@PyModule` struct creates a Python module named `firebase_auth` containing the FirebaseAuthManager class.
 
+!!! warning "Firebase Configuration"
+    Make sure to initialize Firebase in your `main.swift` file before launching the app:
+    
+    ```swift title="main.swift"
+    import Foundation
+    import PySwiftKit
+    import Kivy3Launcher
+    import Kivy_iOS_Module
+    import FirebaseCore
+    
+    // 1 - post_imports
+    KivyLauncher.pyswiftImports = [
+        .ios,
+        // Add your Firebase module here
+        .init(name: "firebase_auth", module: firebase_auth.py_init)
+    ]
+    
+    // Initialize Firebase before launching
+    FirebaseApp.configure()
+    
+    // 3 - main
+    let exit_status = KivyLauncher.SDLmain()
+    // 5 - on_exit
+    exit(exit_status)
+    ```
+
 Once compiled, this creates a Python module:
 
 ```py title="firebase_auth.py"
@@ -430,31 +456,6 @@ result = get_protected_data()
 ```
 
 ## Important Notes
-
-!!! warning "Firebase Configuration"
-    Make sure to initialize Firebase in your `main.swift` file before launching the app:
-    
-    ```swift title="main.swift"
-    import Foundation
-    import PySwiftKit
-    import Kivy3Launcher
-    import Kivy_iOS_Module
-    import FirebaseCore
-    
-    // 1 - post_imports
-    KivyLauncher.pyswiftImports = [
-        .ios,
-        .firebase_auth  // Add your Firebase module here
-    ]
-    
-    // Initialize Firebase before launching
-    FirebaseApp.configure()
-    
-    // 3 - main
-    let exit_status = KivyLauncher.SDLmain()
-    // 5 - on_exit
-    exit(exit_status)
-    ```
 
 !!! note "Async Operations"
     Firebase authentication operations are asynchronous. Results are delivered through callbacks (`on_sign_in_complete`, `on_sign_up_complete`). Make sure to handle these callbacks appropriately in your Python code.
