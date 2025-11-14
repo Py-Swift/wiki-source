@@ -12,9 +12,9 @@ The `toml2spec` tool (explained in detail below) enables you to manage all confi
 
 PSProject can initialize a project with Buildozer configuration included:
 
-!!! info "Create a new project with Buildozer support"
+!!! info "Create a new project with Buildozer support with following option added"
     ```sh
-    psproject init MyApp --buildozer
+    --buildozer path/to/existing/buildozer.spec
     ```
 
 This creates a project structure with:
