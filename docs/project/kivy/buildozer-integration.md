@@ -83,29 +83,59 @@ When using `--buildozer`, your `pyproject.toml` will include Buildozer configura
 name = "MyApp"
 version = "0.1.0"
 description = "My cross-platform Kivy application"
+readme = "README.md"
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+requires-python = ">=3.13"
 dependencies = [
     "kivy>=2.3.1",
     "pillow>=10.0.0",
     "requests>=2.31.0",
 ]
 
-[project.optional-dependencies]
+[project.scripts]
+myapp = "myapp:main"
+
+[build-system]
+requires = ["uv_build>=0.9.2,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
 dev = [
     "buildozer>=1.5.0",
     "toml2spec>=0.1.0",
 ]
-
-[build-system]
-requires = ["uv>=0.5.9,<0.6.0"]
-build-backend = "uv"
+iphoneos = []
 
 [tool.psproject]
-py_version = "3.13"
-stub_version = "313"
+app_name = "MyApp"
+backends = []
+cythonized = false
+extra_index = []
+pip_install_app = false
 
 [tool.psproject.ios]
-url_template = "https://github.com/PythonSwiftLink/KivySwiftPackages/releases/download/3.13.1/"
-platforms = ["ios_13_0_iphoneos", "ios_13_0_iphonesimulator"]
+backends = []
+extra_index = [
+    "https://pypi.anaconda.org/beeware/simple",
+    "https://pypi.anaconda.org/pyswift/simple",
+    "https://pypi.anaconda.org/kivyschool/simple"
+]
+
+[tool.psproject.ios.info_plist]
+
+[tool.psproject.ios.swift_packages]
+
+[tool.psproject.macos]
+backends = []
+extra_index = []
+
+[tool.psproject.macos.info_plist]
+
+[tool.psproject.macos.swift_packages]
+
+[tool.psproject.swift_packages]
 
 # Buildozer configuration starts here
 [tool.buildozer.app]
@@ -356,7 +386,10 @@ name = "MyKivyApp"
 version = "1.0.0"
 description = "A cross-platform Kivy application"
 readme = "README.md"
-requires-python = ">=3.10"
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+requires-python = ">=3.13"
 dependencies = [
     "kivy>=2.3.1",
     "kivymd>=1.1.1",
@@ -365,24 +398,49 @@ dependencies = [
     "python-dotenv>=1.0.0",
 ]
 
-[project.optional-dependencies]
+[project.scripts]
+mykivyapp = "mykivyapp:main"
+
+[build-system]
+requires = ["uv_build>=0.9.2,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
 dev = [
     "buildozer>=1.5.0",
     "toml2spec>=0.1.0",
     "pytest>=7.0.0",
 ]
-
-[build-system]
-requires = ["uv>=0.5.9,<0.6.0"]
-build-backend = "uv"
+iphoneos = []
 
 [tool.psproject]
-py_version = "3.13"
-stub_version = "313"
+app_name = "MyKivyApp"
+backends = []
+cythonized = false
+extra_index = []
+pip_install_app = false
 
 [tool.psproject.ios]
-url_template = "https://github.com/PythonSwiftLink/KivySwiftPackages/releases/download/3.13.1/"
-platforms = ["ios_13_0_iphoneos", "ios_13_0_iphonesimulator"]
+backends = []
+extra_index = [
+    "https://pypi.anaconda.org/beeware/simple",
+    "https://pypi.anaconda.org/pyswift/simple",
+    "https://pypi.anaconda.org/kivyschool/simple"
+]
+
+[tool.psproject.ios.info_plist]
+
+[tool.psproject.ios.swift_packages]
+
+[tool.psproject.macos]
+backends = []
+extra_index = []
+
+[tool.psproject.macos.info_plist]
+
+[tool.psproject.macos.swift_packages]
+
+[tool.psproject.swift_packages]
 
 # Buildozer Configuration
 [tool.buildozer.app]
