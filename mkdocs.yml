@@ -32,6 +32,7 @@ nav:
   - Wrapping Swift: 
     #- Types: wrapper_docs/types.md
     - type-casting: wrapper_docs/other_types.md
+    - expanded-types: wrapper_docs/expanded_types.md
     - wrapper-examples:  
       - wrapper_examples/hello_world.md
       - wrapper_examples/battery_level.md
