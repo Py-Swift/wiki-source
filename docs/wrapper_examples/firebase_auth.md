@@ -106,7 +106,6 @@ import FirebaseAuth
 import FirebaseDatabase
 import PySwiftKit
 import PySerializing
-import PySwiftObject
 import PySwiftWrapper
 
 

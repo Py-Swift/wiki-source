@@ -31,7 +31,6 @@ Here's the same class with the necessary wrappers:
 ```swift title="HelloWorld.swift"
 import PySwiftKit
 import PySerializing
-import PySwiftObject
 import PySwiftWrapper
 
 

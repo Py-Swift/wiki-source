@@ -39,7 +39,6 @@ Let's define two classes that we'll use throughout the examples:
 ```swift title="CustomClasses.swift"
 import PySwiftKit
 import PySerializing
-import PySwiftObject
 import PySwiftWrapper
 
 @PyClass
@@ -144,7 +143,6 @@ PySwiftKit automatically supports `Array<T>` where `T` conforms to `PyDeserializ
 ```swift title="LibraryManager.swift"
 import PySwiftKit
 import PySerializing
-import PySwiftObject
 import PySwiftWrapper
 
 @PyClass
@@ -299,7 +297,6 @@ PySwiftKit supports `Dictionary<String, T>` where `T` conforms to `PyDeserialize
 ```swift title="DatabaseManager.swift"
 import PySwiftKit
 import PySerializing
-import PySwiftObject
 import PySwiftWrapper
 
 @PyClass
@@ -479,7 +476,6 @@ You can combine arrays and dictionaries for more complex data structures:
 ```swift title="AdvancedCollections.swift"
 import PySwiftKit
 import PySerializing
-import PySwiftObject
 import PySwiftWrapper
 
 @PyClass
@@ -753,7 +749,6 @@ Here's a complete example demonstrating all concepts together:
 ```swift title="CompleteExample.swift"
 import PySwiftKit
 import PySerializing
-import PySwiftObject
 import PySwiftWrapper
 
 @PyClass

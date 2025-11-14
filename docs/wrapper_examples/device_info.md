@@ -79,7 +79,6 @@ Here's the same class with the necessary wrappers:
 import UIKit
 import PySwiftKit
 import PySerializing
-import PySwiftObject
 import PySwiftWrapper
 
 

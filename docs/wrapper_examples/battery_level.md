@@ -48,7 +48,6 @@ Here's the same class with the necessary wrappers:
 import UIKit
 import PySwiftKit
 import PySerializing
-import PySwiftObject
 import PySwiftWrapper
 
 
@@ -130,7 +129,6 @@ Make callback from **Swift** to **Python** on battery changes:
 import UIKit
 import PySwiftKit
 import PySerializing
-import PySwiftObject
 import PySwiftWrapper
 
 
@@ -254,7 +252,6 @@ Make callback from **Swift** to **Python** by converting a Py-Function/Method in
 import UIKit
 import PySwiftKit
 import PySerializing
-import PySwiftObject
 import PySwiftWrapper
 
 
