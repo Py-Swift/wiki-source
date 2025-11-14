@@ -432,19 +432,28 @@ result = get_protected_data()
 ## Important Notes
 
 !!! warning "Firebase Configuration"
-    Make sure to initialize Firebase in your app's `AppDelegate` or `@main` entry point:
+    Make sure to initialize Firebase in your `main.swift` file before launching the app:
     
-    ```swift
+    ```swift title="main.swift"
+    import Foundation
+    import PySwiftKit
+    import Kivy3Launcher
+    import Kivy_iOS_Module
     import FirebaseCore
     
-    @main
-    class AppDelegate: UIResponder, UIApplicationDelegate {
-        func application(_ application: UIApplication,
-                        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-            FirebaseApp.configure()
-            return true
-        }
-    }
+    // 1 - post_imports
+    KivyLauncher.pyswiftImports = [
+        .ios,
+        .firebase_auth  // Add your Firebase module here
+    ]
+    
+    // Initialize Firebase before launching
+    FirebaseApp.configure()
+    
+    // 3 - main
+    let exit_status = KivyLauncher.SDLmain()
+    // 5 - on_exit
+    exit(exit_status)
     ```
 
 !!! note "Async Operations"
