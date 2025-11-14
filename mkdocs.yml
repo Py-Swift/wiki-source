@@ -26,6 +26,7 @@ nav:
     - setup-install: setup.md
     - kivy-project: project/kivy/create.md
     - cythonized-project: project/kivy/cythonized-project.md
+    - local-wheels: project/kivy/local-wheels.md
     - pyproject-configuration: project/kivy/pyproject-configuration.md
   - Wrapping Swift: 
     #- Types: wrapper_docs/types.md
