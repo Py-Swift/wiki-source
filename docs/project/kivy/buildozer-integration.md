@@ -4,6 +4,8 @@
 
 PSProject supports Android builds through Buildozer integration. This guide explains how to initialize a project with Buildozer configuration and manage dependencies across both iOS (via psproject) and Android (via Buildozer) platforms using a unified `pyproject.toml` file.
 
+The `toml2spec` tool (explained in detail below) enables you to manage all configuration in `pyproject.toml` and export it to Buildozer's `buildozer.spec` format when needed.
+
 ## Getting Started
 
 ### Initialize Project with Buildozer Support
