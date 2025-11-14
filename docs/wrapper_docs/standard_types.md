@@ -1,6 +1,6 @@
-# Other Types and Advanced Conversions
+# Standard Types and Conversions
 
-This document covers additional type conversions and advanced usage patterns for PythonSwiftLink / Swiftonize.
+This document covers standard type conversions and usage patterns for PythonSwiftLink / Swiftonize.
 
 ## Numeric Types
 
