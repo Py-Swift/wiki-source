@@ -157,19 +157,6 @@ backends = [
 ]
 ```
 
-### Multiple Backends
-
-You can have multiple local wheel repositories:
-
-```toml
-[tool.psproject]
-backends = [
-    "./wheels/simple",
-    "./custom-packages/simple",
-    "./patched-libs/simple"
-]
-```
-
 Pip will search these in order, falling back to PyPI if not found.
 
 ## Advanced: Custom Modified Wheels
@@ -334,54 +321,6 @@ uv build --wheel -o ../MyApp/wheels/
 cd ../MyApp
 psproject update simple
 ```
-
-## Best Practices
-
-1. **Version Naming**: Use `+custom`, `+patched`, or `+local` suffixes for modified packages
-   ```python
-   version = "1.2.0+ios-fix"
-   ```
-
-2. **Documentation**: Keep a `wheels/README.md` explaining why each wheel exists
-   ```markdown
-   # Local Wheels
-   
-   - `kivymd-1.2.0`: PyPI version has iOS compatibility issues
-   - `custom_lib-2.0.0+patched`: Added iOS-specific fixes
-   ```
-
-3. **Git Ignore**: Don't commit large wheel files
-   ```gitignore
-   # .gitignore
-   wheel_sources/*.tar.gz
-   wheels/*.whl
-   wheels/simple/
-   ```
-
-4. **Rebuild After Updates**: When updating packages, rebuild wheels
-   ```sh
-   rm -rf wheels/simple/
-   psproject update simple
-   ```
-
-5. **Test Thoroughly**: Always test custom wheels on both device and simulator
-   ```sh
-   # Clean build to test
-   rm -rf build/
-   psproject create xcode
-   # Build in Xcode
-   ```
-
-!!! warning "Maintenance"
-    Local wheels require manual updates. When upstream packages are fixed or updated, remember to:
-    
-    1. Download the new version
-    2. Rebuild the wheel
-    3. Update the simple index
-    4. Test thoroughly
-
-!!! tip "Hybrid Approach"
-    You can use both PyPI and local wheels. Pip will prioritize local wheels first, then fall back to PyPI for other packages.
 
 ## Integration with Cythonized Projects
 
