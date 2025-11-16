@@ -71,7 +71,6 @@
     
     def main():
         app = MyApp()
-        app.fullscreen = True  # Mobile fullscreen
         app.orientation = "portrait"
         app.developer_mode = False
         app.run()
