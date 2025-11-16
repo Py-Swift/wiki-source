@@ -51,11 +51,14 @@
     
     **Desktop version** (`src/helloworld/__main__.py`):
     ```python
+    from kivy.core.window import Window
     from myapp import MyApp
+    
+    # Set window size for desktop
+    Window.size = (1280, 720)
     
     def main():
         app = MyApp()
-        app.window_size = (1280, 720)  # Desktop window size
         app.developer_mode = True
         app.run()
     
