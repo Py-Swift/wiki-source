@@ -52,7 +52,7 @@
     **Desktop version** (`src/helloworld/__main__.py`):
     ```python
     from kivy.config import Config
-    from app import main
+    from helloworld import main
     
     # Set window size for desktop
     Config.set('graphics', 'width', '1280')
@@ -64,7 +64,7 @@
     
     **Mobile version** (`project_dist/xcode/app/__main__.py`):
     ```python
-    from app import main
+    from helloworld import main
     
     if __name__ == "__main__":
         main()
