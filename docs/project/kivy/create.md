@@ -52,13 +52,10 @@
     **Desktop version** (`src/helloworld/__main__.py`):
     ```python
     from kivy.core.window import Window
-    from myapp import MyApp
+    from app import main
     
-    def main():
-        app = MyApp()
-        # Set window size for desktop
-        Window.size = (1280, 720)
-        app.run()
+    # Set window size for desktop
+    Window.size = (1280, 720)
     
     if __name__ == "__main__":
         main()
@@ -66,11 +63,7 @@
     
     **Mobile version** (`project_dist/xcode/app/__main__.py`):
     ```python
-    from myapp import MyApp
-    
-    def main():
-        app = MyApp()
-        app.run()
+    from app import main
     
     if __name__ == "__main__":
         main()
