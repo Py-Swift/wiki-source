@@ -71,7 +71,6 @@
     
     def main():
         app = MyApp()
-        app.orientation = "portrait"
         app.developer_mode = False
         app.run()
     
