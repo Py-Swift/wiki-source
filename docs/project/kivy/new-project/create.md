@@ -18,13 +18,13 @@
 
 !!! info "You should now have a HelloWorld/pyproject.toml looking like this:"
     ```toml
-    --8<-- "docs/project/kivy/pyproject.toml"
+    --8<-- "docs/project/kivy/new-project/pyproject.toml"
     ```
 
 
 !!! info "Now change the following properties to run a kivy based app:"
     ```toml hl_lines="10-12 26-28"
-    --8<-- "docs/project/kivy/pyproject_post.toml"
+    --8<-- "docs/project/kivy/new-project/pyproject_post.toml"
     ```
 
 
@@ -52,7 +52,7 @@
     **Desktop version** (`src/helloworld/__main__.py`):
     ```python
     from kivy.config import Config
-    from helloworld import main
+    from helloworld import main  # Replace 'helloworld' with your app module name from src/
     
     # Set window size for desktop
     Config.set('graphics', 'width', '1280')
@@ -64,7 +64,7 @@
     
     **Mobile version** (`project_dist/xcode/app/__main__.py`):
     ```python
-    from helloworld import main
+    from helloworld import main  # Replace 'helloworld' with your app module name from src/
     
     if __name__ == "__main__":
         main()

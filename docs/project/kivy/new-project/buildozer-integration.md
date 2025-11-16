@@ -144,7 +144,7 @@ package_name = "myapp"
 package_domain = "org.example"
 
 # Source configuration
-source_dir = "."
+source_dir = "../../src/myapp"  # Path to your app module (adjust 'myapp' to your actual module name)
 source_include_exts = ["py", "png", "jpg", "kv", "atlas"]
 source_exclude_dirs = ["tests", "bin", "venv", ".venv", "project_dist"]
 
@@ -258,6 +258,42 @@ requirements = python3,android,openssl,libffi
     - `sdl2` - Simple DirectMedia Layer
     
     These are p4a (python-for-android) recipes, not pip packages.
+
+### Source Directory Configuration
+
+The `source_dir` setting in `[tool.buildozer.app]` depends on where buildozer runs relative to your source code:
+
+!!! info "Source directory paths"
+    **If your code is in project root:**
+    ```toml
+    [tool.buildozer.app]
+    source_dir = "."
+    ```
+    
+    **If your code is in `src/app_name/` directory:**
+    ```toml
+    [tool.buildozer.app]
+    source_dir = "../../src/myapp"  # Buildozer runs from project_dist/android/
+    ```
+
+Since buildozer runs from `project_dist/android/`, the path is relative to that location:
+- `../../` navigates up to the project root
+- `src/myapp/` points to your app's source directory
+
+!!! example "Project structure with src/app_name/"
+    ```
+    MyApp/
+    ├── src/
+    │   └── myapp/
+    │       ├── __init__.py
+    │       └── main.py
+    ├── pyproject.toml
+    └── project_dist/
+        └── android/          # Buildozer runs here
+            └── .buildozer/
+    ```
+    
+    For this structure, use: `source_dir = "../../src/myapp"`
 
 ### Development Dependencies
 
@@ -448,7 +484,7 @@ title = "My Kivy App"
 package_name = "mykivyapp"
 package_domain = "com.example"
 
-source_dir = "."
+source_dir = "../../src/mykivyapp"  # Path to your app module (adjust 'mykivyapp' to your actual module name)
 source_include_exts = ["py", "png", "jpg", "kv", "atlas", "ttf"]
 source_exclude_dirs = ["tests", "bin", ".buildozer", "venv", ".venv", "project_dist"]
 source_exclude_patterns = ["*.pyc", "*.pyo", "__pycache__/*"]

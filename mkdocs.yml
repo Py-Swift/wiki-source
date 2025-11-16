@@ -24,11 +24,13 @@ nav:
   
   - PSProject:
     - setup-install: setup.md
-    - kivy-project: project/kivy/create.md
-    - cythonized-project: project/kivy/cythonized-project.md
-    - buildozer-integration: project/kivy/buildozer-integration.md
+    - new-project:
+      - kivy-project: project/kivy/new-project/create.md
+      - site-packages: project/kivy/new-project/site-packages.md
+      - cythonized-project: project/kivy/new-project/cythonized-project.md
+      - buildozer-integration: project/kivy/new-project/buildozer-integration.md
+      - pyproject-configuration: project/kivy/new-project/pyproject-configuration.md
     - local-wheels: project/kivy/local-wheels.md
-    - pyproject-configuration: project/kivy/pyproject-configuration.md
   - Wrapping Swift: 
     #- Types: wrapper_docs/types.md
     - type-casting:
