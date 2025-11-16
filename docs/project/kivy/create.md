@@ -41,6 +41,11 @@
     
     Replace `helloworld` with your actual app name. This file will be bundled with your iOS app and serves as the entry point for your Python application.
 
+!!! info "To update the xcode project's site-packages, type the following command"
+    ```sh
+    psproject update site-packages
+    ```
+
 !!! tip "Customize mobile vs desktop settings"
     The `project_dist/xcode/app/__main__.py` can be different from `src/helloworld/__main__.py`! This allows you to run your app with different parameters or configurations for mobile vs desktop:
     
@@ -74,8 +79,3 @@
     ```
     
     This separation lets you optimize settings, features, and UI layouts specifically for each platform without cluttering your code with conditional checks.
-
-!!! info "To update the xcode project's site-packages, type the following command"
-    ```sh
-    psproject update site-packages
-    ```
