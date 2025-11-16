@@ -54,10 +54,10 @@
     from kivy.core.window import Window
     from myapp import MyApp
     
-    # Set window size for desktop
-    Window.size = (1280, 720)
-    
     def main():
+        # Set window size for desktop
+        Window.size = (1280, 720)
+        
         app = MyApp()
         app.developer_mode = True
         app.run()
