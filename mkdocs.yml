@@ -26,11 +26,12 @@ nav:
     - setup-install: setup.md
     - new-project:
       - kivy-project: project/kivy/new-project/create.md
-      - site-packages: project/kivy/new-project/site-packages.md
       - cythonized-project: project/kivy/new-project/cythonized-project.md
       - buildozer-integration: project/kivy/new-project/buildozer-integration.md
       - pyproject-configuration: project/kivy/new-project/pyproject-configuration.md
-    - local-wheels: project/kivy/local-wheels.md
+    - site-packages:
+      - managing-packages: project/kivy/site-packages.md
+      - local-wheels: project/kivy/local-wheels.md
   - Wrapping Swift: 
     #- Types: wrapper_docs/types.md
     - type-casting:
