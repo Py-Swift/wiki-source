@@ -55,10 +55,9 @@
     from myapp import MyApp
     
     def main():
+        app = MyApp()
         # Set window size for desktop
         Window.size = (1280, 720)
-        
-        app = MyApp()
         app.developer_mode = True
         app.run()
     
