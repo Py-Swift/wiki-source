@@ -33,6 +33,14 @@
     psproject create xcode
     ```
 
+!!! warning "Copy your main Python file to the Xcode project"
+    After creating the Xcode project, you need to copy your `__main__.py` (or main entry point) to the app directory:
+    ```sh
+    cp __main__.py project_dist/xcode/app/
+    ```
+    
+    This file will be bundled with your iOS app and serves as the entry point for your Python application.
+
 !!! info "To update the xcode project's site-packages, type the following command"
     ```sh
     psproject update site-packages
