@@ -58,7 +58,6 @@
         app = MyApp()
         # Set window size for desktop
         Window.size = (1280, 720)
-        app.developer_mode = True
         app.run()
     
     if __name__ == "__main__":
@@ -71,7 +70,6 @@
     
     def main():
         app = MyApp()
-        app.developer_mode = False
         app.run()
     
     if __name__ == "__main__":
