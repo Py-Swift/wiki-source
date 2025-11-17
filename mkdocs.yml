@@ -29,7 +29,7 @@ nav:
       - cythonized-project: project/kivy/new-project/cythonized-project.md
       - buildozer-integration: project/kivy/new-project/buildozer-integration.md
       - pyproject-configuration: project/kivy/new-project/pyproject-configuration.md
-    - site-packages:
+    - pip / site-packages:
       - managing-packages: project/kivy/site-packages.md
       - local-wheels: project/kivy/local-wheels.md
   - Wrapping Swift: 
@@ -41,7 +41,8 @@ nav:
       - wrapper_examples/hello_world.md
       - wrapper_examples/battery_level.md
       - wrapper_examples/device_info.md
-      - wrapper_examples/open_url.md
+      - wrapper_examples/open_url_classes.md
+      - wrapper_examples/open_url_functions.md
       - wrapper_examples/firebase_auth.md
       - wrapper_examples/audio_arpeggiator.md
       - wrapper_examples/uikit_viewcontroller.md
