@@ -1,6 +1,6 @@
 # Binary Packages Without Mobile Support - S
 
-**Generated:** 2025-11-19 23:13:54  
+**Generated:** 2025-11-19 23:34:32  
 **Total Packages Starting with S:** 1474
 
 [← Back to Index](index.md)

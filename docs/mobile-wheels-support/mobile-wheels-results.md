@@ -1,6 +1,6 @@
 # Mobile Platform Support Report
 
-**Generated:** 2025-11-19 23:13:54  
+**Generated:** 2025-11-19 23:34:32  
 **Packages Checked:** 701134  
 **Dependency Checking:** Disabled
 
@@ -55,7 +55,7 @@ Custom iOS/Android builds from [pypi.anaconda.org/pyswift/simple](https://pypi.a
 | `regex` | ⚠️ Not available | ✅ Supported (2025.11.3) |
 | `coverage` | 🐍 Pure Python | ✅ Supported (7.11.3) |
 | `bcrypt` | ⚠️ Not available | ✅ Supported (5.0.0) |
-| `matplotlib` | ⚠️ Not available | ✅ Supported (3.8.2) |
+| `matplotlib` | ⚠️ Not available | ✅ Supported (3.10.7) |
 | `kiwisolver` | ⚠️ Not available | ✅ Supported (1.4.9) |
 | `contourpy` | ⚠️ Not available | ✅ Supported (1.3.3) |
 | `orjson` | ⚠️ Not available | ✅ Supported (3.11.4) |
@@ -66,7 +66,7 @@ Custom iOS/Android builds from [pypi.anaconda.org/pyswift/simple](https://pypi.a
 | `netifaces` | ⚠️ Not available | ✅ Supported (0.11.0) |
 | `zeroconf` | ⚠️ Not available | ✅ Supported (0.148.0) |
 | `apsw` | ⚠️ Not available | ✅ Supported (3.51.0.0) |
-| `materialyoucolor` | ⚠️ Not available | ✅ Supported (2.0.9) |
+| `materialyoucolor` | ⚠️ Not available | ✅ Supported (2.0.10) |
 | `pydantic_core` | ⚠️ Not available | ✅ Supported (2.41.5) |
 | `pyobjus` | ⚠️ Not available | ✅ Supported (1.2.3) |
 
@@ -74,9 +74,9 @@ Custom iOS/Android builds from [pypi.anaconda.org/pyswift/simple](https://pypi.a
 ## 🐍 Pure Python Packages
 
 Packages that work on all platforms (no binary dependencies).
-_Showing first 100 packages by download popularity. Total: 486955_
+_Showing first 100 packages by download popularity. Total: 486956_
 
-📄 **[View all 486955 pure Python packages (A-Z)](pure-python/index.md)**
+📄 **[View all 486956 pure Python packages (A-Z)](pure-python/index.md)**
 
 | Package | Android | iOS |
 |---------|---------|-----|
@@ -181,7 +181,7 @@ _Showing first 100 packages by download popularity. Total: 486955_
 | `opentelemetry-proto` | 🐍 Pure Python | 🐍 Pure Python |
 | `google-cloud-storage` | 🐍 Pure Python | 🐍 Pure Python |
 
-_... and 486855 more packages. [View full list](pure-python/index.md)_
+_... and 486856 more packages. [View full list](pure-python/index.md)_
 
 
 ## ❌ Binary Packages Without Mobile Support
@@ -305,7 +305,7 @@ _... and 18445 more packages. [View full list](binary-without-mobile/index.md)_
 |----------|-------|------------|
 | Official Binary Wheels (PyPI) | 25 | 0.0% |
 | PySwift Binary Wheels | 24 | 0.0% |
-| Pure Python | 486955 | 69.5% |
+| Pure Python | 486956 | 69.5% |
 | Binary Without Mobile Support | 18545 | 2.6% |
 | **Total** | **701134** | **100%** |
 

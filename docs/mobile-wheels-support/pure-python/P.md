@@ -1,7 +1,7 @@
 # Pure Python Packages - P
 
-**Generated:** 2025-11-19 23:13:54  
-**Total Packages Starting with P:** 59594
+**Generated:** 2025-11-19 23:34:32  
+**Total Packages Starting with P:** 59595
 
 [← Back to Index](index.md)
 
@@ -9284,6 +9284,7 @@
 | `pgdock` | 🐍 Pure Python | 🐍 Pure Python |
 | `pgDont` | 🐍 Pure Python | 🐍 Pure Python |
 | `pgdtools` | 🐍 Pure Python | 🐍 Pure Python |
+| `pgdumplib` | 🐍 Pure Python | 🐍 Pure Python |
 | `pge` | 🐍 Pure Python | 🐍 Pure Python |
 | `pge-plugin-terminal` | 🐍 Pure Python | 🐍 Pure Python |
 | `pgEdge-pulumi-pgedge` | 🐍 Pure Python | 🐍 Pure Python |
