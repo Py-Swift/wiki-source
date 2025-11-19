@@ -1,7 +1,7 @@
 # Pure Python Packages - E
 
-**Generated:** 2025-11-19 20:58:58  
-**Total Packages Starting with E:** 15107
+**Generated:** 2025-11-19 22:36:15  
+**Total Packages Starting with E:** 15108
 
 [← Back to Index](index.md)
 
@@ -5836,6 +5836,7 @@
 | `embodied-ai-agent` | 🐍 Pure Python | 🐍 Pure Python |
 | `embodiedcity` | 🐍 Pure Python | 🐍 Pure Python |
 | `embodier` | 🐍 Pure Python | 🐍 Pure Python |
+| `embody` | 🐍 Pure Python | 🐍 Pure Python |
 | `embody-ble` | 🐍 Pure Python | 🐍 Pure Python |
 | `embody-codec` | 🐍 Pure Python | 🐍 Pure Python |
 | `embody-file` | 🐍 Pure Python | 🐍 Pure Python |

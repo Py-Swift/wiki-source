@@ -1,7 +1,7 @@
 # Pure Python Packages - C
 
-**Generated:** 2025-11-19 20:58:58  
-**Total Packages Starting with C:** 32628
+**Generated:** 2025-11-19 22:36:15  
+**Total Packages Starting with C:** 32629
 
 [← Back to Index](index.md)
 
@@ -25163,6 +25163,7 @@
 | `corva-otel-utils` | 🐍 Pure Python | 🐍 Pure Python |
 | `corva-sdk` | 🐍 Pure Python | 🐍 Pure Python |
 | `corva-unit-converter` | 🐍 Pure Python | 🐍 Pure Python |
+| `corva-worker-python` | 🐍 Pure Python | 🐍 Pure Python |
 | `corvic` | 🐍 Pure Python | 🐍 Pure Python |
 | `corvid` | 🐍 Pure Python | 🐍 Pure Python |
 | `corvis` | 🐍 Pure Python | 🐍 Pure Python |

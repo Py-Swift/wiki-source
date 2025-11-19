@@ -1,6 +1,6 @@
 # Mobile Platform Support Report
 
-**Generated:** 2025-11-19 20:58:58  
+**Generated:** 2025-11-19 22:36:15  
 **Packages Checked:** 701134  
 **Dependency Checking:** Disabled
 
@@ -74,9 +74,9 @@ Custom iOS/Android builds from [pypi.anaconda.org/pyswift/simple](https://pypi.a
 ## 🐍 Pure Python Packages
 
 Packages that work on all platforms (no binary dependencies).
-_Showing first 100 packages by download popularity. Total: 486954_
+_Showing first 100 packages by download popularity. Total: 486955_
 
-📄 **[View all 486954 pure Python packages (A-Z)](pure-python/index.md)**
+📄 **[View all 486955 pure Python packages (A-Z)](pure-python/index.md)**
 
 | Package | Android | iOS |
 |---------|---------|-----|
@@ -181,7 +181,7 @@ _Showing first 100 packages by download popularity. Total: 486954_
 | `opentelemetry-proto` | 🐍 Pure Python | 🐍 Pure Python |
 | `google-cloud-storage` | 🐍 Pure Python | 🐍 Pure Python |
 
-_... and 486854 more packages. [View full list](pure-python/index.md)_
+_... and 486855 more packages. [View full list](pure-python/index.md)_
 
 
 ## ❌ Binary Packages Without Mobile Support
@@ -189,7 +189,7 @@ _... and 486854 more packages. [View full list](pure-python/index.md)_
 Packages with binary wheels but no iOS/Android support.
 _Showing first 100 packages by download popularity. Total: 18545_
 
-📄 **[View all 18545 packages without mobile support (A-Z)](binary-without-mobile.md)**
+📄 **[View all 18545 packages without mobile support (A-Z)](binary-without-mobile/index.md)**
 
 | Package | Android | iOS |
 |---------|---------|-----|
@@ -294,7 +294,7 @@ _Showing first 100 packages by download popularity. Total: 18545_
 | `pyroaring` | ⚠️ Not available | ⚠️ Not available |
 | `hiredis` | ⚠️ Not available | ⚠️ Not available |
 
-_... and 18445 more packages. [View full list](binary-without-mobile.md)_
+_... and 18445 more packages. [View full list](binary-without-mobile/index.md)_
 
 
 ## 📈 Summary Statistics
@@ -305,7 +305,7 @@ _... and 18445 more packages. [View full list](binary-without-mobile.md)_
 |----------|-------|------------|
 | Official Binary Wheels (PyPI) | 25 | 0.0% |
 | PySwift Binary Wheels | 24 | 0.0% |
-| Pure Python | 486954 | 69.5% |
+| Pure Python | 486955 | 69.5% |
 | Binary Without Mobile Support | 18545 | 2.6% |
 | **Total** | **701134** | **100%** |
 

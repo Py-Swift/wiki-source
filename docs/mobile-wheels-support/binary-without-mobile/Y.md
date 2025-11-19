@@ -1,0 +1,104 @@
+# Binary Packages Without Mobile Support - Y
+
+**Generated:** 2025-11-19 22:36:15  
+**Total Packages Starting with Y:** 86
+
+[← Back to Index](index.md)
+
+---
+
+| Package | Android | iOS |
+|---------|---------|-----|
+| `y-py` | ⚠️ Not available | ⚠️ Not available |
+| `y-py-dart` | ⚠️ Not available | ⚠️ Not available |
+| `y-py-dart-slate` | ⚠️ Not available | ⚠️ Not available |
+| `yaaredis` | ⚠️ Not available | ⚠️ Not available |
+| `yacedar` | ⚠️ Not available | ⚠️ Not available |
+| `yaeos` | ⚠️ Not available | ⚠️ Not available |
+| `yahoo-finance-symbols` | ⚠️ Not available | ⚠️ Not available |
+| `yajs` | ⚠️ Not available | ⚠️ Not available |
+| `yakc` | ⚠️ Not available | ⚠️ Not available |
+| `yake-rust` | ⚠️ Not available | ⚠️ Not available |
+| `yamal` | ⚠️ Not available | ⚠️ Not available |
+| `yaml-rs` | ⚠️ Not available | ⚠️ Not available |
+| `yammpy` | ⚠️ Not available | ⚠️ Not available |
+| `yapb` | ⚠️ Not available | ⚠️ Not available |
+| `yapic.di` | ⚠️ Not available | ⚠️ Not available |
+| `yapic.json` | ⚠️ Not available | ⚠️ Not available |
+| `yappi` | ⚠️ Not available | ⚠️ Not available |
+| `yapybrot` | ⚠️ Not available | ⚠️ Not available |
+| `yara-procdump-python` | ⚠️ Not available | ⚠️ Not available |
+| `yara-python` | ⚠️ Not available | ⚠️ Not available |
+| `yara-python-dex` | ⚠️ Not available | ⚠️ Not available |
+| `yara-python-wheel` | ⚠️ Not available | ⚠️ Not available |
+| `yara-x` | ⚠️ Not available | ⚠️ Not available |
+| `yaramod` | ⚠️ Not available | ⚠️ Not available |
+| `yari-py` | ⚠️ Not available | ⚠️ Not available |
+| `yari-py-macos-arm` | ⚠️ Not available | ⚠️ Not available |
+| `yarnlock` | ⚠️ Not available | ⚠️ Not available |
+| `yarobot` | ⚠️ Not available | ⚠️ Not available |
+| `yaroc` | ⚠️ Not available | ⚠️ Not available |
+| `yaroslavslogger` | ⚠️ Not available | ⚠️ Not available |
+| `yarp-middleware` | ⚠️ Not available | ⚠️ Not available |
+| `yascc` | ⚠️ Not available | ⚠️ Not available |
+| `yasimavr` | ⚠️ Not available | ⚠️ Not available |
+| `yasumi` | ⚠️ Not available | ⚠️ Not available |
+| `yb-cassandra-driver` | ⚠️ Not available | ⚠️ Not available |
+| `ydata-sdk` | ⚠️ Not available | ⚠️ Not available |
+| `ydf` | ⚠️ Not available | ⚠️ Not available |
+| `yearn-treasury` | ⚠️ Not available | ⚠️ Not available |
+| `yelp-cheetah` | ⚠️ Not available | ⚠️ Not available |
+| `yenc` | ⚠️ Not available | ⚠️ Not available |
+| `yescrypt-koto` | ⚠️ Not available | ⚠️ Not available |
+| `yeti-iga` | ⚠️ Not available | ⚠️ Not available |
+| `yftest` | ⚠️ Not available | ⚠️ Not available |
+| `yggdrasil-engine` | ⚠️ Not available | ⚠️ Not available |
+| `yggdrasil-framework` | ⚠️ Not available | ⚠️ Not available |
+| `yggdrasil-python-rapidjson` | ⚠️ Not available | ⚠️ Not available |
+| `yices-solver` | ⚠️ Not available | ⚠️ Not available |
+| `yimage` | ⚠️ Not available | ⚠️ Not available |
+| `yitizi-cpy` | ⚠️ Not available | ⚠️ Not available |
+| `ykdraco` | ⚠️ Not available | ⚠️ Not available |
+| `ylearn` | ⚠️ Not available | ⚠️ Not available |
+| `ylhc-dynamic-resource-base` | ⚠️ Not available | ⚠️ Not available |
+| `ylhc-print-manager-base` | ⚠️ Not available | ⚠️ Not available |
+| `ylhc-spell-base` | ⚠️ Not available | ⚠️ Not available |
+| `yni` | ⚠️ Not available | ⚠️ Not available |
+| `ynx-nix-parser` | ⚠️ Not available | ⚠️ Not available |
+| `yoga` | ⚠️ Not available | ⚠️ Not available |
+| `yolo-utils` | ⚠️ Not available | ⚠️ Not available |
+| `yomikomi` | ⚠️ Not available | ⚠️ Not available |
+| `yotsuba-python` | ⚠️ Not available | ⚠️ Not available |
+| `youbit` | ⚠️ Not available | ⚠️ Not available |
+| `YouML` | ⚠️ Not available | ⚠️ Not available |
+| `yourbase` | ⚠️ Not available | ⚠️ Not available |
+| `youtokentome` | ⚠️ Not available | ⚠️ Not available |
+| `youtube-stats` | ⚠️ Not available | ⚠️ Not available |
+| `ypricemagic` | ⚠️ Not available | ⚠️ Not available |
+| `ypyjson` | ⚠️ Not available | ⚠️ Not available |
+| `yroom` | ⚠️ Not available | ⚠️ Not available |
+| `ysa-signal` | ⚠️ Not available | ⚠️ Not available |
+| `ysr` | ⚠️ Not available | ⚠️ Not available |
+| `yt` | ⚠️ Not available | ⚠️ Not available |
+| `yt-astro-analysis` | ⚠️ Not available | ⚠️ Not available |
+| `yt-experiments` | ⚠️ Not available | ⚠️ Not available |
+| `yticker` | ⚠️ Not available | ⚠️ Not available |
+| `ytp1` | ⚠️ Not available | ⚠️ Not available |
+| `ytsaurus-rpc-driver` | ⚠️ Not available | ⚠️ Not available |
+| `ytsaurus-yson` | ⚠️ Not available | ⚠️ Not available |
+| `yuface` | ⚠️ Not available | ⚠️ Not available |
+| `yuko` | ⚠️ Not available | ⚠️ Not available |
+| `yulang` | ⚠️ Not available | ⚠️ Not available |
+| `yummy-delta` | ⚠️ Not available | ⚠️ Not available |
+| `yummy-features` | ⚠️ Not available | ⚠️ Not available |
+| `yummy-mlflow` | ⚠️ Not available | ⚠️ Not available |
+| `yummy-rs` | ⚠️ Not available | ⚠️ Not available |
+| `yunchi` | ⚠️ Not available | ⚠️ Not available |
+| `yyjson` | ⚠️ Not available | ⚠️ Not available |
+
+
+---
+
+[← Back to Index](index.md)
+
+**Generated by:** [MobilePlatformSupport](https://github.com/Py-Swift/MobilePlatformSupport)

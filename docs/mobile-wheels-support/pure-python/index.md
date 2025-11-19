@@ -1,56 +1,15 @@
 # Pure Python Packages - Full List
 
-**Generated:** 2025-11-19 20:58:58  
-**Total Packages:** 486954
+**Generated:** 2025-11-19 22:36:15  
+**Total Packages:** 486955
 
 Packages that work on all platforms (no binary dependencies).
 
 ---
 
-## Browse by Letter
-- **[0](0.md)** (34 packages)
-- **[1](1.md)** (149 packages)
-- **[2](2.md)** (82 packages)
-- **[3](3.md)** (62 packages)
-- **[4](4.md)** (34 packages)
-- **[5](5.md)** (20 packages)
-- **[6](6.md)** (12 packages)
-- **[7](7.md)** (19 packages)
-- **[8](8.md)** (12 packages)
-- **[9](9.md)** (6 packages)
-- **[A](A.md)** (34279 packages)
-- **[B](B.md)** (17125 packages)
-- **[C](C.md)** (32628 packages)
-- **[D](D.md)** (33378 packages)
-- **[E](E.md)** (15107 packages)
-- **[F](F.md)** (19241 packages)
-- **[G](G.md)** (17085 packages)
-- **[H](H.md)** (11519 packages)
-- **[I](I.md)** (11826 packages)
-- **[J](J.md)** (7363 packages)
-- **[K](K.md)** (7641 packages)
-- **[L](L.md)** (16277 packages)
-- **[M](M.md)** (31845 packages)
-- **[N](N.md)** (14799 packages)
-- **[O](O.md)** (31181 packages)
-- **[P](P.md)** (59594 packages)
-- **[Q](Q.md)** (4598 packages)
-- **[R](R.md)** (16915 packages)
-- **[S](S.md)** (42860 packages)
-- **[T](T.md)** (27301 packages)
-- **[U](U.md)** (5594 packages)
-- **[V](V.md)** (7454 packages)
-- **[W](W.md)** (10227 packages)
-- **[X](X.md)** (3581 packages)
-- **[Y](Y.md)** (3678 packages)
-- **[Z](Z.md)** (3428 packages)
-
-
----
-
 ## Top 10 Packages by Letter
 
-### 0
+### [0](0.md) (34 packages)
 1. `0`
 2. `0-core-client`
 3. `0-liuxiaojing`
@@ -62,7 +21,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `01OS`
 10. `024travis-test024`
 
-### 1
+### [1](1.md) (149 packages)
 1. `1-jupyterlab-ext`
 2. `1-test-package`
 3. `10.8-Publishing-Packages`
@@ -74,7 +33,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `101703301-Project1-TOPSIS`
 10. `101703301-Project2`
 
-### 2
+### [2](2.md) (82 packages)
 1. `2020`
 2. `2021assignment1calculator1`
 3. `2021ccps3`
@@ -86,7 +45,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `2023-ASSIGNMENT-PYTHONPIPELINE-DSCF`
 10. `2023-assignment1-DevOps`
 
-### 3
+### [3](3.md) (62 packages)
 1. `3`
 2. `3-04-2025-ttm`
 3. `3-python-package-exercise-17`
@@ -98,7 +57,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `321`
 10. `32blit`
 
-### 4
+### [4](4.md) (34 packages)
 1. `4-g-specs-sdk`
 2. `404-finder`
 3. `404-optimistic-pkg-404-Not-Found`
@@ -110,7 +69,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `42Points`
 10. `42Porto-test-package`
 
-### 5
+### [5](5.md) (20 packages)
 1. `5-Stars-Contact-Book`
 2. `51spiders`
 3. `51tracking`
@@ -122,7 +81,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `56kyle-pychess`
 10. `574d`
 
-### 6
+### [6](6.md) (12 packages)
 1. `6`
 2. `6-rosdep`
 3. `64`
@@ -134,7 +93,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `6w`
 10. `6x`
 
-### 7
+### [7](7.md) (19 packages)
 1. `7`
 2. `73e4d8e848405a88f444cff1c9dbc5b8`
 3. `77`
@@ -146,7 +105,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `770`
 10. `77file-downloader`
 
-### 8
+### [8](8.md) (12 packages)
 1. `8000-cherry-mcp`
 2. `83-numbers`
 3. `8a-scraper`
@@ -158,7 +117,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `8q`
 10. `8qe`
 
-### 9
+### [9](9.md) (6 packages)
 1. `91life-ds-lib`
 2. `999tls-client`
 3. `9eq`
@@ -166,7 +125,7 @@ Packages that work on all platforms (no binary dependencies).
 5. `9mice`
 6. `9x`
 
-### A
+### [A](A.md) (34279 packages)
 1. `a-a-a-a-a`
 2. `A-Api-Server`
 3. `a-b27`
@@ -178,7 +137,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `a-cv2-calculate-difference`
 10. `a-cv2-calculate-simlilarity`
 
-### B
+### [B](B.md) (17125 packages)
 1. `b-aws-cdk-parallel`
 2. `b-aws-cf`
 3. `b-aws-cf-response`
@@ -190,7 +149,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `b-cf-outputs`
 10. `b-cfn-api-v2`
 
-### C
+### [C](C.md) (32629 packages)
 1. `c`
 2. `c-11-jiaocheng-c-yuyan-biancheng-wang-fix1`
 3. `c-api-extract`
@@ -202,7 +161,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `c-fonseka-package`
 10. `c-formatter-42`
 
-### D
+### [D](D.md) (33378 packages)
 1. `D-Analyst`
 2. `d-arth`
 3. `d-back`
@@ -214,7 +173,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `d-data-process`
 10. `d-fake-seeder`
 
-### E
+### [E](E.md) (15108 packages)
 1. `e-algebra`
 2. `e-aws`
 3. `e-bel`
@@ -226,7 +185,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `E-Cut`
 10. `e-data`
 
-### F
+### [F](F.md) (19241 packages)
 1. `f`
 2. `f-ask`
 3. `f-cli`
@@ -238,7 +197,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `F-Funtion`
 10. `f-icon`
 
-### G
+### [G](G.md) (17084 packages)
 1. `g`
 2. `g-aicoder`
 3. `g-batch-prediction-pipeline`
@@ -250,7 +209,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `g-mlp-pytorch`
 10. `G-NAGARJUNA-REDDY`
 
-### H
+### [H](H.md) (11519 packages)
 1. `h`
 2. `h-ai-brain`
 3. `h-anomaly`
@@ -262,7 +221,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `h-devops`
 10. `h-matchers`
 
-### I
+### [I](I.md) (11826 packages)
 1. `i`
 2. `i-airtable`
 3. `i-am-groot`
@@ -274,7 +233,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `i-did`
 10. `i-distributions`
 
-### J
+### [J](J.md) (7363 packages)
 1. `J-12-Spotify-recommendation`
 2. `j-basic-stock-prediction`
 3. `j-builds`
@@ -286,7 +245,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `j-funcutils`
 10. `j-html-pdf`
 
-### K
+### [K](K.md) (7641 packages)
 1. `K-AIKO`
 2. `k-amino.py`
 3. `k-bot`
@@ -298,7 +257,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `k-image-converter-jp`
 10. `k-inertia`
 
-### L
+### [L](L.md) (16277 packages)
 1. `l`
 2. `l-03-requests-cmd-publish-lib`
 3. `L-bash-profile`
@@ -310,7 +269,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `L0-Smoothing`
 10. `l0n0l2fa`
 
-### M
+### [M](M.md) (31845 packages)
 1. `m-abac-anhnt`
 2. `m-abc-anhnt`
 3. `M-Ana-package`
@@ -322,7 +281,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `m-eclipses`
 10. `m-filetype`
 
-### N
+### [N](N.md) (14799 packages)
 1. `n-bit-binary`
 2. `n-ckpt`
 3. `n-const`
@@ -334,7 +293,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `n-grammer-pytorch`
 10. `n-is-python`
 
-### O
+### [O](O.md) (31181 packages)
 1. `o`
 2. `o-bmi-cal`
 3. `O-lang`
@@ -346,7 +305,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `o-words`
 10. `o1-vector-search`
 
-### P
+### [P](P.md) (59594 packages)
 1. `p`
 2. `p-1`
 3. `p-2`
@@ -358,7 +317,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `p-cmd-runr`
 10. `P-CombiningPValuesFinal`
 
-### Q
+### [Q](Q.md) (4598 packages)
 1. `q`
 2. `q-a-dependencies`
 3. `q-alchemy-sdk-py`
@@ -370,7 +329,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `Q-Learning-Graph-Visualization`
 10. `Q-Learning-O-Run`
 
-### R
+### [R](R.md) (16915 packages)
 1. `r-a-installer`
 2. `R-AScan`
 3. `r-b-a`
@@ -382,7 +341,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `r-lambda`
 10. `r-logger`
 
-### S
+### [S](S.md) (42860 packages)
 1. `s-aes-util`
 2. `s-and-p-500-grabber`
 3. `s-ball-anagram`
@@ -394,7 +353,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `s-interpreter`
 10. `s-lang-mta`
 
-### T
+### [T](T.md) (27301 packages)
 1. `T-AI-project`
 2. `t-assembler`
 3. `T-BAG`
@@ -406,7 +365,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `t-engine`
 10. `t-Eu4ng-test`
 
-### U
+### [U](U.md) (5594 packages)
 1. `u`
 2. `u-boot-pylib`
 3. `u-calc`
@@ -418,7 +377,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `u-grpc-lib`
 10. `u-micro-rsa`
 
-### V
+### [V](V.md) (7454 packages)
 1. `v`
 2. `v-agents`
 3. `v-bootstrap`
@@ -430,7 +389,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `v-installer`
 10. `v-jstools`
 
-### W
+### [W](W.md) (10227 packages)
 1. `w-ds-utils`
 2. `W-Env-CognitiveTasks`
 3. `W-Gym`
@@ -442,7 +401,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `w01fm00n`
 10. `w0mb0c0mb0`
 
-### X
+### [X](X.md) (3581 packages)
 1. `x-1000`
 2. `x-4357-make-cli-scaffolder-x`
 3. `x-4357-make-common-x`
@@ -454,7 +413,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `x-4357-make-mermaid-x`
 10. `x-4357-make-microservice-x`
 
-### Y
+### [Y](Y.md) (3678 packages)
 1. `y-cli`
 2. `y-llm`
 3. `Y-lw`
@@ -466,7 +425,7 @@ Packages that work on all platforms (no binary dependencies).
 9. `y-trans`
 10. `y-translator-cli`
 
-### Z
+### [Z](Z.md) (3428 packages)
 1. `z-add`
 2. `z-agent`
 3. `z-backup`

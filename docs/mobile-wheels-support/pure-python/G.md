@@ -1,7 +1,7 @@
 # Pure Python Packages - G
 
-**Generated:** 2025-11-19 20:58:58  
-**Total Packages Starting with G:** 17085
+**Generated:** 2025-11-19 22:36:15  
+**Total Packages Starting with G:** 17084
 
 [← Back to Index](index.md)
 
@@ -1414,7 +1414,6 @@
 | `gathersdk` | 🐍 Pure Python | 🐍 Pure Python |
 | `gatherunique` | 🐍 Pure Python | 🐍 Pure Python |
 | `gatherup` | 🐍 Pure Python | 🐍 Pure Python |
-| `gati` | 🐍 Pure Python | 🐍 Pure Python |
 | `gatiab` | 🐍 Pure Python | 🐍 Pure Python |
 | `gaticos` | 🐍 Pure Python | 🐍 Pure Python |
 | `gatilegrid` | 🐍 Pure Python | 🐍 Pure Python |
