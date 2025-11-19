@@ -1,6 +1,6 @@
 # Mobile Platform Support Report
 
-**Generated:** 2025-11-19 19:27:52  
+**Generated:** 2025-11-19 19:39:57  
 **Packages Checked:** 7011  
 **Dependency Checking:** Disabled
 
@@ -61,7 +61,7 @@ Custom iOS/Android builds from [pypi.anaconda.org/pyswift/simple](https://pypi.a
 Packages that work on all platforms (no binary dependencies).
 _Showing first 100 packages by download popularity. Total: 5762_
 
-📄 **[View all 5762 pure Python packages (A-Z)](/Volumes/CodeSSD/GitHub/wiki-source/docs/mobile-wheels-support/pure-python-packages.md)**
+📄 **[View all 5762 pure Python packages (A-Z)](pure-python-packages.md)**
 
 | Package | Android | iOS |
 |---------|---------|-----|
@@ -166,7 +166,7 @@ _Showing first 100 packages by download popularity. Total: 5762_
 | `opentelemetry-proto` | 🐍 Pure Python | 🐍 Pure Python |
 | `google-cloud-storage` | 🐍 Pure Python | 🐍 Pure Python |
 
-_... and 5662 more packages. [View full list](/Volumes/CodeSSD/GitHub/wiki-source/docs/mobile-wheels-support/pure-python-packages.md)_
+_... and 5662 more packages. [View full list](pure-python-packages.md)_
 
 
 ## ❌ Binary Packages Without Mobile Support
@@ -174,7 +174,7 @@ _... and 5662 more packages. [View full list](/Volumes/CodeSSD/GitHub/wiki-sourc
 Packages with binary wheels but no iOS/Android support.
 _Showing first 100 packages by download popularity. Total: 782_
 
-📄 **[View all 782 packages without mobile support (A-Z)](/Volumes/CodeSSD/GitHub/wiki-source/docs/mobile-wheels-support/binary-without-mobile.md)**
+📄 **[View all 782 packages without mobile support (A-Z)](binary-without-mobile.md)**
 
 | Package | Android | iOS |
 |---------|---------|-----|
@@ -279,7 +279,7 @@ _Showing first 100 packages by download popularity. Total: 782_
 | `ormsgpack` | ⚠️ Not available | ⚠️ Not available |
 | `onnx` | ⚠️ Not available | ⚠️ Not available |
 
-_... and 682 more packages. [View full list](/Volumes/CodeSSD/GitHub/wiki-source/docs/mobile-wheels-support/binary-without-mobile.md)_
+_... and 682 more packages. [View full list](binary-without-mobile.md)_
 
 
 ## 📈 Summary Statistics
