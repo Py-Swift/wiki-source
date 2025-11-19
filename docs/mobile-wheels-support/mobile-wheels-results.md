@@ -1,7 +1,7 @@
 # Mobile Platform Support Report
 
-**Generated:** 2025-11-19 19:39:57  
-**Packages Checked:** 7011  
+**Generated:** 2025-11-19 20:07:30  
+**Packages Checked:** 701134  
 **Dependency Checking:** Disabled
 
 ---
@@ -25,6 +25,18 @@ Packages with official iOS/Android wheels available on PyPI.
 | `wasmtime` | ✅ Supported | 🐍 Pure Python |
 | `stream-inflate` | ⚠️ Not available | ✅ Supported |
 | `pymunk` | ⚠️ Not available | ✅ Supported |
+| `xxtea` | ✅ Supported | ✅ Supported |
+| `go-task-bin` | ✅ Supported | ⚠️ Not available |
+| `rabbitizer` | ✅ Supported | ✅ Supported |
+| `bulletchess` | ⚠️ Not available | ✅ Supported |
+| `deltachat-rpc-server` | ✅ Supported | ⚠️ Not available |
+| `fzf-bin` | ✅ Supported | ⚠️ Not available |
+| `lazygit-py` | ✅ Supported | ⚠️ Not available |
+| `nats-server-bin` | ✅ Supported | ⚠️ Not available |
+| `pocketbase-bin` | ✅ Supported | ⚠️ Not available |
+| `pyspamsum` | ✅ Supported | ✅ Supported |
+| `slint` | ⚠️ Not available | ✅ Supported |
+| `yazi-bin` | ✅ Supported | ⚠️ Not available |
 
 
 ## 🔧 PySwift Binary Wheels
@@ -54,14 +66,17 @@ Custom iOS/Android builds from [pypi.anaconda.org/pyswift/simple](https://pypi.a
 | `netifaces` | ⚠️ Not available | ✅ Supported |
 | `zeroconf` | ⚠️ Not available | ✅ Supported |
 | `apsw` | ⚠️ Not available | ✅ Supported |
+| `materialyoucolor` | ⚠️ Not available | ✅ Supported |
+| `pydantic_core` | ⚠️ Not available | ✅ Supported |
+| `pyobjus` | ⚠️ Not available | ✅ Supported |
 
 
 ## 🐍 Pure Python Packages
 
 Packages that work on all platforms (no binary dependencies).
-_Showing first 100 packages by download popularity. Total: 5762_
+_Showing first 100 packages by download popularity. Total: 486954_
 
-📄 **[View all 5762 pure Python packages (A-Z)](pure-python-packages.md)**
+📄 **[View all 486954 pure Python packages (A-Z)](pure-python-packages.md)**
 
 | Package | Android | iOS |
 |---------|---------|-----|
@@ -166,15 +181,15 @@ _Showing first 100 packages by download popularity. Total: 5762_
 | `opentelemetry-proto` | 🐍 Pure Python | 🐍 Pure Python |
 | `google-cloud-storage` | 🐍 Pure Python | 🐍 Pure Python |
 
-_... and 5662 more packages. [View full list](pure-python-packages.md)_
+_... and 486854 more packages. [View full list](pure-python-packages.md)_
 
 
 ## ❌ Binary Packages Without Mobile Support
 
 Packages with binary wheels but no iOS/Android support.
-_Showing first 100 packages by download popularity. Total: 782_
+_Showing first 100 packages by download popularity. Total: 18545_
 
-📄 **[View all 782 packages without mobile support (A-Z)](binary-without-mobile.md)**
+📄 **[View all 18545 packages without mobile support (A-Z)](binary-without-mobile.md)**
 
 | Package | Android | iOS |
 |---------|---------|-----|
@@ -213,8 +228,6 @@ _Showing first 100 packages by download popularity. Total: 782_
 | `safetensors` | ⚠️ Not available | ⚠️ Not available |
 | `pycryptodomex` | ⚠️ Not available | ⚠️ Not available |
 | `argon2-cffi-bindings` | ⚠️ Not available | ⚠️ Not available |
-| `triton` | ⚠️ Not available | ⚠️ Not available |
-| `nvidia-nvjitlink-cu12` | ⚠️ Not available | ⚠️ Not available |
 | `xxhash` | ⚠️ Not available | ⚠️ Not available |
 | `confluent-kafka` | ⚠️ Not available | ⚠️ Not available |
 | `psycopg2` | ⚠️ Not available | ⚠️ Not available |
@@ -278,8 +291,10 @@ _Showing first 100 packages by download popularity. Total: 782_
 | `cmake` | ⚠️ Not available | ⚠️ Not available |
 | `ormsgpack` | ⚠️ Not available | ⚠️ Not available |
 | `onnx` | ⚠️ Not available | ⚠️ Not available |
+| `pyroaring` | ⚠️ Not available | ⚠️ Not available |
+| `hiredis` | ⚠️ Not available | ⚠️ Not available |
 
-_... and 682 more packages. [View full list](binary-without-mobile.md)_
+_... and 18445 more packages. [View full list](binary-without-mobile.md)_
 
 
 ## 📈 Summary Statistics
@@ -288,19 +303,19 @@ _... and 682 more packages. [View full list](binary-without-mobile.md)_
 
 | Category | Count | Percentage |
 |----------|-------|------------|
-| Official Binary Wheels (PyPI) | 13 | 0.2% |
-| PySwift Binary Wheels | 21 | 0.3% |
-| Pure Python | 5762 | 82.2% |
-| Binary Without Mobile Support | 782 | 11.2% |
-| **Total** | **7011** | **100%** |
+| Official Binary Wheels (PyPI) | 25 | 0.0% |
+| PySwift Binary Wheels | 24 | 0.0% |
+| Pure Python | 486954 | 69.5% |
+| Binary Without Mobile Support | 18545 | 2.6% |
+| **Total** | **701134** | **100%** |
 
 ### Platform Support (Binary Wheels)
 
 | Platform | Count | Percentage |
 |----------|-------|------------|
-| Android Support | 8 / 34 | 23.5% |
-| iOS Support | 31 / 34 | 91.2% |
-| Both Platforms | 5 / 34 | 14.7% |
+| Android Support | 18 / 49 | 36.7% |
+| iOS Support | 39 / 49 | 79.6% |
+| Both Platforms | 8 / 49 | 16.3% |
 
 ---
 

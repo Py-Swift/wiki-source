@@ -21,7 +21,7 @@ theme:
 
 
 nav:
-  
+  - Home: index.md
   - PSProject:
     - setup-install: setup.md
     - new-project:
@@ -48,8 +48,9 @@ nav:
       - wrapper_examples/uikit_viewcontroller.md
   - Mobile Wheels Support:
     - results: mobile-wheels-support/mobile-wheels-results.md
-    - binary-without-mobile: mobile-wheels-support/binary-without-mobile.md
     - pure-python-packages: mobile-wheels-support/pure-python-packages.md
+    - binary-without-mobile: mobile-wheels-support/binary-without-mobile.md
+    - excluded-packages: mobile-wheels-support/excluded-packages.md
 
 markdown_extensions:
   - attr_list
