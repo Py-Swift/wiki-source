@@ -1,6 +1,6 @@
 # Mobile Platform Support Report
 
-**Generated:** 2025-11-19 20:07:30  
+**Generated:** 2025-11-19 20:58:58  
 **Packages Checked:** 701134  
 **Dependency Checking:** Disabled
 
@@ -76,7 +76,7 @@ Custom iOS/Android builds from [pypi.anaconda.org/pyswift/simple](https://pypi.a
 Packages that work on all platforms (no binary dependencies).
 _Showing first 100 packages by download popularity. Total: 486954_
 
-📄 **[View all 486954 pure Python packages (A-Z)](pure-python-packages.md)**
+📄 **[View all 486954 pure Python packages (A-Z)](pure-python/index.md)**
 
 | Package | Android | iOS |
 |---------|---------|-----|
@@ -181,7 +181,7 @@ _Showing first 100 packages by download popularity. Total: 486954_
 | `opentelemetry-proto` | 🐍 Pure Python | 🐍 Pure Python |
 | `google-cloud-storage` | 🐍 Pure Python | 🐍 Pure Python |
 
-_... and 486854 more packages. [View full list](pure-python-packages.md)_
+_... and 486854 more packages. [View full list](pure-python/index.md)_
 
 
 ## ❌ Binary Packages Without Mobile Support
