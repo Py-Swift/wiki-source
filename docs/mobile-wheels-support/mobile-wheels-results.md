@@ -1,6 +1,6 @@
 # Mobile Platform Support Report
 
-**Generated:** 2025-11-19 22:36:15  
+**Generated:** 2025-11-19 23:13:54  
 **Packages Checked:** 701134  
 **Dependency Checking:** Disabled
 
@@ -12,30 +12,30 @@ Packages with official iOS/Android wheels available on PyPI.
 
 | Package | Android | iOS |
 |---------|---------|-----|
-| `pillow` | ⚠️ Not available | ✅ Supported |
-| `pyzmq` | ✅ Supported | ⚠️ Not available |
-| `dulwich` | ✅ Supported | 🐍 Pure Python |
-| `mmh3` | ✅ Supported | ✅ Supported |
-| `maxminddb` | ✅ Supported | ✅ Supported |
-| `optree` | ✅ Supported | ✅ Supported |
-| `pybase64` | ✅ Supported | ✅ Supported |
-| `cytoolz` | ⚠️ Not available | ✅ Supported |
-| `lru-dict` | ✅ Supported | ✅ Supported |
-| `boost-histogram` | ⚠️ Not available | ✅ Supported |
+| `pillow` | ⚠️ Not available | ✅ Supported (12.0.0) |
+| `pyzmq` | ✅ Supported (27.1.0) | ⚠️ Not available |
+| `dulwich` | ✅ Supported (0.24.10) | 🐍 Pure Python |
+| `mmh3` | ✅ Supported (5.2.0) | ✅ Supported (5.2.0) |
+| `maxminddb` | ✅ Supported (3.0.0) | ✅ Supported (3.0.0) |
+| `optree` | ✅ Supported (0.18.0) | ✅ Supported (0.18.0) |
+| `pybase64` | ✅ Supported (1.4.2) | ✅ Supported (1.4.2) |
+| `cytoolz` | ⚠️ Not available | ✅ Supported (1.1.0) |
+| `lru-dict` | ✅ Supported (1.4.1) | ✅ Supported (1.4.1) |
+| `boost-histogram` | ⚠️ Not available | ✅ Supported (1.6.1) |
 | `wasmtime` | ✅ Supported | 🐍 Pure Python |
-| `stream-inflate` | ⚠️ Not available | ✅ Supported |
-| `pymunk` | ⚠️ Not available | ✅ Supported |
-| `xxtea` | ✅ Supported | ✅ Supported |
+| `stream-inflate` | ⚠️ Not available | ✅ Supported (0.0.42) |
+| `pymunk` | ⚠️ Not available | ✅ Supported (7.2.0) |
+| `xxtea` | ✅ Supported (3.6.0) | ✅ Supported (3.6.0) |
 | `go-task-bin` | ✅ Supported | ⚠️ Not available |
-| `rabbitizer` | ✅ Supported | ✅ Supported |
-| `bulletchess` | ⚠️ Not available | ✅ Supported |
+| `rabbitizer` | ✅ Supported (1.14.3) | ✅ Supported (1.14.3) |
+| `bulletchess` | ⚠️ Not available | ✅ Supported (0.4.0) |
 | `deltachat-rpc-server` | ✅ Supported | ⚠️ Not available |
 | `fzf-bin` | ✅ Supported | ⚠️ Not available |
 | `lazygit-py` | ✅ Supported | ⚠️ Not available |
 | `nats-server-bin` | ✅ Supported | ⚠️ Not available |
 | `pocketbase-bin` | ✅ Supported | ⚠️ Not available |
-| `pyspamsum` | ✅ Supported | ✅ Supported |
-| `slint` | ⚠️ Not available | ✅ Supported |
+| `pyspamsum` | ✅ Supported (1.0.7) | ✅ Supported (1.0.7) |
+| `slint` | ⚠️ Not available | ✅ Supported (1.14.1b1) |
 | `yazi-bin` | ✅ Supported | ⚠️ Not available |
 
 
@@ -45,30 +45,30 @@ Custom iOS/Android builds from [pypi.anaconda.org/pyswift/simple](https://pypi.a
 
 | Package | Android | iOS |
 |---------|---------|-----|
-| `numpy` | ⚠️ Not available | ✅ Supported |
-| `cryptography` | ⚠️ Not available | ✅ Supported |
-| `cffi` | ⚠️ Not available | ✅ Supported |
-| `aiohttp` | ⚠️ Not available | ✅ Supported |
-| `SQLAlchemy` | 🐍 Pure Python | ✅ Supported |
-| `greenlet` | ⚠️ Not available | ✅ Supported |
-| `msgpack` | ⚠️ Not available | ✅ Supported |
-| `regex` | ⚠️ Not available | ✅ Supported |
-| `coverage` | 🐍 Pure Python | ✅ Supported |
-| `bcrypt` | ⚠️ Not available | ✅ Supported |
-| `matplotlib` | ⚠️ Not available | ✅ Supported |
-| `kiwisolver` | ⚠️ Not available | ✅ Supported |
-| `contourpy` | ⚠️ Not available | ✅ Supported |
-| `orjson` | ⚠️ Not available | ✅ Supported |
-| `pycryptodome` | ⚠️ Not available | ✅ Supported |
-| `brotli` | ⚠️ Not available | ✅ Supported |
-| `pendulum` | 🐍 Pure Python | ✅ Supported |
-| `bitarray` | ⚠️ Not available | ✅ Supported |
-| `netifaces` | ⚠️ Not available | ✅ Supported |
-| `zeroconf` | ⚠️ Not available | ✅ Supported |
-| `apsw` | ⚠️ Not available | ✅ Supported |
-| `materialyoucolor` | ⚠️ Not available | ✅ Supported |
-| `pydantic_core` | ⚠️ Not available | ✅ Supported |
-| `pyobjus` | ⚠️ Not available | ✅ Supported |
+| `numpy` | ⚠️ Not available | ✅ Supported (2.3.4) |
+| `cryptography` | ⚠️ Not available | ✅ Supported (46.0.2) |
+| `cffi` | ⚠️ Not available | ✅ Supported (2.0.0) |
+| `aiohttp` | ⚠️ Not available | ✅ Supported (3.13.2) |
+| `SQLAlchemy` | 🐍 Pure Python | ✅ Supported (2.0.44) |
+| `greenlet` | ⚠️ Not available | ✅ Supported (3.2.4) |
+| `msgpack` | ⚠️ Not available | ✅ Supported (1.1.2) |
+| `regex` | ⚠️ Not available | ✅ Supported (2025.11.3) |
+| `coverage` | 🐍 Pure Python | ✅ Supported (7.11.3) |
+| `bcrypt` | ⚠️ Not available | ✅ Supported (5.0.0) |
+| `matplotlib` | ⚠️ Not available | ✅ Supported (3.8.2) |
+| `kiwisolver` | ⚠️ Not available | ✅ Supported (1.4.9) |
+| `contourpy` | ⚠️ Not available | ✅ Supported (1.3.3) |
+| `orjson` | ⚠️ Not available | ✅ Supported (3.11.4) |
+| `pycryptodome` | ⚠️ Not available | ✅ Supported (3.23.0) |
+| `brotli` | ⚠️ Not available | ✅ Supported (1.1.0) |
+| `pendulum` | 🐍 Pure Python | ✅ Supported (3.1.0) |
+| `bitarray` | ⚠️ Not available | ✅ Supported (3.8.0) |
+| `netifaces` | ⚠️ Not available | ✅ Supported (0.11.0) |
+| `zeroconf` | ⚠️ Not available | ✅ Supported (0.148.0) |
+| `apsw` | ⚠️ Not available | ✅ Supported (3.51.0.0) |
+| `materialyoucolor` | ⚠️ Not available | ✅ Supported (2.0.9) |
+| `pydantic_core` | ⚠️ Not available | ✅ Supported (2.41.5) |
+| `pyobjus` | ⚠️ Not available | ✅ Supported (1.2.3) |
 
 
 ## 🐍 Pure Python Packages

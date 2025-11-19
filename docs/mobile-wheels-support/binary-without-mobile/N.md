@@ -1,6 +1,6 @@
 # Binary Packages Without Mobile Support - N
 
-**Generated:** 2025-11-19 22:36:15  
+**Generated:** 2025-11-19 23:13:54  
 **Total Packages Starting with N:** 533
 
 [← Back to Index](index.md)

@@ -1,6 +1,6 @@
 # Binary Packages Without Mobile Support - P
 
-**Generated:** 2025-11-19 22:36:15  
+**Generated:** 2025-11-19 23:13:54  
 **Total Packages Starting with P:** 3523
 
 [← Back to Index](index.md)
