@@ -3,7 +3,7 @@
 **Generated:** 2025-11-20 17:37:12  
 **Kivy-iOS Recipes:** 47  
 **Recipes Requiring iOS Wheels:** 35 (excluding 8 pure Python, 4 build-time only)  
-**PEP 730 iOS Wheels (PySwift):** 29  
+**PEP 730 iOS Wheels (PySwift + KivySchool):** 29  
 **Coverage:** 23/35 (66%)
 
 ---
@@ -14,7 +14,7 @@ Of the 47 kivy-ios recipes:
 - 8 are pure Python packages that don't need iOS wheels (can be installed via pip)
 - 4 are build-time only recipes (hostopenssl, hostpython3, python3, freetype)
 
-For the remaining **35 recipes that require runtime iOS wheels**, PySwift provides **23 pre-built PEP 730 wheels** (including bundled SDL frameworks), representing **66% coverage**. An additional 2 packages (pillow, pymunk) have official PEP 730 wheels available on PyPI.
+For the remaining **35 recipes that require runtime iOS wheels**, PySwift and KivySchool provide **23 pre-built PEP 730 wheels** (including bundled SDL frameworks), representing **66% coverage**. An additional 2 packages (pillow, pymunk) have official PEP 730 wheels available on PyPI.
 
 PEP 730 wheels offer a modern alternative to the traditional kivy-ios recipe system, eliminating the need to compile packages from source on iOS.
 
@@ -22,34 +22,34 @@ PEP 730 wheels offer a modern alternative to the traditional kivy-ios recipe sys
 
 ## ✅ Covered Recipes (25)
 
-### PySwift PEP 730 Wheels (23)
+### PySwift + KivySchool PEP 730 Wheels (23)
 
-These kivy-ios recipes have equivalent PEP 730 wheels provided by anaconda PySwift/KivySchool:
+These kivy-ios recipes have equivalent PEP 730 wheels provided by PySwift and/or KivySchool:
 
 | Kivy-iOS Recipe | PEP 730 Wheel | Status |
 |-----------------|---------------|--------|
-| `angle` | `kivy-sdl3-angle` | ✅ Available |
-| `audiostream` | `ios` | ✅ Available |
-| `ios` | `ios` | ✅ Available |
-| `kivy` | `kivy-sdl2` | ✅ Available |
-| `kiwisolver` | `kiwisolver` | ✅ Available |
-| `libffi` | `cffi` | ✅ Available |
-| `libpng` | `libpng` | ✅ Available |
-| `materialyoucolor` | `materialyoucolor` | ✅ Available |
-| `matplotlib` | `matplotlib` | ✅ Available |
-| `netifaces` | `netifaces` | ✅ Available |
-| `numpy` | `numpy` | ✅ Available |
-| `pycrypto` | `pycryptodome` | ✅ Available |
-| `plyer` | `pyobjus` (dependency) | ✅ Available |
-| `pyobjus` | `pyobjus` | ✅ Available |
-| `sdl2` | `kivy-sdl2` | ✅ Available |
-| `sdl2_image` | `kivy-sdl2` (bundled) | ✅ Available |
-| `sdl2_mixer` | `kivy-sdl2` (bundled) | ✅ Available |
-| `sdl2_ttf` | `kivy-sdl2` (bundled) | ✅ Available |
-| `sdl3` | `kivy-sdl3-angle` | ✅ Available |
-| `sdl3_image` | `kivy-sdl3-angle` (bundled) | ✅ Available |
-| `sdl3_mixer` | `kivy-sdl3-angle` (bundled) | ✅ Available |
-| `sdl3_ttf` | `kivy-sdl3-angle` (bundled) | ✅ Available |
+| `angle` | `kivy-sdl3-angle` | ✅ Available (KivySchool) |
+| `audiostream` | `ios` | ✅ Available (PySwift) |
+| `ios` | `ios` | ✅ Available (PySwift + KivySchool) |
+| `kivy` | `kivy-sdl2` | ✅ Available (PySwift + KivySchool) |
+| `kiwisolver` | `kiwisolver` | ✅ Available (PySwift) |
+| `libffi` | `cffi` | ✅ Available (PySwift) |
+| `libpng` | `libpng` | ✅ Available (PySwift) |
+| `materialyoucolor` | `materialyoucolor` | ✅ Available (PySwift) |
+| `matplotlib` | `matplotlib` | ✅ Available (PySwift) |
+| `netifaces` | `netifaces` | ✅ Available (PySwift) |
+| `numpy` | `numpy` | ✅ Available (PySwift) |
+| `pycrypto` | `pycryptodome` | ✅ Available (PySwift) |
+| `plyer` | `pyobjus` (dependency) | ✅ Available (PySwift + KivySchool) |
+| `pyobjus` | `pyobjus` | ✅ Available (PySwift + KivySchool) |
+| `sdl2` | `kivy-sdl2` | ✅ Available (PySwift + KivySchool) |
+| `sdl2_image` | `kivy-sdl2` (bundled) | ✅ Available (PySwift + KivySchool) |
+| `sdl2_mixer` | `kivy-sdl2` (bundled) | ✅ Available (PySwift + KivySchool) |
+| `sdl2_ttf` | `kivy-sdl2` (bundled) | ✅ Available (PySwift + KivySchool) |
+| `sdl3` | `kivy-sdl3-angle` | ✅ Available (KivySchool) |
+| `sdl3_image` | `kivy-sdl3-angle` (bundled) | ✅ Available (KivySchool) |
+| `sdl3_mixer` | `kivy-sdl3-angle` (bundled) | ✅ Available (KivySchool) |
+| `sdl3_ttf` | `kivy-sdl3-angle` (bundled) | ✅ Available (KivySchool) |
 
 ### Official PyPI PEP 730 Wheels (2)
 
@@ -129,8 +129,18 @@ PySwift provides a collection of PEP 730 compliant wheels for iOS, making it muc
 
 ### SDL Libraries
 The SDL2 and SDL3 frameworks are bundled into comprehensive wheels:
-- `kivy-sdl2` - Includes SDL2, SDL2_image, SDL2_mixer, SDL2_ttf
-- `kivy-sdl3-angle` - Includes SDL3, SDL3_image, SDL3_mixer, SDL3_ttf, ANGLE
+- `kivy-sdl2` - Includes SDL2, SDL2_image, SDL2_mixer, SDL2_ttf (available from both PySwift and KivySchool)
+- `kivy-sdl3-angle` - Includes SDL3, SDL3_image, SDL3_mixer, SDL3_ttf, ANGLE (available from KivySchool)
+
+### KivySchool Repository
+The [KivySchool repository](https://pypi.anaconda.org/kivyschool/simple/) provides core Kivy framework wheels:
+- `ios` - iOS platform support
+- `kivy` - Core Kivy framework
+- `kivy-sdl2` - SDL2 bundle for Kivy
+- `kivy-sdl3-angle` - SDL3 bundle with ANGLE for Kivy
+- `pyobjus` - Python-Objective-C bridge
+
+These overlap with PySwift offerings, providing redundancy and choice for users.
 
 ### Pure Python Packages
 8 kivy-ios recipes are for pure Python packages that can be installed directly via pip on iOS without needing special wheels or recipes (Flask, Jinja2, Click, etc.).
@@ -146,5 +156,6 @@ Low-level C libraries (OpenSSL, libffi, etc.) are often included as dependencies
 **Generated by:** PySwiftKit Documentation Tool  
 **Sources:**
 - Kivy-iOS: [https://github.com/kivy/kivy-ios/tree/master/kivy_ios/recipes](https://github.com/kivy/kivy-ios/tree/master/kivy_ios/recipes)
-- PEP 730 Wheels: [https://pypi.anaconda.org/pyswift/simple](https://pypi.anaconda.org/pyswift/simple)
+- PySwift PEP 730 Wheels: [https://pypi.anaconda.org/pyswift/simple](https://pypi.anaconda.org/pyswift/simple)
+- KivySchool PEP 730 Wheels: [https://pypi.anaconda.org/kivyschool/simple](https://pypi.anaconda.org/kivyschool/simple)
 - PEP 730 Specification: [https://peps.python.org/pep-0730/](https://peps.python.org/pep-0730/)

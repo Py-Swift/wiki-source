@@ -24,9 +24,9 @@ Learn how to create Python wrappers for Swift code:
 
 ### Mobile Wheels Support
 Comprehensive database of Python package compatibility with iOS/Android:
-- [Results Overview](mobile-wheels-support/mobile-wheels-results.md) - Packages with official wheels
-- [Pure Python Packages](mobile-wheels-support/pure-python-packages.md) - Platform-independent packages
-- [Binary Without Mobile](mobile-wheels-support/binary-without-mobile.md) - Packages needing mobile wheels
+- [Package Search](mobile-wheels-support/package-search.md) - Search 700K+ packages for mobile support
+- [Results Overview](mobile-wheels-support/mobile-wheels-results.md) - Summary of packages with official wheels
+- [Kivy-iOS vs PEP 730](mobile-wheels-support/kivy-ios-vs-pep730.md) - Compare build approaches
 - [Excluded Packages](mobile-wheels-support/excluded-packages.md) - Filtered packages (GPU/CUDA, etc.)
 
 ## 🔗 Resources

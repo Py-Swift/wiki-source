@@ -55,6 +55,16 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
     <div class="requirements-container">
       <div class="upload-section">
         <h3>📋 Upload requirements.txt</h3>
+        
+        <div class="filter-options" style="margin-bottom: 20px;">
+          <label>
+            <input type="checkbox" id="req-filter-ios" checked> Show iOS compatibility
+          </label>
+          <label>
+            <input type="checkbox" id="req-filter-android" checked> Show Android compatibility
+          </label>
+        </div>
+        
         <div class="upload-area" id="upload-area">
           <input type="file" id="file-input" accept=".txt" style="display: none;">
           <label for="file-input" class="upload-label">
@@ -806,6 +816,32 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
     line = line.trim();
     if (!line || line.startsWith('#')) return null;
     
+    // Check for platform-specific markers
+    const platformMarkers = [
+      'sys_platform == \'win32\'',
+      'sys_platform == "win32"',
+      'sys_platform == \'darwin\'',
+      'sys_platform == "darwin"',
+      'platform_system == \'Windows\'',
+      'platform_system == "Windows"',
+      'platform_system == \'Darwin\'',
+      'platform_system == "Darwin"',
+      'os_name == \'nt\'',
+      'os_name == "nt"'
+    ];
+    
+    // Skip packages with non-mobile platform markers
+    for (const marker of platformMarkers) {
+      if (line.includes(marker)) {
+        return null; // Skip this package
+      }
+    }
+    
+    // Remove mobile platform markers if present (we want these)
+    line = line.replace(/;\s*sys_platform\s*==\s*['"]linux['"]/gi, '');
+    line = line.replace(/;\s*platform_system\s*==\s*['"]Linux['"]/gi, '');
+    line = line.trim();
+    
     // Match package name and version specifier
     const match = line.match(/^([a-zA-Z0-9_-]+)(.*?)$/);
     if (!match) return null;
@@ -855,6 +891,10 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
     const container = document.getElementById('requirements-results');
     const statsBar = document.getElementById('requirements-stats');
     
+    // Get filter state
+    const showIOS = document.getElementById('req-filter-ios').checked;
+    const showAndroid = document.getElementById('req-filter-android').checked;
+    
     // Calculate statistics
     let iosCount = 0, androidCount = 0, pureCount = 0, missingCount = 0;
     let iosUnsupported = 0, androidUnsupported = 0;
@@ -892,65 +932,115 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
     // Build compatibility warning
     let warningHtml = '';
     
-    if (!iosFullySupported && !androidFullySupported) {
-      if (iosUnsupported === totalPackages && androidUnsupported === totalPackages) {
-        warningHtml = `
-          <div class="compatibility-warning critical">
-            <strong>⛔️ NOT SUPPORTED:</strong> This requirements.txt is <strong>NOT compatible</strong> with iOS or Android. 
-            pip install will fail on both platforms. All packages lack mobile platform support.
-          </div>
-        `;
-      } else if (iosPartiallySupported && androidPartiallySupported) {
-        warningHtml = `
-          <div class="compatibility-warning warning">
-            <strong>⚠️ PARTIALLY SUPPORTED:</strong> This requirements.txt is partially compatible with mobile platforms.<br>
-            pip install may fail on:<br>
-            • iOS (${iosUnsupported} unsupported)<br>
-            • Android (${androidUnsupported} unsupported)
-          </div>
-        `;
-      } else if (iosUnsupported === totalPackages) {
-        warningHtml = `
-          <div class="compatibility-warning warning">
-            <strong>⚠️ iOS NOT SUPPORTED:</strong> pip install will <strong>fail on iOS</strong>. All packages lack iOS support.<br>
-            Android support: ${androidCount + pureCount}/${totalPackages} packages supported.
-          </div>
-        `;
-      } else if (androidUnsupported === totalPackages) {
-        warningHtml = `
-          <div class="compatibility-warning warning">
-            <strong>⚠️ Android NOT SUPPORTED:</strong> pip install will <strong>fail on Android</strong>. All packages lack Android support.<br>
-            iOS support: ${iosCount + pureCount}/${totalPackages} packages supported.
-          </div>
-        `;
-      } else {
-        warningHtml = `
-          <div class="compatibility-warning warning">
-            <strong>⚠️ PARTIALLY SUPPORTED:</strong> pip install may fail on mobile platforms.<br>
-            iOS: ${iosUnsupported} unsupported packages | Android: ${androidUnsupported} unsupported packages
-          </div>
-        `;
+    // Only show warnings for selected platforms
+    if (showIOS || showAndroid) {
+      if (showIOS && showAndroid) {
+        // Both platforms selected - show combined warning
+        if (!iosFullySupported && !androidFullySupported) {
+          if (iosUnsupported === totalPackages && androidUnsupported === totalPackages) {
+            warningHtml = `
+              <div class="compatibility-warning critical">
+                <strong>⛔️ NOT SUPPORTED:</strong> This requirements.txt is <strong>NOT compatible</strong> with iOS or Android. 
+                pip install will fail on both platforms. All packages lack mobile platform support.
+              </div>
+            `;
+          } else if (iosPartiallySupported && androidPartiallySupported) {
+            warningHtml = `
+              <div class="compatibility-warning warning">
+                <strong>⚠️ PARTIALLY SUPPORTED:</strong> This requirements.txt is partially compatible with mobile platforms.<br>
+                pip install may fail on:<br>
+                • iOS (${iosUnsupported} unsupported)<br>
+                • Android (${androidUnsupported} unsupported)
+              </div>
+            `;
+          } else if (iosUnsupported === totalPackages) {
+            warningHtml = `
+              <div class="compatibility-warning warning">
+                <strong>⚠️ iOS NOT SUPPORTED:</strong> pip install will <strong>fail on iOS</strong>. All packages lack iOS support.<br>
+                Android support: ${androidCount + pureCount}/${totalPackages} packages supported.
+              </div>
+            `;
+          } else if (androidUnsupported === totalPackages) {
+            warningHtml = `
+              <div class="compatibility-warning warning">
+                <strong>⚠️ Android NOT SUPPORTED:</strong> pip install will <strong>fail on Android</strong>. All packages lack Android support.<br>
+                iOS support: ${iosCount + pureCount}/${totalPackages} packages supported.
+              </div>
+            `;
+          } else {
+            warningHtml = `
+              <div class="compatibility-warning warning">
+                <strong>⚠️ PARTIALLY SUPPORTED:</strong> pip install may fail on mobile platforms.<br>
+                iOS: ${iosUnsupported} unsupported packages | Android: ${androidUnsupported} unsupported packages
+              </div>
+            `;
+          }
+        } else if (!iosFullySupported) {
+          warningHtml = `
+            <div class="compatibility-warning warning">
+              <strong>⚠️ iOS PARTIALLY SUPPORTED:</strong> pip install may fail on iOS. ${iosUnsupported} packages are not supported on iOS.<br>
+              Android: ✅ Fully supported
+            </div>
+          `;
+        } else if (!androidFullySupported) {
+          warningHtml = `
+            <div class="compatibility-warning warning">
+              <strong>⚠️ Android PARTIALLY SUPPORTED:</strong> pip install may fail on Android. ${androidUnsupported} packages are not supported on Android.<br>
+              iOS: ✅ Fully supported
+            </div>
+          `;
+        } else {
+          warningHtml = `
+            <div class="compatibility-warning success">
+              <strong>✅ FULLY SUPPORTED:</strong> All packages are compatible with iOS and Android. pip install should work successfully on both platforms.
+            </div>
+          `;
+        }
+      } else if (showIOS) {
+        // iOS only
+        if (iosUnsupported === totalPackages) {
+          warningHtml = `
+            <div class="compatibility-warning critical">
+              <strong>⛔️ iOS NOT SUPPORTED:</strong> pip install will <strong>fail on iOS</strong>. All packages lack iOS support.
+            </div>
+          `;
+        } else if (iosPartiallySupported) {
+          warningHtml = `
+            <div class="compatibility-warning warning">
+              <strong>⚠️ iOS PARTIALLY SUPPORTED:</strong> pip install may fail on iOS.<br>
+              ${iosUnsupported} unsupported packages
+            </div>
+          `;
+        } else {
+          warningHtml = `
+            <div class="compatibility-warning success">
+              <strong>✅ iOS FULLY SUPPORTED:</strong> All packages are compatible with iOS. pip install should work successfully.
+            </div>
+          `;
+        }
+      } else if (showAndroid) {
+        // Android only
+        if (androidUnsupported === totalPackages) {
+          warningHtml = `
+            <div class="compatibility-warning critical">
+              <strong>⛔️ Android NOT SUPPORTED:</strong> pip install will <strong>fail on Android</strong>. All packages lack Android support.
+            </div>
+          `;
+        } else if (androidPartiallySupported) {
+          warningHtml = `
+            <div class="compatibility-warning warning">
+              <strong>⚠️ Android PARTIALLY SUPPORTED:</strong> pip install may fail on Android.<br>
+              ${androidUnsupported} unsupported packages
+            </div>
+          `;
+        } else {
+          warningHtml = `
+            <div class="compatibility-warning success">
+              <strong>✅ Android FULLY SUPPORTED:</strong> All packages are compatible with Android. pip install should work successfully.
+            </div>
+          `;
+        }
       }
-    } else if (!iosFullySupported) {
-      warningHtml = `
-        <div class="compatibility-warning warning">
-          <strong>⚠️ iOS PARTIALLY SUPPORTED:</strong> pip install may fail on iOS. ${iosUnsupported} packages are not supported on iOS.<br>
-          Android: ✅ Fully supported
-        </div>
-      `;
-    } else if (!androidFullySupported) {
-      warningHtml = `
-        <div class="compatibility-warning warning">
-          <strong>⚠️ Android PARTIALLY SUPPORTED:</strong> pip install may fail on Android. ${androidUnsupported} packages are not supported on Android.<br>
-          iOS: ✅ Fully supported
-        </div>
-      `;
-    } else {
-      warningHtml = `
-        <div class="compatibility-warning success">
-          <strong>✅ FULLY SUPPORTED:</strong> All packages are compatible with iOS and Android. pip install should work successfully on both platforms.
-        </div>
-      `;
     }
     
     // Build results table
@@ -962,8 +1052,8 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
         <thead>
           <tr>
             <th>Package</th>
-            <th>iOS</th>
-            <th>Android</th>
+            ${showIOS ? '<th>iOS</th>' : ''}
+            ${showAndroid ? '<th>Android</th>' : ''}
             <th>Category</th>
           </tr>
         </thead>
@@ -975,13 +1065,14 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
       const pkg = result.package;
       
       if (!pkg) {
+        const colspan = (showIOS ? 1 : 0) + (showAndroid ? 1 : 0) + 1;
         html += `
           <tr>
             <td>
               <div class="package-name">${req.name}</div>
               <div class="version-spec">${req.version}</div>
             </td>
-            <td colspan="3">
+            <td colspan="${colspan}">
               <span class="status-badge status-not-available">❌ Package not found in database</span>
             </td>
           </tr>
@@ -994,8 +1085,8 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
               <div class="version-spec">${req.version}</div>
               <div class="package-details">Source: ${pkg.source || 'Unknown'}</div>
             </td>
-            <td>${formatStatus(pkg.ios, pkg.iosVersion)}</td>
-            <td>${formatStatus(pkg.android, pkg.androidVersion)}</td>
+            ${showIOS ? `<td>${formatStatus(pkg.ios, pkg.iosVersion)}</td>` : ''}
+            ${showAndroid ? `<td>${formatStatus(pkg.android, pkg.androidVersion)}</td>` : ''}
             <td>${getCategoryName(pkg.category)}</td>
           </tr>
         `;
@@ -1012,6 +1103,21 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
     const uploadArea = document.getElementById('upload-area');
     const requirementsText = document.getElementById('requirements-text');
     const analyzeBtn = document.getElementById('analyze-btn');
+    
+    let lastAnalysis = null; // Store last analysis result
+    
+    // Filter checkboxes - re-render when changed
+    document.getElementById('req-filter-ios').addEventListener('change', () => {
+      if (lastAnalysis) {
+        displayRequirementsResults(lastAnalysis);
+      }
+    });
+    
+    document.getElementById('req-filter-android').addEventListener('change', () => {
+      if (lastAnalysis) {
+        displayRequirementsResults(lastAnalysis);
+      }
+    });
     
     // File input change
     fileInput.addEventListener('change', async (e) => {
@@ -1064,6 +1170,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
         const requirements = lines.map(parseRequirement).filter(r => r !== null);
         
         const analysis = await analyzeRequirements(requirements);
+        lastAnalysis = analysis; // Store for filter changes
         displayRequirementsResults(analysis);
       } catch (error) {
         console.error('Analysis error:', error);
