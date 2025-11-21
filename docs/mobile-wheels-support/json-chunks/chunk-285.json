@@ -1,0 +1,7002 @@
+[
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-bom-structure-xlsx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-bom-structure-xlsx-level-1",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-flattened-bom-xlsx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-mto-with-stock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-mto-with-stock-purchase",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-no-partial",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-procurement-analytic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-production-hierarchy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-production-note",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-production-putaway-strategy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-production-request",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-production-service",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-progress-button",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-property",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-repair-calendar-view",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-repair-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-mrp-sale-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-oca-custom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-onchange-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-openeducat-erp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-openeducat-fees",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-openeducat-support",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-ovh-sms-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-packaging-uom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-packaging-uom-view",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-academic-title",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-address-street3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-address-two-lines",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-address-version",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-affiliate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-aging",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-alias",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-bank-active",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-bank-mail-thread",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-bank-sort-code",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-capital",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-changeset",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-coc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-company-type",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-birthdate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-birthplace",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-company",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-configuration",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-department",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-gender",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-in-several-companies",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-job-position",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-lang",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-nationality",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-nutrition",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-nutrition-activity-level",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-nutrition-goal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-personal-information-page",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-role",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-contact-weight",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-create-by-vat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-daytopay",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-default-sale-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-disable-gravatar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-email-check",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-employee-quantity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-event",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-external-map",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-financial-risk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-firstname",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-identification",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-identification-gln",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-label",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-multi-company",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-multi-relation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-multi-relation-hierarchy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-multi-relation-tabs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-noncommercial",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-noncommercial-multi-relation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-password-reset",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-phone-extension",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-phonecall-schedule",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-risk-insurance",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-sale-risk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-second-lastname",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-sector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-socialmedia",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-stock-risk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-street-number",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-survey",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-partner-vat-unique",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-password-security",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-payment-redsys",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pim",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pingen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-portal-partner-select-all",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-portal-sale-personal-data-only",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-backend-communication",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-backend-partner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-customer-display",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-default-empty-image",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-default-payment-method",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-fix-search-limit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-lot-selection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-loyalty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-margin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-order-load",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-order-mgmt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-order-remove-line",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-order-return",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-partner-firstname",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-payment-entries-globalization",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-payment-terminal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-picking-delayed",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-price-to-weight",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-pricelist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-product-template",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-quick-logout",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-remove-pos-category",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-report-session-summary",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-sequence-ref-number",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-session-pay-invoice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-stock-picking-invoice-link",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-pos-timeout",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-printer-tray",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-printer-zpl2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-privacy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-privacy-consent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-privacy-partner-report",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-procurement-analytic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-procurement-auto-create-group",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-procurement-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-procurement-purchase-no-grouping",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-analytic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-analytic-donation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-analytic-pos",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-analytic-purchase",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-assortment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-attribute-set",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-attribute-set-completeness",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-brand",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-brand-pos-report",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-by-supplier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-categ-image",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-code-remove",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-code-unique",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-contract",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-country-restriction",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-custom-attribute",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-custom-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-default-image",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-dimension",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-exception",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-expiry-simple",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-harmonized-system",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-life-period",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-manufacturer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-margin-classification",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-multi-category",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-multi-company",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-multi-image",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-multi-link",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-online-category",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-packaging-barcode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-price-category",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-pricelist-tier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-profile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-profile-example",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-quick-bom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-replenishment-cost",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-search-multi-value",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-secondary-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-sequence",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-service-duration",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-special-type",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-standard-margin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-state",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-state-history",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-stock-state",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-supplier-code-purchase",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-supplierinfo-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-supplierinfo-for-customer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-supplierinfo-for-customer-invoice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-supplierinfo-for-customer-picking",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-supplierinfo-for-customer-sale",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-template-multi-link",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-template-tags",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-uom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-uom-technology",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-uom-unece",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-variant-configurator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-variant-default-code",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-variant-inactive",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-variant-supplierinfo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-variant-template-data",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-warranty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-product-weight",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-closing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-department",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-description",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-double-alias",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-gtd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-issue-code",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-issue-timesheet-time-control",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-members",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-model-to-task",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-parent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-recalculate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-scrum",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-stage-closed",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-stage-state",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-task-add-very-high",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-task-category",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-task-code",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-task-default-stage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-task-dependency",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-task-material",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-task-material-analytic-partner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-task-material-stock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-task-pull-request",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-task-report",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-timeline",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-timesheet-currency",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-timesheet-time-control",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-project-wbs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-allowed-product",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-analytic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-cancel-qty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-cancel-reason",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-comment-template",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-commercial-partner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-date-planned-manual",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-delivery-split-date",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-deposit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-fiscal-position-update",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-fop-shipping",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-landed-cost",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-line-product-image",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-location-by-line",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-minimum-amount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-open-qty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-analytic-search",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-approval-block",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-approved",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-import",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-import-ubl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-line-description",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-line-invoicing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-line-sequence",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-revision",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-ubl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-ubl-py3o",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-order-variant-mgmt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-packaging",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-picking-state",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-procurement-analytic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-product-multi-add",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-request",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-request-analytic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-request-department",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-request-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-request-procurement",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-request-procurement-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-request-to-procurement",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-request-to-rfq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-request-to-rfq-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-request-to-rfq-order-approved",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-sale-inter-company",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-stock-picking-return-invoicing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-tier-validation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-triple-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-variant-configurator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-purchase-variant-configurator-on-confirm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-quality-control",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-quality-control-formula",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-quality-control-mrp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-quality-control-stock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-quality-control-team",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-queue-job",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-queue-job-cron",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-queue-job-subscribe",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-csv",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-hotel-reservation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-hotel-restaurant",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-py3o",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-py3o-fusion-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-qr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-qweb-element-page-visibility",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-qweb-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-qweb-parameter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-qweb-pdf-watermark",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-qweb-signer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-qweb-txt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-wkhtmltopdf-param",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-xlsx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-xlsx-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-report-xml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-res-config-settings-enterprise-remove",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-res-country-state-translations-canada",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-res-country-state-translations-us",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-rest-log",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-analytic-distribution",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-automatic-workflow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-automatic-workflow-exception",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-automatic-workflow-payment-mode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-automatic-workflow-payment-ref",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-automatic-workflow-validate-purchase-mto",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-blanket-order",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-cancel-reason",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-comment-template",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-commercial-partner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-commission",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-commission-areamanager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-commission-formula",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-commission-geo-assign",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-commission-pricelist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-company-currency",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-crm-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-delivery-rate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-delivery-split-date",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-discount-display-amount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-exception",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-fixed-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-force-invoiced",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-invoice-auto-deliver",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-invoice-group-method",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-invoice-policy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-isolated-quotation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-layout-hidden",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-layout-multi-company",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-line-cost-control",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-manual-delivery",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-merge-draft-invoice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-mrp-link",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-action-invoice-create-hook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-import",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-import-csv",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-import-ubl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-invoicing-finished-task",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-line-confirmation-date",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-line-date",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-line-description",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-line-sequence",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-line-variant-description",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-lot-generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-lot-mrp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-lot-selection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-margin-percent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-price-recalculation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-priority",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-project",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-restrict-cancel-existing-invoice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-revision",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-type",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-ubl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-ubl-py3o",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-order-variant-mgmt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-owner-stock-sourcing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-packaging",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-partner-incoterm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-partner-version",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-procurement-amendment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-procurement-analytic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-procurement-group-by-line",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-procurement-group-by-requested-date",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-procurement-group-by-requested-date-sale-sourced-by-line",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-product-multi-add",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-product-set",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-product-set-layout",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-proforma-report",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-promotion-rule",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-promotion-rule-assortment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-promotion-rule-delivery",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-quotation-number",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-rental",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-revert-done",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-shipping-info-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-sourced-by-line",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-start-end-dates",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-stock-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-stock-order-import",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-stock-picking-blocking",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-stock-picking-blocking-proc-group-by-line",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-stock-picking-blocking-sale-manual-delivery",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-stock-picking-note",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-stock-variant-configurator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-timesheet-invoice-description",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-triple-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-validity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sale-variant-configurator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sales-team-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-save-translation-file",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-scheduler-error-mailer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sentry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sequence-check-digit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sequence-date-range",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-server-env-connector-magento",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-server-environment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-server-environment-ir-config-parameter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-algolia",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-assortment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-backend-image-proxy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-cart-expiry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-category-image-for-product",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-contact-company",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-custom-attribute",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-delivery-carrier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-delivery-instruction",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-demo-app",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-elasticsearch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-guest-mode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-image",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-import-image",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-invoice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-lead",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-locomotive",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-locomotive-contact-company",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-locomotive-guest-mode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-locomotive-payment-adyen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-locomotive-reset-password",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-membership",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-multi-category",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-partner-vat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-payment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-payment-adyen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-payment-manual",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-payment-paypal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-payment-sips",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-payment-stripe",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-pending-cart-reminder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-product-media",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-product-new",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-product-stock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-product-stock-assortment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-product-stock-state",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-product-template-multi-link",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-product-variant-selector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-promotion-rule",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-quotation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-quotation-payment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-sale-communication",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-sale-profile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-sale-report",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-shopinvader-search-engine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-slow-statement-logger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sms-send-picking",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sql-export",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-sql-request-abstract",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stay",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stay-report-py3o",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-account-change-product-valuation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-account-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-account-quant-merge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-analytic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-auto-move",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-available",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-available-base-exclude-location",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-available-immediately",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-available-mrp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-available-product-expiry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-available-sale",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-available-unreserved",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-cancel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-cancel-delivery",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-change-price-at-date",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-change-qty-reason",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-cost-method-last",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-cycle-count",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-delivery-internal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-delivery-note",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-demand-estimate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-disable-force-availability-button",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-exclude-to-remove-lot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-inventory-barcode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-inventory-chatter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-inventory-discrepancy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-inventory-exclude-sublocation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-inventory-lockdown",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-inventory-preparation-filter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-inventory-revaluation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-inventory-verification-request",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-location-lockdown",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-location-product-restriction",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-location-restrict-procurement-group",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-lot-note",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-lot-sale-tracking",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-lot-scrap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-move-backdating",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-move-common-dest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-mts-mto-rule",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-no-negative",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-operation-package-mandatory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-orderpoint-automatic-creation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-orderpoint-manual-procurement",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-orderpoint-manual-procurement-uom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-orderpoint-uom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-ownership-availability-rules",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-ownership-by-move",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-pack-operation-auto-fill",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-packaging-calculator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-back2draft",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-backorder-strategy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-completion-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-customer-ref",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-delivery-info-computation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-delivery-rate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-filter-lot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-invoice-link",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-invoicing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-line-sequence",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-mass-action",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-operation-quick-change",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-package-preparation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-package-preparation-line",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-qweb-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-show-backorder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-show-return",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-transfer-lot-autoassign",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-picking-variant-mgmt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-product-location-sorted-by-qty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-production-lot-multi-company",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-putaway-product",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-quant-manual-assign",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-quant-merge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-quant-package-product-packaging",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-quant-reserved-qty-uom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-removal-location-by-priority",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-reserve",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-scanner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-scanner-inventory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-scanner-location-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-scanner-receipt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-split-picking",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-valuation-account-manual-adjustment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-valued-picking-report",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-valued-picking-report-triple-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-warehouse-orderpoint-stock-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-stock-warehouse-orderpoint-stock-info-unreserved",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-storage-backend",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-storage-backend-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-storage-backend-sftp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-storage-file",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-storage-image",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-storage-image-category-pos",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-storage-image-product",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-storage-image-product-pos",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-storage-media",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-storage-media-product",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-storage-thumbnail",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-subcontracted-service",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-subscription-action",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-super-calendar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-support-branding",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-test-base-import-async",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-test-component",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-test-connector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-test-invader-payment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-test-onchange-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-test-queue-job",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-test-shopinvader-payment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-user-immutable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-user-threshold",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-users-ldap-groups",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-users-ldap-mail",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-users-ldap-populate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-access-rule-buttons",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-action-conditionable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-advanced-search-wildcard",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-advanced-search-x2x",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-chatter-paste",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-ckeditor4",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-confirm-window-close",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-decimal-numpad-dot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-dialog-size",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-domain-field",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-drop-target",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-editor-background-color",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-environment-ribbon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-export-view",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-favicon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-fullscreen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-hide-db-manager-link",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-ir-actions-act-window-message",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-ir-actions-act-window-page",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-listview-invert-selection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-listview-range-select",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-m2x-options",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-menu-navbar-needaction",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-no-bubble",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-notify",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-openeducat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-readonly-bypass",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-responsive",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-search-autocomplete-prefetch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-search-with-and",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-searchbar-full-width",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-send-message-popup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-sheet-full-width",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-shortcut",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-switch-company-warning",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-timeline",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-translate-dialog",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-tree-dynamic-colored-field",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-tree-image",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-tree-many2one-clickable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-unclickable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-bokeh-chart",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-char-switchcase",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-color",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-darkroom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-digitized-signature",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-domain-v11",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-float-formula",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-image-download",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-image-webcam",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-many2many-tags-multi-selection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-mermaid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-slick",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-slick-example",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-slickroom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-text-markdown",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-timepicker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-widget-x2many-2d-matrix",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-web-x2many-delete-all",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-webhook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-analytics-piwik",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-anchor-smooth-scroll",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-apps-store",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-blog-category",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-breadcrumb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-canonical-url",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-container-fluid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-cookie-notice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-crm-privacy-policy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-crm-quick-answer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-crm-recaptcha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-event-excerpt-img",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-event-filter-selector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-event-questions-template",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-event-require-login",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-event-share",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-event-snippet-calendar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-event-type-description",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-field-autocomplete",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-form-builder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-form-metadata",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-form-recaptcha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-legal-page",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-logo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-mass-mailing-name",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-multi-theme",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-no-crawler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-odoo-debranding",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-portal-contract",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-affiliate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-cart-selectable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-category-alphabetic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-charge-payment-fee",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-charge-payment-fee-delivery",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-charge-payment-fee-quote",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-checkout-country-vat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-commission-lead-geo-assign",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-default-country",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-hide-empty-category",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-hide-price",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-line-total",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-order-type",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-price-tier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-product-unavailable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-require-legal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-require-login",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-search-fuzzy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-select-qty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-show-company-data",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-suggest-create-account",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-sale-wishlist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-seo-redirection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-signup-legal-page-required",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-snippet-anchor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-snippet-barcode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-snippet-country-dropdown",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addon-website-snippet-data-slider",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-account-analytic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-account-budgeting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-account-closing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-account-consolidation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-account-financial-reporting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-account-financial-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-account-fiscal-rule",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-account-invoice-reporting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-account-invoicing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-account-payment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-account-reconcile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-apps-store",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-bank-payment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-bank-statement-import",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-bank-statement-reconcile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-business-requirement",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-calendar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-carrier-delivery",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-commission",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-community-data-files",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-accountedge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-cmis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-ecommerce",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-interfaces",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-lengow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-lims",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-magento",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-odoo2odoo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-prestashop",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-redmine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-sage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-salesforce",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-telephony",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-connector-woocommerce",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-contract",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-credit-control",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-crm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-currency",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-data-protection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-delivery-carrier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-department",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-donation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-dotnet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-e-commerce",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-edi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-event",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-geospatial",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-hr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-hr-timesheet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-infrastructure-dns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-interface-github",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-intrastat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-intrastat-extrastat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-knowledge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-argentina",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-belgium",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-brazil",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-canada",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-chile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-china",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-colombia",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-costa-rica",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-croatia",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-ecuador",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-ethiopia",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-finland",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-france",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-germany",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-india",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-iran",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-ireland",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-italy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-luxemburg",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-mexico",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-morocco",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-netherlands",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-norway",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-peru",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-portugal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-romania",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-slovenia",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-spain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-switzerland",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-taiwan",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-thailand",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-turkey",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-united-kingdom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-usa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-venezuela",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-l10n-vietnam",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-maintenance",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-management-system",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-manufacture",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-manufacture-reporting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-margin-analysis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-mis-builder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-multi-company",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-oca-custom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-odoo-pim",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-partner-contact",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-pos",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-product-attribute",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-product-kitting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-product-variant",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-project",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-project-agile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-project-reporting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-purchase-reporting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-purchase-workflow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-queue",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-report-print-send",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-reporting-engine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-rest-framework",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-rma",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-runbot-addons",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-sale-financial",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-sale-reporting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-sale-workflow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-search-engine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-server-auth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-server-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-server-ux",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-social",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-stock-logistics-barcode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-stock-logistics-reporting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-stock-logistics-tracking",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-stock-logistics-transport",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-stock-logistics-warehouse",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-stock-logistics-workflow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-storage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-survey",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-timesheet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-abbey",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-agriculture",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-association",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-community",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-construction",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-edition",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-education",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-hotel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-isp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-medical",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-ngo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-vertical-travel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-web",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-webhook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-webkit-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-website",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-oca-website-cms",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-shopinvader-odoo-misc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-shopinvader-odoo-pim",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-shopinvader-odoo-shopinvader",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo10-addons-shopinvader-odoo-shopinvader-payment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-analytic-asset",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-analytic-default-account",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-analytic-distribution",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-analytic-parent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-analytic-required",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-analytic-sequence",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-asset-disposal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-asset-management",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-balance-line",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-bank-statement-import-camt-oca",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-bank-statement-import-coda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-bank-statement-import-move-line",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-bank-statement-import-mt940-base",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-bank-statement-import-mt940-pl-raiffeisen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-bank-statement-import-ofx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-bank-statement-import-online",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-bank-statement-import-online-transferwise",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-bank-statement-import-paypal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-bank-statement-import-qif",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-banking-mandate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-banking-mandate-sale",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-banking-pain-base",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-banking-reconciliation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-banking-sepa-credit-transfer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-banking-sepa-direct-debit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-budget-template",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-cash-invoice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-chart-update",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-check-deposit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-check-printing-caixabank",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-check-printing-report-base",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-check-printing-report-dlt103",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-consolidation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-cost-center",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-credit-control",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-credit-control-dunning-fees",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-cryptocurrency",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-cutoff-accrual-base",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-cutoff-base",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-cutoff-prepaid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-document-reversal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-due-list",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-due-list-aging-comment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-due-list-days-overdue",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-due-list-payment-mode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-e-invoice-generate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-early-payment-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-financial-report",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-financial-report-date-range",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-financial-risk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-fiscal-month",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-fiscal-position-partner-type",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-fiscal-position-vat-check",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-fiscal-year",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-fx-spot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-global-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-group-menu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-alternate-payer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-anglo-saxon-no-cogs-deferral",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-blocking",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-change-currency",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-check-total",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-comment-template",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-constraint-chronology",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-currency",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-fiscal-position-update",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-fixed-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-force-number",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-import",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-import-facturae",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-import-ubl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-inter-company",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-line-description",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-line-report",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-line-sequence",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-margin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-margin-sale",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-pricelist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-production-lot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-refund-line-selection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-refund-link",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-reimbursable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-report-due-list",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-report-grouped-by-picking",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-start-end-dates",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-supplier-ref-reuse",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-supplier-ref-unique",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-supplier-self-invoice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-supplier-self-invoice-tax-note",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-tax-note",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-tax-required",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-tier-validation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-transmit-method",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-triple-discount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-ubl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-ubl-email-attachment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-validation-queued",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-invoice-view-payment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-journal-lock-date",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-loan",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-lock-date-update",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-lock-to-date",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-mass-reconcile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-mass-reconcile-by-purchase-line",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-mass-reconcile-ref-deep-search",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-mass-reconcile-transaction-ref",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-analytic-recreate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-base-import",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-batch-validate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-budget",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-fiscal-month",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-fiscal-year",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-line-auto-reconcile-hook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-line-manufacture-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-line-product",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-line-purchase-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-line-stock-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-line-tax-editable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-move-template",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-multicompany-easy-creation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-multicurrency-revaluation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-netting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-operating-unit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-partner-reconcile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-partner-required",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-batch-process",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-credit-card",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-mode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-order",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-order-return",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-partner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-purchase",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-return",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-return-financial-risk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-return-import",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-return-import-sepa-pain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-sale",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-show-invoice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-term-extension",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-unece",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-payment-widget-amount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-permanent-lock-move",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-reconcile-payment-order",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-reconcile-restrict-partner-mismatch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-reconcile-rule",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-reconciliation-widget-partial",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-renumber",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-reporting-weight",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-reversal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-set-reconcilable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-skip-bank-reconciliation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-spread-contract",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-spread-cost-revenue",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-tag-menu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-tax-balance",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-tax-unece",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-type-menu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odoo11-addon-account-vat-period-end-statement",
+    "source" : "pypi"
+  }
+]

@@ -1,0 +1,7002 @@
+[
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-backport-providers-singularity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-backport-providers-slack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-backport-providers-smtp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-backport-providers-snowflake",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-backport-providers-sqlite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-backport-providers-ssh",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-backport-providers-tableau",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-backport-providers-telegram",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-backport-providers-vertica",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-backport-providers-yandex",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-backport-providers-zendesk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-ctl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-devel-common",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-dragdrop-plugin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-flowitems",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-granulate-databricks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-granulate-databricks-auto-patch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-microsoft-fabric-plugin-cs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-microsoft-fabric-plugin-custom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-provider-magento",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-provider-rabbitmq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-provider-transfers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-aerofoil",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-aerofoil2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-anomalo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-apache-sqoop",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-asimov",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-daskexecutor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-fastetl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-greenplum",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-huawei",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-informatica",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-isolation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-kettle",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-mnb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-nomad",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-normalizer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-onehouse",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-plexus",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-prophecy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-qubole",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-taskette-dev",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-tdengine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-y42demo2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-ydb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-upgrade-check",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-zack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflowdasf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airlfow-providers-facebook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-analyser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-ariatosca",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-arrow-practice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-atlas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-beam-ai2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-beam-jupyterlab-sidepanel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-beam-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-bookkeeper-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-bot-blocker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-burr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-commons-validator-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-dolphinscheduler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-ensite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-flink-statefun",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-flink-statefun-new",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-flume-1-9-0-zhongwen-wendang",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-fory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-freemarker-2-3-28-zhongwen-wendang",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-hive-3-1-1-zhongwen-wendang",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-iotdb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-iotdb-nightly",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-license-check",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-liminal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-liminal-test-spark",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-liminal-zion",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Apache-Local-Domain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-otava",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-polaris-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-ranger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-replay",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-server-2-4-zhongwen-wendang",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-server-log-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-skywalking",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-skywalking-onepiece",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-skywalking-py312",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-submarine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-superset-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-superset-custom-excel-export",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-superset-db",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-superset-extensions-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-superset-iteco",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Apache-TrafficControl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-virtual-host",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apacheconfig",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APacheDEX",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apachelogs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apachescan",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apachetomcatscanner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApaDown",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apafea",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apal-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apala-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apalache-rpc-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apalib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APalysis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apamaeventparser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apantias",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apapi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparat-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparat-crawler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparat-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparatdl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "AparatDownloader",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparatloader",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparatpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparavi-client-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparavi-dtc-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparecium",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparse",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparser-async",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aparser-async-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apart",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apart-concept",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apartheid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apartment-browser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apartments",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APasm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apasswordmanager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APASVO",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apat-frame",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apatite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apatterson189-google-api-helpers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apaupercary",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apax",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apaya-py-logger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apays",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apb-cx-oracle-spatial",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apb-duckdb-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apb-extra-osgeo-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apb-extra-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apb-pandas-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apb-spatial-computer-vision",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apb-spatial-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apbuilder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apc-hypaship",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apc-ipmi-monitor-ericbo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APC-Power-Usage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apc-protocol",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apc-smartconnect",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apc-switched-rack-pdu-control-panel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APC-Temp-fetch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apccapi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apckey25",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apclib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apcloudy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apclusterv",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apconfig",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apd-crs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apd.aggregation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apd.sensors",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apdaemon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apdaily",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apdallapdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apdft",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apdl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apdocc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apdt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apdtflow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apduboy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-accounts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-addressbook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-ai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-alchemy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-apeman",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-arbitrum",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-aurora",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-avalanche",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-aws",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-base",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-blast",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-blockscout",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-boba",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-bobabeam",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-bsc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-cairo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-chainstack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-common",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-dasy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-ens",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-erpc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-etherscan",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-fantom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-farcaster",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-filecoin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-flashbots",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-foundry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-frame",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-ganache",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-gnosis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-hardhat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-huff",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-hyperliquid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-infura",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-keyring",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-ledger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-linea",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-linux",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-llamanodes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-mantle",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-notebook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-oort",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-openzeppelin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-optimism",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-pie",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-pokt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-polygon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-polygon-zkevm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-quicknode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-risk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-roll",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-rootstock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-safe",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-scroll",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-solidity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-starknet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-template",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-tenderly",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-titanoboa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-tokens",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-trezor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-turnkey",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-tx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ape-vyper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeagent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apebench",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeboiy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APEC",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apec-afn",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apecosm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apecseismicpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apectoolpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeek",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeeper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeer-dev-kit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeer-ometiff-library",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeer-to-wipp-converter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeex",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeiron",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeman-dal-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeman-model-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apengs-dash-components",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apengs-server-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apep",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apepay",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aperc-osemosys",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApereoSocialPipeline",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aperio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aperitif",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aperol",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apertif",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apertium",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apertium-app",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apertium-apy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apertium-init",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apertium-lint",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apertium-streamparser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apertium2ud",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apertools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aperture-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aperture-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aperturedb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aperturelib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aperyon-greeter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apes-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apesmit-python2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apetech-mcp-demo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apetest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apex-agents-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apex-algorithms-python-framework",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APEX-APX",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apex-code",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apex-flow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apex-legends-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apex-legends-voicelines",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apex-markets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apex-matrix",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apex-radio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apex-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexauthlib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexbase",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexdevkit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexlegendspy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexllm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexmf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexmq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexnova",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexomni",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexomni-arm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexomni-pc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexomni-x86",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexomni-x86-mac",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexpro",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApexTrackerPy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apextras",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apexxapi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApexxCloud",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apf-base",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apf-ci",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apfid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Apfloat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apg-booster",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apg-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apgard",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APGD",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apggr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apgmx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apgorm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apgp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apgsa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aphelper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apheris-auth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apheris-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apheris-preprocessing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apheris-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Aphid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aphie",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aphin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aphos-openapi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aphro",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aphrodite-engine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aphylogeo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aphyt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-1729",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-24sea",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-24sea-ai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-2b2t",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-2fa-fb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-agent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-analytics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-arsenal-iabdullahban",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-automation-kit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-automation-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-basic-lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-bastion",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-blueprint-generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-brasil",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-bricks-sec-api-rest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-bridge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-browser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-buddy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-bulk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-caller-pip-example",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "API-callers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-calls",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-canvas-lms",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-cerved-tutorial",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-chatbots",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-client-framework",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-client-generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-client-http",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-client-lnx-edge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-client-poc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-client-pydantic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-clients",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-clone",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-cloudvps-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-clubplus",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-code-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-connecter-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-connectors",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-correios",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Api-Counter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-data-fetching",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-data-fetchingpi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-deezer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-deezer-full",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-deploy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-descstats-csv",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-dfs-wrapper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-diagnostic-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-dispatcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-display-purposes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-doc-mcp-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "API-Drone",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-eagle",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-easiedata",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-eazy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-endpoint-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-entreprise",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-error-monitor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-estcube-helpers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-explorer-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-extractor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-finder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-fipe-consumo-RPSJR",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-flow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-for-iot-module",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-forge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-foundry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-foundry-query-engine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-gateway-ao",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-gateway-dynamodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-gateway-v2-to-wsgi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-geoguessr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-gerenciador",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-go-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-gpt4",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-hijacker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-homebank",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-hunter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-hunter-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-inference-community",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-interactor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-investment-risk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-jongler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-json-cleaner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-k",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-kaede",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-key-factory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-keychain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-lambda-router",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "API-libs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-limit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-limiter-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-linter-101",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-list-pagination",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-logger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-management-local",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-manager-verifier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-marketplace-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-mimic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-mlops-project",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-mocker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-morphlib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-name",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-nichotined",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-of-things",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-offres-emploi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-orm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-pipe",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-pipedrive-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-processor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-profiler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-project-generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-puppet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-python-bet-project",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-python-solar-forecast",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-python-template",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-random-protasevich",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-rate-limiter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-rd-station",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-reflector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-request-operations-ivy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-res-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-response-shaper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-rester",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-rule-engine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-safebooru",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Api-Save",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-scene",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-schemas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-sdk-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-secrets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-security-tester",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-selectel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-sentinel-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-service",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-services",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-session",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-simulator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-sl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-snitch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-sos",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-spec-test",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-sports-io-nfl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-spotify",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-status",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "API-StevenThomi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-swedeb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-tackle",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-test-cluster-kubernetes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-test-database-cluster",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-test-ninja",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-tester-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-tester-upload-test",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-testing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-testing-toolkit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "API-THINGY",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-throttler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-to-dataframe",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "API-to-MCP-Generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-to-pydantic-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-tutorial",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-user",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-validator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-watch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-watchdog",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-wg-simple",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-x-trace-logger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-youtube",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-youtube-uc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api-zabbix",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api.mock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api2case",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api2ch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api2db",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api2mdx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api2openai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api2pdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api2pydantic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api42lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api4all",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api4bing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api4p4",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api5paisa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api5simbiz",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api6",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api66jenkins",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "API7",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api_helper_saurabh",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api_hour",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api_stats",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "api_unostubs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiaccessor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIactModule",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiaiwebhook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiaiWebhookSerializer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apialerts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiAmoCRM",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Apiamtic-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiamticPackage5",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiarist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apias",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiaudio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiazure",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apibackuper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apibara",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apibean",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apibeat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apibench",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiBiuBiu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apibook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiBot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apibox",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apibrain-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apibridge-pro",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apibtc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apic-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicache",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicache-cli-av",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicadabri",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicall",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicase",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicast",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apichainer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicheck-package-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicheckr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiclarity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiclient-gonzalo123",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiclient-pydantic-generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiClientV2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicloudru",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apico",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiconfig",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIConnect",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiconsumer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APICORE-Python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicrafter-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicrud",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicrud-stevemutela",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicruds",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicrusher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicrusher-lite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicrypto",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicultur",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicurio-datahub-kafka",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicurioregistryclient",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apicuron-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidag",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidance",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidaora",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidatawho",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidays24pj",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apideck",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apideck-accounting-unify",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidecorators",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidev-coop-bar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidev-coop-cms",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidev-coop-colorbox",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidev-django-floppyforms",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidevtools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidoc-to-openapi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidoc2markdown",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidoc2runner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIDocTest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidownload",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apidriver",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apids-morphlib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apie",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apieasy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiendpoints",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiens",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apier-bridge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiera",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apierrors",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apies",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiexception",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apifactory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apifairy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apifaker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apifiny",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apifiny-futures",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apifipecons",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apifish",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIFixer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiFK-frekassa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiflash",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiflask-admin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiflask-generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiflood",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiflows",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIFNLIB",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apifoncier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apifoncier2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApifonicaClient",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiframe",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiframe-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apifrom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apifunc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIFuzzer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apify-haystack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apify-scrapy-executor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apify-scrapy-migrator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigateway-sdk-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigateway-sqs-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigatewaybuilder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigatewaydisconnectapi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiGazpar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigee-ci-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigee-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigeecli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigentools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiget",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigle",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigpio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigpio-mpf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigram",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigratis-sdk-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIGtool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigw-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apigw-wsgi-handler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiharbor-youtubeapi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apihelper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apihelpers4py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apihub",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apihub-python-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apihub-users",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiiif",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiimgbb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiinteractive",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiintercambiador",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiip",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiiro",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiiro-prevent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiium",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apijet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apika",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apikcmd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apikeeper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apikey-gateway",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apikey-hunter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiKeyAJM",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apikeycheck",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apikeylogger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apikeyrotator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apikeystore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIKick",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apikit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIKL",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apilage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apilage-codes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apilama",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiLayer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apilens",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apilimity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apilinker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apillama",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apillava",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiloadtests",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiloc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiLogicServer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apilookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apilot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apilyzer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apim-subscription-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimagic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIMakeSens",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiman",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIManager-DM-2024",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimapper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimarket",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Apimatic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-1-pypi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-avaitionstack-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-aviation-stack-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIMATIC-Caculator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-calc-v1",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-calculator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-calculator-97-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-calculator-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-calculator-test-api-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-coin-gecko-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-ignore-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Apimatic-open-api-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-open-weather-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-pandasport-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimatic-twilio-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimaticcalculator1",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimaticcalculatorlatest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimaticcalculatorpythonv6Demo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimaticcalculatortest1",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimaticcalculatortestapimatic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimaticcalhamza",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimaticclickSendAPI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimaticio-calculator-678-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIMaticSampleCalcPyPI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimaticSendAPI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimaticswaggerpetstore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimaticswaggertest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimeter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiminio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimodels",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiModkey",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimoex",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiMoneyFusion",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimonitor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apimyllama",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apinator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apinator-databricks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apinecone",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aping-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apininja",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apininjas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apininjas.py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apinum",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiNyaEr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apio-django",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiogram",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiosintDS",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiout",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apip",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apipack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apipack-nirmitsakre",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apipe",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apipeline",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiperu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apipie",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apipipeline",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apipool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiport",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiprime",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiprompting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiprotector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiProxy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apipt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apipulse-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apipy-logs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiqa-storage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiQlient",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiquotamanager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiquran",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiRack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiratelimit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiRequestManager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiresponsehandler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apirestbuilder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiritif",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apirl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiron",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apirotater",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apirun",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apirunner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apirunner-html",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-acdhch-default-settings",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-acdhch-django-auditlog",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-acdhch-django-invite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-ampel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-bibsonomy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-core-rdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-highlighter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-highlighter-ng",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-import-project",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-override-select2js",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apis-scraper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apisamarinda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apisec",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apisecurityengine-agent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiseek",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apisender",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apish",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apishare",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APIShift",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APISimplify",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apisix-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apisix-python-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apismartkit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-clear-unusable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-dataclasses",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-deco",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-decorated-crawler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-djangorestframework",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-falcon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-flask-restful",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "APISpec-fromfile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-hapic-marshmallow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-marshmallow-advanced",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-plugins",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-pydantic-plugin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-starlette",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-swaggerinherit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-ui",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispirit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apisports",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apisports-football",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispreadsheets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispreadsheets-lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apisql",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiss",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apist-framework",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-contrib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-cors",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-cors-hooks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-crud",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-dramatiq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-dynamic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-mail",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-msgpack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-pagination",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-peewee-orm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-prometheus",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-request-id",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-sentry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-settings",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-shell",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-sqlalchemy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar-token-auth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar_jwt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistar_session_cookie",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistats",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistblz",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiStock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistrap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apistubs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apit-lk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apit212",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitalker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitally",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitax",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitaxcore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitaxdrivers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitele",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitelematel-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitelev",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiterralab",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitest-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitest-ezgo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiTest365",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitestbasic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiTestBasicLib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiTestEngine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitester",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitester-lite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiTestEz",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiTestFramework",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiTestHttp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitests",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitimewrapper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apito",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitoolkit-common",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitoolkit-django",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitoolkit-fastapi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitoolkit-flask",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitoolkit-pyramid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitoolkit-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiTools-for-aiyoloAPI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiTools-fsdjfoi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitopy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitorch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apitut-nirmit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apium",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiupdate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiutil",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiutils-rec",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ApiValidations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverse",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-agecalculator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-airlinelookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-airportslookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-airquality",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-antonymfinder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-appstorescraper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-articleideasgenerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-babynamegenerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-barcodegenerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-bible",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-binlookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-bmicalculator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-bucketlist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-captchagenerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-cardgenerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-cardvalidator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-carmodels",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-chartgenerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-chucknorrisjokes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-citieslookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-cloudcounter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-cocktail",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-cocktailrecipe",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-colorconverter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-colorpalettegenerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-commentgenerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-companynamegenerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-contactextractor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-coordinatesaresea",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-counter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-countryborders",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-countryboundaries",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-countrycallingcode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-countryflags",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-countrylanguages",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-countrylookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-countydatalookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-currencyconverter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-currencysymbols",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-dadjokes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-datecalculator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-dictionary",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-disposableemailchecker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-distancecalculator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-dnslookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-dogbreeds",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-domainavailability",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-domainexpiration",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-emaildisposablechecker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-emailvalidator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-emoji",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-emojilookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-exercises",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-fullyqualifieddomain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-genderdetector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-goldprice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-grammarcheck",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-gravatarlookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-hashtaggenerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-historicalevents",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-horoscope",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-htmltopdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-imagetotext",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-ipblacklistlookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-iplookup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-keywordextractor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-languagedetector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-linkscraper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-loancalculator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apiverve-loremipsumgenerator",
+    "source" : "pypi"
+  }
+]

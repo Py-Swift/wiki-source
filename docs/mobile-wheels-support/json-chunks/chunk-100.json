@@ -1,0 +1,7002 @@
+[
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-ml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-mp3-audio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-multiline-links",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-mutable-downloads",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-no-truncate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-notebook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-nteract-data-explorer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-openai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-os-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-packages",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-parquet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-paste",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-permissions-metadata",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-permissions-sql",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-pins",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-placekey",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-plot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-plugin-demos",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-plugin-template-demo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-preact",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-pretty-json",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-pretty-traces",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-profiles",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-profiles-actors-from-ids",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-proxy-image-tags",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-proxy-url",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-psutil",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-public",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-publish-azure",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-publish-fly",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-publish-vercel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-pyinstrument",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-pytables",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-queries",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-query-assistant",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-query-files",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-query-history",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-query-links",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-reconcile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-redirect-forbidden",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-redirect-to-https",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-remote-actors",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-remote-metadata",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-remove-database",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-render-binary",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-render-html",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-render-image-tags",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-render-images",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-render-local-images",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-render-markdown",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-render-timestamps",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-rewrite-sql",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-ripgrep",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-rure",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sandstorm-support",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-saved-queries",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-scale-to-zero",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-schema-versions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-scraper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-scribe",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-seaborn",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-search-all",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-secret-santa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-secrets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sentry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-short-links",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-show-errors",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-simple-html",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sitemap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-socrata",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-spotify-embed",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sql-scraper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-assert",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-authorizer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-debug-authorizer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-fastrand",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-fts4",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-graft",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-hello",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-html",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-http",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-jiff",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-jsonschema",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-lembed",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-lines",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-path",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-regex",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-rembed",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-robotstxt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-tg",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-trace",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-ulid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-url",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-url-lite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-vec",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-vec-sl-tmp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-vector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-vss",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-xl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-sqlite-xsv",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-statistics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-studio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-tail",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-tailwindcss",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-template-request",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-template-sql",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-test",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-test-plugin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-tiddlywiki",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-tiles",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-total-page-time",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-ui-extras",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-unsafe-actor-debug",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-unsafe-expose-env",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-updated",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-upgrade",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-upload-csvs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-upload-dbs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-uptime",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-vega",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-vega-dashboards",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-verify",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-visible-internal-db",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-webhook-write",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-write",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-write-ui",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-x-forwarded-host",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-yaml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasette-youtube-embed",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasetter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasetutils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasever",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashader-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashadric",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashaper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashard",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashare-network-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashare-network-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashare-network-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashare-network-tokenserver",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashare-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashear",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasheet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasheet-downloader",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasheet-for-dataset",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasheets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashelf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataShepherd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashield",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashield-opal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashifts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataShine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashop",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataShow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datashuttle",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasience-methods",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasifter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasig",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataSika",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasimple",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasiphon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Datasis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasis-lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataskakare",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasketchesframework",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataskillhub",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataskipper-boat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasling",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataslots",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasmartly-cat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasmoothie-tally-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Datasnakes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasnap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasoap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasol",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datason",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasonar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataSort",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasouls-antispoof",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataSounds",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasoup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasource-contributor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasourcelib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasources-lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspace",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspace-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataSpaces-TestConverters",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspacetestpackage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspan",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspan-ai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspanalgorithms",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataSpark",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasparkler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspec",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspecs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasphere",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspike",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspike-livekit-plugins",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspine-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspine-serving-grpc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspiral",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasploit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasponge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasponge-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasponge-monitoring",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataSpyre",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataspyv4",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datass",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastack1",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastacks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastand",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastar-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastax",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastep",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastew",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastore-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastore-dnnevo-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastore-entity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastore-package",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastore-to-gcs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastore-viewer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastore_layer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastoreflex",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastorm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataStr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastream-direct",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastreamcorelib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DatastreamDSWS",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DatastreamNavigator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastreamservicelib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DatastreamUCS",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastretch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataStruct-Kit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructclass",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructresLionelEric",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructs-coop",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructs-sparkles58",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructspawner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructure-collection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructure-collection-nyakaz73",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructuregioday",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructurepack-deskent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Datastructures-Alex-Kaylyn",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructures-harrishasnain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructuresalgorithms-bharadwaj",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DatastructuresENSF338-Alex-Kaylyn",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructureshh",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataStructuresLiamTheodore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructureslibharrishasnain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructuresLionelEric",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructuresLionelHandEricM",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastructuresnadh",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataStructureVisualiser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datastuff",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasubclasses",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasum",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataSuper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasupplement",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasure",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasurfer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasurveyor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasus-commons",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasus-db",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasus-fetcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datasynth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataSynthesis131",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataSynthesizer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataSynthoSphere",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datata-entryiz",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatable-faker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatables-mongoengine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatableview-advanced-search",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatableview-user-columns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatailr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatalk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatang-customer-service",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatask",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datateam-moss",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datateer-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datateer-upload-agent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatensor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataterkinigempabumidiindoensia",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatext",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datathief",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datathing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datathon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datathon2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datati",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatia",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatidy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataTig",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatiles",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatlas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatoinfinity-hello-package",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatonic-pipeline-components",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatoolbox",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatoolkit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatools-mikdowd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatools-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatoolskit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatorch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatosk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatotable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatour",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataToweraiSDK",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatoword",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatoys",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatracer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatrack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatrack-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatrack-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatracker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatrail-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatrails-archivist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatrails-receipt-scitt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatrails-samples",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatrails-scitt-samples",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatrails-simplehash",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatransfer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatransfer-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatransform",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataTransformation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataTransformationsBertas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatransformationslibrary",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatransformer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatransformpackage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatransformtoolbox",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatransport",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatrees",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatricks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatrove",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatui",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatune",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatune-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datature",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatype-redis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatype-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatypeplus",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatypes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatypes-date-time",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatypes-timex-expression",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatypesoptimizer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataTypeSystem",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datatyping",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataultra.commandlines",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataultractl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataupdater",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datauploader",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datauri",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataurls",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datav",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datav-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datav-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datav-twinfabric-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavalid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavalidator-Adefolasayo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavalidator-emmanuella",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavalidatorchidimmaijoma",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataValidatorpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataValidityCheck",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataValuationPlatform",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavalues",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavents",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverifier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverk-airflow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverk-gsm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverk-publisher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverk-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverk-vault",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverse",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverse-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverse-rest-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverse-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataverse-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataversePython",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Dataviewer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavillage-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataVipLibraries",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavis-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavision-beeyard-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavisor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavistaflow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataVisualisation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataVisualization",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavisxyz",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavita-dpms-python-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavita-open-python-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavita-python-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataviz",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataviz-generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataViz-PlotChecker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavizml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavlt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataVolt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavoxel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datavs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataw",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawalk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawarehouse-connector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataWattch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawatts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawave",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawave-haproxy-agent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawaza",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataweave",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataweave-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataWeaver",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataweaver-ai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataweb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawhale",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawhale-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawhale-ling-jichu-rumen-shujuwajue-fix1",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawhisperer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawhispers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawhsipers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawhys",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawhys-dashboard",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawhys-experimental-control",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawidgets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawindow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawire-cloudtools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawire-mdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawire-quark",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawire-quark-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawire-quark-threaded",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawire-quark-twisted",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawire-quarkdev",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawire-quarkdev-threaded",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawire-quarkdev-twisted",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawise",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawords",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataworkspaces",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawrangle",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawrangling-lalit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawrap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawrapper-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawrappergraphics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datawriter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datax",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datax-analytics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataX-AwesomeAnimations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataX-dtd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DATAx-ETL",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datax-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datax-split",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datax-validator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataxi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataxmissionprotocol",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataXstorage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DataXtractor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataxy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datayoga",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datayoga-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datazen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datazeus",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datazimmer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datazone",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datazone-mcp-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datcat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datclass",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datconnexion",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-a-scientist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-assistant",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-aware-logger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-calculator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-convert-ad-bs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-correction",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-corrector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-day-estimator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-difference",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-extract",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-extractor-mds",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-filling",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-format-machine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-formatter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-guesser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-master",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-monthly",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-operations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-parser-sari",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-pick",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-query",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-range-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-ranges",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-reclass",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-simple",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-spacy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-time-event",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-time-handler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-time-literal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-time-pkg",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-time-range-sequence",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-utilities-kumari-prity-8855",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date-validator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date2cron",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date2name",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date62",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "date_to",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateandtime",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datebs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datec",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datecalc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datecalendar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datecomputer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datecond",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateconverter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datecycles",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dated-money",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dated-translator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datedays",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datedetect",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datedetective",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datedeux",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datedict",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datee",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datefactory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datefind",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datefinder-lexpredict",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datefmt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datefns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Datefull",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datefun",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dategen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DateGenerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateglob",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateh",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateHandler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datehandling",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datehelper-now-youre-unemployed",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DateId",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateiendifferenz",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateint",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateinterval",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateiter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datek-agar-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datek-agar-kivy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datek-async-fsm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datek-jaipur",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datek-web-crawler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datek_app_utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datelibrary-javis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateling",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datels",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dately",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datemangler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datemodule",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datemore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datengeist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datenraffinerie",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datepack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateparse",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateprepkit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datepulator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datepy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dater",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datera-cinder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DateRangeParser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daterecognition",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datero",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateroll",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datesearch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateslider",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datespan",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datestuff",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datesy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetag-pdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DateTF",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datethyme",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-convertion-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-curtis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-demo-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-distance",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-formatter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-helpers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-iso-format-sort",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-itertool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-libs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-matcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-printer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-selenium",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-time-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-toolkit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime-utils-sribandi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetime_tzutils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetimecoords",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DateTimeFormatJKP",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetimejp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetimejson",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DateTimeLib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetimeops",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DateTimePersian",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetimeplus",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DatetimeProcessing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetimetimedate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetoken",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetoolz",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetransform",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datetypes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateuploader",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateutil-br",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Datev-Splitter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DateVersioning",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dateweek",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datewise",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datexplore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DatExtractor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Datey",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datfid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datgfg-opensearch-mcp-server-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datgfg.rds-control-plane-mcp-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dathas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dathost",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datide",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datime",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datkit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datlib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datmat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datmo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DatNTLib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dato",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datocms",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datodms",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datolite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoma",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datonius",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datopic-git-sweep-latest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datopsy-ai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datorama",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datos-BD",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datos-gob-es-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datos-mex",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datos-mx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DatosBook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datosgobes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-plugin-internetarchive",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-eggman",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-enhanced",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-fbneo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-md-enhanced",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-nointro",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-pleasuredome",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-private",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-redump",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-sfc-enhancedcolors",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-sfc-msu1",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-sfc-speedhacks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-tdc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-translatedenglish",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-vpinmame",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datoso-seed-whdload",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datpack-update",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datpro",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datrafilcha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datreant",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datreant.core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datreant.data",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daTree",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datret",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datrics-json",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datrix",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dats-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dats-lab",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datta",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datto",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dattos-data-engine-common",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dattri",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datu-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datu-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datugokugpt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datum",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datum-authorization",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datum-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datum.sh",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datupapi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datura",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datura-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datus-agent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datus-agent-clickzetta",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datus-metricflow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datus-mysql",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datus-snowflake",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datus-sqlalchemy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datus-starrocks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datview",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datvtn-kit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datvtn-nn-kit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dau",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dau-active-inference",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dau-undersampler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daudio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Daudmo-mandelbrot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daudmoMandelbrot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Daug",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daughter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daul",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daumdict",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dauntlessdb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dauricum",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dautilpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dautils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dautomation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DAV",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dav-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dav-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dav-xmpp-sync",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dava-explorer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davaleba",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davdovin-poetry-package",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davdovin-test-package",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dave",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dave-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dave-data",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dave-health",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dave-metrics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dave-misc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dave-risk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dave-tivan",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dave-vkostov",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dave.sql",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davebot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davepdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daves-dev-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daves-utilities",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davesci",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davesradio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davestools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davex",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davext",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davi-bot-api-consumer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davia",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david-aws-util",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "David-carlist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david-cointegration-package",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david-home-automation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david-oceanbase-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david-oceanbase-mcp-2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david-oceanbase-mcp-3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david-rust-bin-pypi-test",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david-sqleval",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david-teams-util",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david-test-datadog-sma",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david4you",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david8",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david8-clickhouse",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "david8-postgresql",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidflmatematica",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidia",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidia-example-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidjaramillo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidjbarnes-init",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.ai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.amap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.azure",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.baidu.map",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.data.format",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.data.frame",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.databases",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.databricks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.devops",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.gcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.gcp.bq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.gcp.pubsub",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.google.adk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.google.maps",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.microsoft.purview",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.spark",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.tencent.map",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidkhala.utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidoc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidohpdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidpdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidpdf2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DAVIDpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidsousa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DavidsPrint",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidtea",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidtester",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidtesting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davidzhang-oceanbase-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davify",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davil",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davinci-functions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davinci-resolve-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davinci-resolve-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davinciGPT",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davincirunsdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davinciutils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davipy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davis-rig-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davis-summary-vac",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davis-weatherlink-scraper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daviswx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davodtime",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davordecorator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davos",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davt-dependencies-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davt-services-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davtelepot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "davteutil",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DAwandb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawarich-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawdaw",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawgdad",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawgie",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawgie-pydot3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawgmon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DawgsML",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawgz",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawidpdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawiq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawn-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawn-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawnai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawnai-strategy-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Dawnet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawnet-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawnet-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DawnieJulian",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawnlog",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawnote",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawshs-jff",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dawson-college-pyscrapper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daWUAP",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dax",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daxa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daxin01",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daxmod",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daxparser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daxpdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daxpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daxs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daxus",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "day-date",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "day-equity-fyers-historical",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "day-trading-models",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "day2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayabay-model",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayabay-model-official",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayamlchecker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayan-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayan-contextcapture",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayan-sync",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayana-endostat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayapdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daybetter-local-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daybetter-services-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daybit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daybook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daycolor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daydotpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daydream",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayforce-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayforcepy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayhoff",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayhoff-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayiwasborn",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daylight-evapotranspiration",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daylio-obsidian-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daylio-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daymark",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayoffs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DayOfWeek",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DayOfWeekLib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayone-to-obsidian",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayonewriter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daypack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayplot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daypy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "days360",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daysgrounded",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayspan",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Daystar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daytona-openai-demo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daytona_api_client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daytona_api_client_async",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daytona_daemon_api_client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daytona_daemon_api_client_async",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daytona_sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daytona_toolbox_api_client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daytona_toolbox_api_client_async",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daytum-data",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayu-oiio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayu-path",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayu-ratelimit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayu-timecode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayu-widgets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayu-widgets-overlay",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayu-widgets-overlay2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayu-widgets-tag",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayu-widgets3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayuanlib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayutil",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dayy9984",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazbo-commons",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daze-engine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazed",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazllm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazpycheck",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazvol",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazzed-and-confused",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazzle-filekit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazzle-preserve",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazzler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dazzletreelib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-able",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-access",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-accounting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-analytics-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-anonnymizer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-api-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-app",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-archivist",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-attribute",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-automation-PYPI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-automation825",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-autotest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-az-sync-provider",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-backtest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-backup-runner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-bridge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-broker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-build",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-builders",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-by-josh",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-cache-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-check",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-classifier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-claude-bridge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-client-smacondi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-cnct-pkg",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-commuter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-conn",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-conn-li",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-conn-lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-connect-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-connectioin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-connector-app",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-connector-kr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-connector-lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-connector-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-connectors",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-connectorXCI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-copilot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-copilot-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-crawl-agents",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-crud",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-crud-automated",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-dao",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-delta",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-diagram",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-drift",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-edges",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-engine-factory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-engines",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-env",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-extract",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-extractor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-facade",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-facts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "db-faker",
+    "source" : "pypi"
+  }
+]

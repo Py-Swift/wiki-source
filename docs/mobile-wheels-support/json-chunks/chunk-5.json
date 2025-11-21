@@ -1,0 +1,7002 @@
+[
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azdev",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-mypy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ase",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aiopg",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "evergreen-lint",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-nested-admin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "airflow-dbt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "hl7",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "torchinfo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azure-mgmt-kusto",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-loginas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "liccheck",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "msgpack-types",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dataclasses-json-speakeasy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rpaframework-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-reportlog",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sdcclient",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apeye",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gpytorch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "selinux",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "hud-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "algoliasearch-django",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "everett",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-monkey-business",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sphinxcontrib-svg2pdfconverter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "postmarker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-cloud-appengine-admin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "awsiotsdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "varname",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "isoweek",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "typed-ffmpeg-compatible",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "spacy-curated-transformers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azure-eventhub-checkpointstoreblob-aio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "hanzidentifier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "scalecodec",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-adminplus",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "betterproto-fw",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cloudinary",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "asyncstdlib-fw",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "miniKanren",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flake8-annotations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyecharts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dspy-ai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-swiftclient",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "growthbook",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "SQLAlchemy-Continuum",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "livekit-plugins-deepgram",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-requests-oauthlib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "prefixdate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nbstripout",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gevent-websocket",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bcubed",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cement",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "stream-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "robotframework-browser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "vector-quantize-pytorch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "forex-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "utm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "hera",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "treq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-graphql-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-opsgenie",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "equinox",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "opentelemetry-exporter-jaeger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bayesian-optimization",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gdbmongo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "customtkinter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "vaderSentiment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "databricks-langchain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "target-hotglue",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-geoip2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-rq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "hstspreload",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "skops",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "robotframework-robocop",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "smmap2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "polyfile-weave",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-string-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-boto3-ses",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pycocoevalcap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "djhtml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "robocorp-storage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-pretty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "descartes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apipkg",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "llama-index-llms-azure-openai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "skyfield",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "AlexaPy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "eccodes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pennylane-lightning",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-wake",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "CherryPy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-enum34",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyvers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "qudida",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-boto3-iam",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "setuptools-download",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-json-widget",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pySFeel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pylru",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "notifiers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-aiobotocore-sts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "djangorestframework-role-filters",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "quart-cors",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "numpyro",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-deprecation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pandas-flavor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "chalkpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "asyncio-atexit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ipyevents",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sklearn2pmml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "binapy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mp-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "langchain-ibm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-alembic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "botorch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sqlite-fts4",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "feast",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flake8-broken-line",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "autogen-agentchat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "coola",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "MainContentExtractor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "simple-term-menu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "akshare",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "linear-operator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pythran",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "stagehand",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "labelbox",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "autodocsumm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rpaframework-pdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-seaborn",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "xmltojson",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyjarowinkler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "py-machineid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "CurrencyConverter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-atlassian-jira",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azureml-telemetry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "opensearch-dsl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "volcengine-python-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-dirtyfields",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "alpaca-trade-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "clearml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "scim2-filter-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "smbus2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gin-config",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-cloud-modelarmor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-aiobotocore-cloudwatch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pymap3d",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rapidocr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mlserver",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "jwskate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "great-expectations-experimental",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "segmentation-models-pytorch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyfaidx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "splinebox",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sqlalchemy-pytds",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pgsanity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cached-path",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "email-reply-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "hl7apy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bindep",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "favicon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "blingfire",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-types",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bleak-retry-connector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "portend",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "tf2onnx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mode-streaming",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-unidiff",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nose2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "blendmodes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-reportportal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flask-sock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "soda-core-duckdb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-pexpect",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-cleanup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sodapy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "autogen-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cmake-build-extension",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-samba",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sarif-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "xlwings",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "databricks-ai-bridge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rstcheck-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-pylint",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "trustme",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-statsd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "edgegrid-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aiotask-context",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-hvac",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "jinjanator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "jinjanator-plugins",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyapacheatlas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "libretranslatepy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "locust-plugins",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "fastapi-users-db-sqlalchemy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "neptune-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "grequests",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "powerline-shell",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "imap-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "torch-fidelity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyhpke",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "langchain-perplexity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pycron",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "translate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "deepl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "suds",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "autoregistry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cxxfilt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rauth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pylint-gitlab",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "unsloth-zoo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "maggma",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sphinx-gallery",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pystoi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mdformat-gfm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "camelot-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyzabbix",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "taskipy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-fsm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyrender",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "robotframework-assertion-engine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aiohttp-sse-client2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "logical-unification",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "entrypoint2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "openinference-instrumentation-openai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "auditwheel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "property-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "beniget",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-papermill",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-mock-resources",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "odxtools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sphinx-togglebutton",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-emoji",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "neptune-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "spark-expectations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-AppleScriptKit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "markdown-katex",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyfunctional",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rio-cogeo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sttable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "prefect-github",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "prov",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyttsx3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "resize-right",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-jmespath",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datadog-checks-base",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sqlalchemy-databricks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "line-bot-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "redisvl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "authcaptureproxy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flake8-bandit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "asdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "segtok",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "zcbor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nicegui",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "x-transformers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mteb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pinecone-plugin-inference",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "wheel-stub",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "silero-vad",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "langgraph-supervisor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "redfish",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gcloud-aio-datastore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "paddlex",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aiotools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Boruta",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "doc8",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-dynamodb-lock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nacos-sdk-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "executor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cdktf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "linkedin-api-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-futures",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "docarray",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "policyuniverse",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "semantic-link-labs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "httpx-oauth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gcloud-rest-datastore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pockets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dagster-snowflake",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "molecule-plugins",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Routes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-qt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "databricks-pypi-extras",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sqladmin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pymannkendall",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "findlibs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-doctestplus",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cdk-ecr-deployment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyvalid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-fpdf2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "yellowbrick",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyct",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-cloud-dns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "prefect-shell",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "zhon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "onnxslim",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-money",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mycdp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "opentelemetry-instrumentation-writer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aiodynamo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "braintrust-langchain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "openshift",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dagster-celery-k8s",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dbt-exasol",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "whisperx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "remote-pdb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gcloud-aio-taskqueue",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "edge-tts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-pycurl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azureml-pipeline-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dodgy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "testcontainers-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "atproto",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aioodbc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "robotframework-seleniumtestability",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pact-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nutter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-play-scraper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-cte",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-miio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-google-cloud-ndb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "octodns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "optbinning",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "kafka",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aiosmtpd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gcloud-rest-taskqueue",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mpld3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pip-check",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "patchy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nbdime",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-tinymce",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "meteostat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rangehttpserver",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "toronado",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "filesplit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "PyArtifactory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "livekit-plugins-turn-detector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "java-access-bridge-wrapper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ytsaurus-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "asdf-standard",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rio-tiler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "clickhouse-pool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sphinxcontrib-napoleon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-humanfriendly",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-lazy-fixtures",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-user-agents",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-aiobotocore-sns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "arize-phoenix-evals",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gcloud-rest-bigquery",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyawscron",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "streamlit-extras",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyarmor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azure-ai-textanalytics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pynput-robocorp-fork",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "langchain-mongodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "geonamescache",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flask-swagger-ui",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "netapp-ontap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-qrcode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "wagtail",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "influxdb3-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azure-mgmt-managedservices",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "toml-sort",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-multiselectfield",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "tox-ansible",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bittensor-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "inscriptis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "stdeb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "draftjs-exporter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "arize",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "fast-langdetect",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "llama-index-embeddings-azure-openai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pdf2docx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "arize-phoenix-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "weave",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "argo-workflows",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "oic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "java-manifest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "edn-format",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-termcolor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cppy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "kopf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "requirements-detector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "typesense",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "osmnx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-cloud-billing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "URLObject",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "jupyter-server-mathjax",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "posthoganalytics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "objaverse",
+    "source" : "pypi"
+  },
+  {
+    "android" : "supported",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "wasmtime",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-statsd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "attr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "monty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "plotly-stubs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "PyArabic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "hachoir",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "requests-ratelimiter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "daytona",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyvim",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "reflex",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pysnyk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-AppleScriptObjC",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "httpx-auth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-UniformTypeIdentifiers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azure-mgmt-redisenterprise",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-LaunchServices",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "drf-exceptions-hog",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "teamcity-messages",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-ServiceManagement",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "autoray",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pandas-datareader",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "interpret-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mmengine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-ExceptionHandling",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-LatentSemanticMapping",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "statshog",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-InstallerPlugins",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-PreferencePanes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-DiskArbitration",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "secure-smtplib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rpy2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "csvw",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-OpenDirectory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-SecurityFoundation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "playwright-stealth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-elasticsearch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-SearchKit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sorl-thumbnail",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-DVDPlayback",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-DiscRecordingUI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sphinxext-opengraph",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-EventKit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "circular-dict",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-ColorSync",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-OSAKit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "requests-oauth2client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "asdf-transform-schemas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-Accounts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-CloudKit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "kedro-telemetry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sklearn-crfsuite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-MediaAccessibility",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-Social",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-MediaPlayer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-FinderSync",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-MediaLibrary",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-IOSurface",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-NetFS",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ropwr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-AdSupport",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-BusinessChat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "unitycatalog-langchain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-iTunesLibrary",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-NaturalLanguage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "getmac",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-VideoSubscriberAccount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "splink",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "conditional-cache",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ddtrace-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-FileProviderUI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-CoreHaptics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-DeviceCheck",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-ExecutionPolicy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pydomo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-dataclasses",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-LinkPresentation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-PencilKit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-QuickLookThumbnailing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "prospector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "toml-fmt-common",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-SoundAnalysis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pykalman",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-AppTrackingTransparency",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-AdServices",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dash-ag-grid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "unitycatalog-ai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-MetalPerformanceShadersGraph",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-MLCompute",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-KernelManagement",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ipydagred3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyattest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "DIRAC",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-UserNotificationsUI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-ScreenTime",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "neptune-scale",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aiomonitor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sphinx-click",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ibm-vpc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-apache-beam",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-DataDetection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-MailKit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-LocalAuthenticationEmbeddedUI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ibm-secrets-manager-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flashinfer-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mysql-replication",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "fixtures",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-IOBluetoothUI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "lazy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "controlnet-aux",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azure-ai-contentsafety",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyiso8583",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "meltanolabs-target-snowflake",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gptcache",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cfgrib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mplfinance",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "singlestoredb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-PHASE",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pybind11-stubgen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "extras",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-ThreadNetwork",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyaml-env",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pysnmpcrypto",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "FLAML",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-igraph",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pybind11-global",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-Carbon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ocrmypdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "conformer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "xmodem",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pygal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-ads-admanager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cognite-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-Collaboration",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-InstantMessage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-DictionaryServices",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-CalendarStore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datarobot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-assume-role-lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "tomesd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rotary-embedding-torch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "robotframework-databaselibrary",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "lizard",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "getschema",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "humiolib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nbqa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dash-mantine-components",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "WeTextProcessing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "brotli-asgi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-Cinematic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "coralogix-logger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "unitycatalog-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-SensitiveContentAnalysis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "boto3-stubs-full",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-Symbols",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pycel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "graphlib-backport",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "timeago",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-rest-swagger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bm25s",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-aiobotocore-kinesis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "jamo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "hass-web-proxy-lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-quickbooks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "jcs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "botbuilder-schema",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "wincertstore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-aiobotocore-elbv2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-flake8",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "crhelper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pgspecial",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ci-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-jazzmin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-select2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "tslearn",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "thrift2pyi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "uproot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mygeotab",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "haliax",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Willow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "localstack-py-avro-schema",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "optimizely-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aiodogstatsd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-error-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "adjust-precision-for-schema",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "botframework-connector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "fal",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-modelcluster",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cpplint",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bedrock-agentcore-starter-toolkit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-DeviceDiscoveryExtension",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "etelemetry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cvdupdate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "b2sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "segments",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "laspy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azureml-train-automl-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "libusb1",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nbval",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ipycanvas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "tortoise-orm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "kubernetes-stubs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pydub-stubs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Flask-OAuthlib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "colourmap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "target-jsonl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "base64io",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "session-info2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-cacheops",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "kmodes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "chalice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "archinfo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-sendgrid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-jwt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "polygon-api-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "neptune-fetcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "esp-idf-monitor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "tlslite-ng",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mkdocs-include-markdown-plugin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pycnite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "collate-sqllineage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mf2py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-mpl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "autogen-ext",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azure-mgmt-databricks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "prettyprinter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "github-action-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "githubpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "graypy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "datazets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "spandrel-extra-arches",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "djangorestframework-xml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "jaxopt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyobjc-framework-SecurityUI",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mido",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-variables",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "extruct",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rules",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "alphashape",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sphinx-toolbox",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyRdfa3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rospkg",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "langchain-deepseek",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pulumi-random",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mmdet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "email-to",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "claripy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "teradataml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "stumpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azureml-featurestore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sphinx-markdown-builder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pypika-tortoise",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "filigran-sseclient",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-icalendar",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "koheesio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "iLCDirac",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pgcli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "clu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sqlvalidator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pydeseq2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "prefect-kubernetes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flake8-commas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "allure-behave",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cle",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azureml-train-restclients-hyperdrive",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "arq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "trustcall",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "html-sanitizer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "streamlit-keyup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "tk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flask-apispec",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aiohttp-client-cache",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-subunit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "inotify",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-parametrized",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dlinfo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "botbuilder-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "botframework-streaming",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pandas-read-xml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flagsmith",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-auth-ldap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dydantic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ringcentral",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "plotly-resampler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "PyDrive",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "openfeature-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nilearn",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "llama-index-vector-stores-postgres",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-novaclient",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyghmi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-recaptcha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Flask-Pydantic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-aws-xray-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "stytch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "icalevents",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pulumi-kubernetes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "stackprinter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nipype",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "marshmallow-union",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "zulip",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "escapism",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "PySnooper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "logfury",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ptvsd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pccm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "skypilot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ccimport",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Lazify",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyjwkest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "waiting",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "tencentcloud-sdk-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "prompty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "scikit-plot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-hashicorp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "openmeteo-requests",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "veracode-api-signing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nbmake",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "openmeteo-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-xlrd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-test-migrations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-tenants",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "unlzw3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pdfrw2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pipupgrade",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "requests-unixsocket2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bpyutils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "contextily",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyathenajdbc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pygam",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bincopy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "collate-data-diff",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-cover",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyftdi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mlforecast",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "scatterd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "drf-writable-nested",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "curtsies",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "streamlit-image-coordinates",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "yagmail",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "livekit-plugins-elevenlabs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "awslimitchecker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aioshutil",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-allow-cidr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pydynamodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mlserver-mlflow",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "compress-pickle",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "iterators",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pca",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flake8-return",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azure-messaging-webpubsubservice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bpython",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "versionfinder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mosaicml-streaming",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "st-annotated-text",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "u-msgpack-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "syllapy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "interrogate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aistudio-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-admin-autocomplete-filter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "djangosaml2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apache-airflow-providers-github",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "PyVISA-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "robotframework-retryfailed",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "inngest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "csv23",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-tools-scripts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cpuset-py3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "git-filter-repo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "clerk-backend-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "langchain-qdrant",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "i18nice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "icmplib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "meshio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "easy-thumbnails",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "djangoql",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "json-ref-dict",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "fillpdf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mozfile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "apispec-webframeworks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "internetarchive",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "hydra-colorlog",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-trio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dm-control",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sphinx-jinja2-compat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "salt-lint",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "vcver",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "telepath",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dict2css",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nvitop",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mcap-protobuf-support",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mcpo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rosbags",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "zendriver",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "squarify",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bert-score",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Redis-Sentinel-Url",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "py-automapper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pgqueuer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "better-exceptions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "yoyo-migrations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rply",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "number-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-mimeparse",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "haystack-ai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "drf-jwt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "robocorp-log",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "qiskit-ibm-runtime",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "app-store-server-library",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gviz-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyDeprecate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-configurations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "coverage-badge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sqlacodegen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "stream-zip",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-embedded-serial-esp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "poster3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "fnvhash",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "first",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pypd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "snowflake-ml-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-botocore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dagster-pyspark",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pymorphy2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "json-flatten",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-log-request-id",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "astpretty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pylogbeat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "fastapi-limiter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mysql",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-events",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-cloud-common",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "schemdraw",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "colorzero",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "kaldiio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rq-dashboard",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyautogen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azureml-pipeline-steps",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "json-spec",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "promb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-permissionedforms",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "langchain-milvus",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "openpyxl-stubs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "googlesearch-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "yourdfpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azure-mgmt-costmanagement",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "schema-salad",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "langchain-tavily",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "monai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "PyExcelerate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-ratelimit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flake8-debugger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "fastdownload",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "tika",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-crum",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "clearml-agent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sip",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sshconf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "streamlit-card",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyatlan",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "tsfresh",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "langchain-tests",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-reauth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "html-tag-names",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "html-void-elements",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dash-extensions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "rdrobust",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-selenium",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azureml-defaults",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pypi-timemachine",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "gpiozero",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-embedded-serial",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "nox-poetry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ibm-db-sa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aqtinstall",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "jupyterlab-lsp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "earthengine-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-unfold",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-cloud-alloydb-connector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pycountry-convert",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "wheel-filename",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "streamlit-faker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "Lifetimes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "awscli-plugin-s3-proxy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "robotframework-tidy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "HeapDict",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dynamic-yaml",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flake8-variables-names",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-rest-knox",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "llama-index-legacy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "modern-treasury",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mlx-lm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "curated-transformers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azure-mgmt-quota",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pycobertura",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "py3langid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "markdownlit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-md-report",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "captum",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pymc3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "scikeras",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "qpd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "browserforge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bidsschematools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pandas-profiling",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pipecat-ai",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "case-converter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mkdocs-jupyter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-orjson",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pymorphy2-dicts-ru",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-spark",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "yesqa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bamboolib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "streamlit-embedcode",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "simpy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "panns-inference",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pylsp-mypy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "asyncua",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "azure-iot-hub",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "color-matcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pymacaroons",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "streamlit-toggle-switch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "taskiq-dependencies",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "jupyterlab-git",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "perfetto",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "morecantile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "conllu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "onnxmltools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-cloud-filestore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bzt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "streamlit-camera-input-live",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "tqdm-loggable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dvc-gs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "td-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-structlog",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ovld",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "records",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "bloomfilter-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "swapper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "djoser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "alpaca-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "telebot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-sendgrid-v5",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "ipyaggrid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "objectory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "validator-collection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "jc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-aiobotocore-secretsmanager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "streamlit-vertical-slider",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mozterm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "multiaddr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "liger-kernel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "taskiq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "websockify",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "covdefaults",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "django-add-default-value",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "vermin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "binary",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "types-aiobotocore-route53",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "label-studio-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-auth-stubs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "okta-jwt-verifier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "esp-coredump",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dagster-azure",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pluginlib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "cowsay",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "agate-sql",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "sphinx-sitemap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "great-tables",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pixelmatch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mechanize",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "drf-standardized-errors",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "colour-science",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "vector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "flyteidl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "py-consul",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "presto-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "numpy-stl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pydot-ng",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "jsonseq",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "enum-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mongomock-motor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-logstash-async",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "grpc-requests",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pystac-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "python-schema-registry-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "acachecontrol",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pygount",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "clip-interrogator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "colorhash",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "hvplot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "standard-sunau",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "xdg",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-localserver",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "oauth2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "hierarchical-conf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pycaret",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "mltable",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pip-install-test",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "duplocloud-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "dagit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "onnx-graphsurgeon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "google-cloud-monitoring-dashboards",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pyproject-flake8",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "pytest-remotedata",
+    "source" : "pypi"
+  }
+]

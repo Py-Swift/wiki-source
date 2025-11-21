@@ -1,0 +1,7002 @@
+[
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-controltower",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-cur",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-customerprofiles",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-databrew",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-datapipeline",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-datasync",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-dax",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-detective",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-devopsguru",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-directoryservice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-dlm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-dms",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-docdb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-docdbelastic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-dynamodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-dynamodb-global",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ec2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ec2-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ecr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ecr-assets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ecs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ecs-patterns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-efs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-eks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-eks-legacy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-eks-v2-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-elasticache",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-elasticache-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-elasticbeanstalk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-elasticloadbalancing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-elasticloadbalancingv2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-elasticloadbalancingv2-actions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-elasticloadbalancingv2-targets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-elasticsearch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-emr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-emrcontainers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-emrserverless",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-events",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-events-targets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-eventschemas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-evidently",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-finspace",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-fis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-fms",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-forecast",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-frauddetector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-fsx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-gamelift",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-gamelift-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-globalaccelerator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-globalaccelerator-endpoints",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-glue",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-glue-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-grafana",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-greengrass",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-greengrassv2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-groundstation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-guardduty",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-healthlake",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iam",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-identitystore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-imagebuilder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-imagebuilder-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-inspector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-inspectorv2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-internetmonitor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iot-actions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iot-actions-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iot-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iot1click",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iotanalytics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iotcoredeviceadvisor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iotevents",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iotevents-actions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iotevents-actions-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iotevents-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iotfleethub",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iotfleetwise",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iotsitewise",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iotthingsgraph",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iottwinmaker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-iotwireless",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ivs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ivs-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ivschat",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kafkaconnect",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kendra",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kendraranking",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kinesis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kinesisanalytics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kinesisanalytics-flink",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kinesisanalytics-flink-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kinesisanalyticsv2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kinesisfirehose",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kinesisfirehose-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kinesisfirehose-destinations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kinesisfirehose-destinations-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kinesisvideo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-kms",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lakeformation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lambda-destinations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lambda-dotnet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lambda-event-sources",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lambda-go",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lambda-go-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lambda-nodejs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lambda-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lambda-python-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lambda-rust",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lex",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-licensemanager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lightsail",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-location",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-location-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-logs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-logs-destinations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lookoutequipment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lookoutmetrics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-lookoutvision",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-m2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-macie",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-managedblockchain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-mediaconnect",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-mediaconvert",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-medialive",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-mediapackage",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-mediastore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-mediatailor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-memorydb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-msk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-msk-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-mwaa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-neptune",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-neptune-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-networkfirewall",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-networkmanager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-nimblestudio",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-oam",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-omics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-opensearchserverless",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-opensearchservice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-opsworks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-opsworkscm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-organizations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-osis",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-panorama",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-personalize",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-pinpoint",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-pinpointemail",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-pipes",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-pipes-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-pipes-enrichments-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-pipes-sources-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-pipes-targets-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-proton",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-qldb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-quicksight",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-quickstarts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ram",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-rds",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-redshift",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-redshift-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-redshiftserverless",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-refactorspaces",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-rekognition",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-resiliencehub",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-resourceexplorer2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-resourcegroups",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-robomaker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-rolesanywhere",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-route53",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-route53-patterns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-route53-targets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-route53recoverycontrol",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-route53recoveryreadiness",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-route53resolver",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-route53resolver-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-rum",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-s3-assets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-s3-deployment",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-s3-notifications",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-s3objectlambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-s3objectlambda-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-s3outposts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-s3tables-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-sagemaker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-sagemaker-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-sam",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-scheduler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-scheduler-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-scheduler-targets-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-sdb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-secretsmanager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-securityhub",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-servicecatalog",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-servicecatalog-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-servicecatalogappregistry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-servicecatalogappregistry-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-servicediscovery",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ses",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ses-actions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-shield",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-signer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-simspaceweaver",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-sns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-sns-subscriptions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-sqs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ssm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ssmcontacts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-ssmincidents",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-sso",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-stepfunctions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-stepfunctions-tasks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-supportapp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-synthetics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-synthetics-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-systemsmanagersap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-timestream",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-transfer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-voiceid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-vpclattice",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-waf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-wafregional",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-wafv2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-wisdom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-workspaces",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.aws-xray",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.cdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.cdk-assets-schema",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.cli-lib-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.cloud-assembly-schema",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.cloudformation-include",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.custom-resources",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.cx-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.integ-tests",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.integ-tests-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-awscli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v21",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v22",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v23",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v24",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v25",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v26",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v27",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v28",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v29",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v30",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v31",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v32",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v33",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-kubectl-v34",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.lambda-layer-node-proxy-agent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.pipelines",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.region-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.runtime-values",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.triggers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.yaml-cfn",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cdk.zip-asset-code",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cert-syncer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cf-custom-resources",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cfn-kafka-admin-provider",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cfn-resources-schemas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cfn-ses-domain",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-chain-secrets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-check-for-domain-hijacking",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ci-cd-fargate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ci-cd-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cidr-finder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-clamav-malware-scanner-vpc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cli-assistant-lite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cli-config",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cli-mcp-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cli-mfa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cli-sso",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cli-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-client-wrapper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-clients-python-lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-clipper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-close-account",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cloud-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cloud-utilities",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cloud9-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cloudformation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cloudformation-visualizer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cloudhsm-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cloudtrail-tk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cloudwatch-insights",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cloudwatch-logs-url",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-clutter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cmp-secrets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-co",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-coco",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-codeartifact-poetry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-codebuild",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-codecommit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-codedeploy-watcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-codeseeder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-codestar-cdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-codestarconnection",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cognito-auth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cognito-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-common-modules",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-comprehend",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-config",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-config-checks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-connect-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-connector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-console",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-console-url",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-console-url-search",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-consoler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-container-launcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-content-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-control-tower-manifest-builder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-calculator-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-explorer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-lens",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-mutilator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-1",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-10",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-11",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-12",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-13",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-14",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-4",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-5",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-6",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-7",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-8",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-optimization-9",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cost-report",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-cred-gen",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-credential-process",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-credentialer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-credentials",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-credentials-clipboard-updater",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-creds",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-creds-replace",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-croniter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-custom-ews-kafka-resources",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-custom-ews-kafka-topic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-custom-json-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-dashboard",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-data-landing-zone",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-data-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-databridge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-db-migration",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-dbesdk-dynamodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ddk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ddk-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-decorators",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-deepracer-control-v2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-default-cleaner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-delete-all",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-devops-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-django-deploy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-dsf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-durable-execution-sdk-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-durable-execution-sdk-python-testing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-dynamodb-io",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-dynamodb-operations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-dynamodb-parallel-scan",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-dynamodb-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-easy-mfa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-easy-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-easy-use",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ec2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ec2-auto-scaling-instance-running-scheduler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ec2-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ec2-instance-connect-custom-resource",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ec2-instance-reaper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ec2-pricing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ec2-pricing-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ec2-provisioner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ec2-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ecr-cleanup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ecr-migration",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ecs-cluster",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ecs-deploy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ecs-exec",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ecs-gcp-workload-identity-federation",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ecs-service",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ecs-services",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ecs-task-render",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-eden-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-eden-core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-elastic-doc-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-elemental-python-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-emd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-empty-bucket",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-empty-ecr-repository",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-emr-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-emr-cost-calculator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-emr-launch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-emr-launcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-eni-identifier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-eni-tagger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-enumerateiam",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-environ-loader",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-es-query",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-etl-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-event-check",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-eventbridge-explorer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-eventbridge-rule-syncer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-excom",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-export-credentials",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-exporter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ext",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-farrukh90",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-feature-flags",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-feature-store",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-finops-dashboard",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-finops-mcp-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-flask-swagger-ui",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-fortuna",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-framework",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-fsx-lifecycle-status-monitor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-fusion",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-fuzzy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-gate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-get-secret",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-get-vpn-connection-info",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-gitops",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-glove",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-glue-artifact",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-glue-catalog",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-glue-container-launcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-glue-workflow-analyzer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-google-auth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-grobid",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-hadoop",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-haystack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-hcs-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-healthchecker-response",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-healthomics-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-helper-services",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-helpers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-hexagonal-adapters",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-hotel-helpers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-http-auth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-iam-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-iam-db",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-iam-generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-iam-login",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-iam-tester",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-iam-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-identity-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-in-docker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-info-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-infra-graph",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-infrastructure-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-insurancelake-etl",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-insurancelake-infrastructure",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-inventory-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "AWS-Invoke",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-iot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-iot-sitewise-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-iot-tunnel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ip-check",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ir-plugins",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-jmespath-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-jsiisamples.jsii-code-samples",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-jsiisamples.jsii-native-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-json-dataset",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-json-term-matcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-jupyter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-jupyter-proxy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-keLP",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-key-formatter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-key-rotator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-key-rotator-project",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-keys-sectool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-kinesis-consumer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-kms-crypt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-kommandos",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-api-builder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-api-event-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-artifact-builder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-bundler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-cask",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-ci",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-compatible-psycopg2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-cors",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-decorators",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-deploy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-deployment-package",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-deployment-test-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-event",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-event-handler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-event-models",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-handler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-invoker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-layer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-log-collector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-mess",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-module-loader",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-proxy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-publish-shared-event",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-pypackager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-python-packager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-requests-wrapper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-sample-events",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-sls",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-types",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-utils-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lambda-wsgi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-library",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-list-all",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-log-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-longer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-lwa-readiness-check",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "AWS-Mage2Connector",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mail",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-manifest",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-marketplace-toolkit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-marketplace-ubuntu-scraper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mcp-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mcp-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-member-accnt-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-message-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-meun",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mfa-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "AWS-MFA-Helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mfa-helper-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mfa-ks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mfa-login",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mfa-plugin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mfa-profiles",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mfa-spok",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mfa-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mfa-util",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mfa-v2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mlops",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mobi",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-monitor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-monthly-costs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mp-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-mu",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-multi-region-search",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-network-firewall",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-neuronx-runtime-discovery",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ninja",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-noaction",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-nova-canvas-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-nsm-interface",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-nsm-interface-verifiably",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-nuke-exporter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-obp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-oidc-broker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-oidc-login",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-okta-keyman",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-okta-processor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-omics-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-open",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-opentelemetry-distro-genai-beta",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ops-alpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-code-commit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-custom-cfn",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-emr-on-eks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-hello-world",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-jupyterlab-orbit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-lustre",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-overprovisioning",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-ray",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-redshift",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-sm-operator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-team-script-launcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orbit-voila",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-org-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-org-inventory",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-org-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-org-tree",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orga-deployer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-organizations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-orgs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ou-membership",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-parallelcluster-awsbatch-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-parallelcluster-node",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-parameters",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-paramstore-py",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-parquet",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-pc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-pcluster-bootstrap-helpers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-pcluster-dask-gateway",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-pcluster-helpers",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-pcluster-slurm-spawner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-pdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-pinpoint-campaign-builder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-pipeline-creator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-plugin-bucket-policy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "AWS-Police",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-policy-generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-polly",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-portknock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-priv-actions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-profile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-profile-gpg",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-profile-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-profile-switch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-profile-switcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-profiles",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.aws-arch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.awsui-react-ts-website",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.cdk-graph",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.cdk-graph-plugin-diagram",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.cloudscape-react-ts-website",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.identity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.nx-monorepo",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.open-api-gateway",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.pdk-nag",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.pipeline",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.static-website",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-prototyping-sdk.type-safe-api",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-public-endpoints",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-quota-checker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-rag-bot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-rag-bot-light",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-razor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-rds",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-rds-database-running-scheduler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-rds-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-rds-parameter-group-to-tf",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a1",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a10",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a11",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a12",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a13",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a14",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a15",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a16",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a17",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a18",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a19",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a20",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a4",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a5",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a6",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a7",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a8",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendation-a9",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-recommendations",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-redshift-schema-explorer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-region-proximity",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-regions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-rekognition-parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-requests-auth-stubs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-resource-monitor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-resource-scheduler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-resource-search",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-resource-validator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-rfdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-role-creator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-role-credentials",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-role-switcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-rotate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-runas",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-access-grants-boto3-plugin",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-controller",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-glacier-restore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-ops",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-resource",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-sdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-settings",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-share",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-trace-log",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3-url2uri",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-s3bucket",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sagemaker-remote",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sam-rw-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sam-testing",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sam-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sam-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-saml-auth",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-saml-login",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-satella",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-saving",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-scheduler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-schema",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-scraper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sdk-polars",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sdk-python",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sec-graph",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-secret-cdk",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-secrets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-secrets-cache",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-secrets-dict",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-secrets-env",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-secrets-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-secrets-wrapper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-secretsmanager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-secure-bucket",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-secure-log-bucket",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-security-test",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-securityhub-suppression",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sentinel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-serverless-wrapper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-service-availability",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-service-mcp-generator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-service-screener",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-services",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-services-library",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-services-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ses-service",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sesh",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-session",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-session-credentials",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-session-daemon",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-session-management",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-session-manager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-session-recorder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sessions-switcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sfn-builder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sg-backup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-shell",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-shelltools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-shepherd",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sherlock",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-signature",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-signv4-apigateway",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-signv4-mqtt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sigv4",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-simple-pipeline",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-slack-notifier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-slapdash",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sm-import",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sms-service",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-snap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sns-message-validator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sns-message-validator2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sns-slack-subscriber",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sns-verifier",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-socks",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-alb-fargate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-alb-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-apigateway-dynamodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-apigateway-iot",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-apigateway-kinesisstreams",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-apigateway-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-apigateway-sagemakerendpoint",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-apigateway-sqs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-apigatewayv2websocket-sqs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-cloudfront-apigateway",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-cloudfront-apigateway-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-cloudfront-mediastore",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-cloudfront-oai-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-cloudfront-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-cognito-apigateway-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-constructs-factories",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-dynamodb-stream-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-dynamodb-stream-lambda-elasticsearch-kibana",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-dynamodbstreams-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-dynamodbstreams-lambda-elasticsearch-kibana",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-dynamodbstreams-pipes-stepfunctions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-eventbridge-kinesis-firehose-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-eventbridge-kinesis-streams",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-eventbridge-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-eventbridge-sns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-eventbridge-sqs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-eventbridge-stepfunctions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-events-rule-kinesis-firehose-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-events-rule-kinesis-streams",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-events-rule-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-events-rule-sns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-events-rule-sqs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-events-rule-step-function",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-fargate-dynamodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-fargate-eventbridge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-fargate-kinesisfirehose",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-fargate-kinesisstreams",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-fargate-opensearch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-fargate-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-fargate-secretsmanager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-fargate-sns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-fargate-sqs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-fargate-ssmstringparameter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-fargate-stepfunctions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-iot-kinesisfirehose-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-iot-kinesisstreams",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-iot-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-iot-lambda-dynamodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-iot-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-iot-sqs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-kinesis-firehose-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-kinesis-firehose-s3-kinesis-analytics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-kinesis-streams-gluejob",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-kinesis-streams-kinesis-firehose-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-kinesis-streams-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-bedrockinferenceprofile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-dynamodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-elasticachememcached",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-elasticsearch-kibana",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-eventbridge",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-kendra",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-kinesis-streams",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-kinesisfirehose",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-opensearch",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-sagemaker",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-sagemakerendpoint",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-secretsmanager",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-sns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-sqs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-sqs-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-ssmstringparameter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-step-function",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-stepfunctions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-lambda-transcribe",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-openapigateway-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-route53-alb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-route53-apigateway",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-s3-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-s3-sns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-s3-sqs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-s3-step-function",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-s3-stepfunctions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-sns-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-sns-sqs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-sqs-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-sqs-pipes-stepfunctions",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-wafwebacl-alb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-wafwebacl-apigateway",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-wafwebacl-appsync",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.aws-wafwebacl-cloudfront",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-constructs.resources",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-apigateway-dynamodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-apigateway-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-apigateway-sqs",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-cloudfront-apigateway",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-cloudfront-apigateway-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-cloudfront-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-cognito-apigateway-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-dynamodb-stream-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-dynamodb-stream-lambda-elasticsearch-kibana",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-events-rule-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-iot-kinesisfirehose-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-iot-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-iot-lambda-dynamodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-kinesis-firehose-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-kinesis-firehose-s3-kinesis-analytics",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-kinesis-streams-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-lambda-dynamodb",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-lambda-elasticsearch-kibana",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-lambda-s3",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-lambda-sns",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-s3-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-sns-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.aws-sqs-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-solutions-konstruk.core",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-spot-advisor-sejto",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-spy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sqs-batch-sender",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sqs-batchlib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sqs-consumer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sqs-ext-client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssabuilders.aws-bootstrap-kit",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssh",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssh-config",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssh-sync",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssh-tunnel",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssh-utils",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssm-commander",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssm-devlibx",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssm-env",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssm-juggle",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssm-run-command",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssm-secrets-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssm-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssm-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssm-tree",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-ssm-tunnel-agent",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sso",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sso-cfn-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sso-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sso-config-builder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sso-credential-helper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sso-credential-process",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sso-credential-provider",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sso-lite",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sso-magic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sso-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sso1",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-stash",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-static-website",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-step-functions-pydantic",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-stepfunction",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sts",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sts-get-mfa-profile",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-sts-tool",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-stuff-doer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-super-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-switcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-syndicate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-tag",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-tag-a-day",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-tag-snapshotter",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-tag-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-target-discovery",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-tasks-mcp-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-teams-logger",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-test-harness",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-testlib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-text-insight",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-textract",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-textract-pipeline",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-tmp-keys-fetcher",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-toolbelt",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-toolbox",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-toolkits",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-tools",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-toolset",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-transcription-grouper",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-user-setup",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-utilities",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-utility",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-utility-library-roshinswebapp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-utility-library-savicppapp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-utils-23408189",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-utils-app",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-utils-for-lambda",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-utils-lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-utils-library",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-utils-vitalii-bozadzhy",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-v4-signature",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-v4signer",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-vapor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-vault-migrate",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-vibe-guru",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-vpc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-vpc-cli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-vpclattice-prealpha",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-wand",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-web-builder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-whoami",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-works",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-wort-des-tages",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-xray-lambda-segment-shim",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws-xray-sqs-lambda-segment-shim",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws.aws-dataprocessing-mcp-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws.aws-tasks-mcp-server",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws.dp-mcp",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws2-wrap",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws2-wrap2",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws2fa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws3lib",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_access_advisor",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_administrator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_authenticator",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_cfn_custom_resource_resolve_parser",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_cfstack",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_client",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_crawler",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_crllm",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_ir",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_lambda_stream",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_ork",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_pylambda_sam_builder",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_s3sync",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_sdk_bedrock_runtime",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_sdk_transcribe_streaming",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_secrets_vault",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_snippets",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_ssooidc",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_terraform_registry",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "aws_tgw_details",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "awsa",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "awsaccountdiscoverycli",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "awsaccountmgr",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "awsaccountprovisioner",
+    "source" : "pypi"
+  },
+  {
+    "android" : "pure_python",
+    "category" : "pure_python",
+    "ios" : "pure_python",
+    "name" : "awsad2cli",
+    "source" : "pypi"
+  }
+]

@@ -48,8 +48,9 @@ nav:
       - wrapper_examples/uikit_viewcontroller.md
   - Mobile Wheels Support:
     - results: mobile-wheels-support/mobile-wheels-results.md
-    - pure-python: mobile-wheels-support/pure-python/index.md
-    - binary-without-mobile: mobile-wheels-support/binary-without-mobile/index.md
+    - search: mobile-wheels-support/package-search.md
+    #- pure-python: mobile-wheels-support/pure-python/index.md
+    #- binary-without-mobile: mobile-wheels-support/binary-without-mobile/index.md
     - excluded-packages: mobile-wheels-support/excluded-packages.md
     - kivy-ios-vs-pep730: mobile-wheels-support/kivy-ios-vs-pep730.md
 
