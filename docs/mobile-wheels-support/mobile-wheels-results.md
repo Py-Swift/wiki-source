@@ -1,7 +1,7 @@
 # Mobile Platform Support Report
 
-**Generated:** 2025-11-21 13:13:52  
-**Packages Checked:** 702223  
+**Generated:** 2025-11-21 14:49:27  
+**Packages Checked:** 0  
 **Dependency Checking:** Disabled
 
 ---
@@ -68,13 +68,22 @@ Custom iOS/Android builds from [pypi.anaconda.org/pyswift/simple](https://pypi.a
 | `apsw` | ⚠️ Not available | ✅ Supported (3.51.0.0) |
 | `materialyoucolor` | ⚠️ Not available | ✅ Supported (2.0.10) |
 | `pydantic_core` | ⚠️ Not available | ✅ Supported (2.41.5) |
+
+
+## � KivySchool Binary Wheels
+
+Custom iOS/Android builds from [pypi.anaconda.org/kivyschool/simple](https://pypi.anaconda.org/kivyschool/simple).
+
+| Package | Android | iOS |
+|---------|---------|-----|
+| `Kivy` | ⚠️ Not available | ✅ Supported (3.0.0.dev0) |
 | `pyobjus` | ⚠️ Not available | ✅ Supported (1.2.3) |
 
 
-## 🐍 Pure Python Packages
+## �🐍 Pure Python Packages
 
 Packages that work on all platforms (no binary dependencies).
-_Showing first 100 packages by download popularity. Total: 487997_
+_Showing first 100 packages by download popularity. Total: 487995_
 
 📄 **[Search all packages](package-search.md)**
 
@@ -181,13 +190,13 @@ _Showing first 100 packages by download popularity. Total: 487997_
 | `opentelemetry-proto` | 🐍 Pure Python | 🐍 Pure Python |
 | `google-cloud-storage` | 🐍 Pure Python | 🐍 Pure Python |
 
-_... and 487897 more packages. [Search all packages](package-search.md)_
+_... and 487895 more packages. [Search all packages](package-search.md)_
 
 
 ## ❌ Binary Packages Without Mobile Support
 
 Packages with binary wheels but no iOS/Android support.
-_Showing first 100 packages by download popularity. Total: 18584_
+_Showing first 100 packages by download popularity. Total: 18582_
 
 📄 **[Search all packages](package-search.md)**
 
@@ -294,7 +303,7 @@ _Showing first 100 packages by download popularity. Total: 18584_
 | `pyroaring` | ⚠️ Not available | ⚠️ Not available |
 | `hiredis` | ⚠️ Not available | ⚠️ Not available |
 
-_... and 18484 more packages. [Search all packages](package-search.md)_
+_... and 18482 more packages. [Search all packages](package-search.md)_
 
 
 ## 📈 Summary Statistics
@@ -303,19 +312,20 @@ _... and 18484 more packages. [Search all packages](package-search.md)_
 
 | Category | Count | Percentage |
 |----------|-------|------------|
-| Official Binary Wheels (PyPI) | 25 | 0.0% |
-| PySwift Binary Wheels | 24 | 0.0% |
-| Pure Python | 487997 | 69.5% |
-| Binary Without Mobile Support | 18584 | 2.6% |
-| **Total** | **702223** | **100%** |
+| Official Binary Wheels (PyPI) | 25 | inf% |
+| PySwift Binary Wheels | 23 | inf% |
+| KivySchool Binary Wheels | 2 | inf% |
+| Pure Python | 487995 | inf% |
+| Binary Without Mobile Support | 18582 | inf% |
+| **Total** | **0** | **100%** |
 
 ### Platform Support (Binary Wheels)
 
 | Platform | Count | Percentage |
 |----------|-------|------------|
-| Android Support | 18 / 49 | 36.7% |
-| iOS Support | 39 / 49 | 79.6% |
-| Both Platforms | 8 / 49 | 16.3% |
+| Android Support | 18 / 50 | 36.0% |
+| iOS Support | 40 / 50 | 80.0% |
+| Both Platforms | 8 / 50 | 16.0% |
 
 ---
 

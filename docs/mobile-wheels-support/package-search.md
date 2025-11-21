@@ -122,8 +122,6 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
   border: 2px solid var(--md-primary-fg-color);
   border-radius: 0 8px 8px 8px;
   background: var(--md-default-bg-color);
-  width: 100%;
-  box-sizing: border-box;
 }
 
 #tab-search:checked ~ #content-search {
@@ -136,7 +134,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
 
 /* Requirements Tab Styles */
 .requirements-container {
-  max-width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -269,6 +267,40 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
   font-size: 12px;
 }
 
+/* Compatibility Warning Styles */
+.compatibility-warning {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  border-left: 5px solid;
+}
+
+.compatibility-warning.success {
+  background: #d4edda;
+  color: #155724;
+  border-color: #28a745;
+}
+
+.compatibility-warning.warning {
+  background: #fff3cd;
+  color: #856404;
+  border-color: #ffc107;
+}
+
+.compatibility-warning.critical {
+  background: #f8d7da;
+  color: #721c24;
+  border-color: #dc3545;
+}
+
+.compatibility-warning strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
 /* Original Search Styles */
 .search-container {
   margin: 20px 0;
@@ -276,7 +308,6 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  max-width: 100%;
 }
 
 #package-search {
@@ -826,16 +857,29 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
     
     // Calculate statistics
     let iosCount = 0, androidCount = 0, pureCount = 0, missingCount = 0;
+    let iosUnsupported = 0, androidUnsupported = 0;
     
     results.forEach(r => {
       if (!r.package) {
         missingCount++;
+        iosUnsupported++;
+        androidUnsupported++;
       } else {
         if (r.package.ios === 'supported') iosCount++;
+        else if (r.package.ios === 'not_available') iosUnsupported++;
+        
         if (r.package.android === 'supported') androidCount++;
+        else if (r.package.android === 'not_available') androidUnsupported++;
+        
         if (r.package.ios === 'pure_python' || r.package.android === 'pure_python') pureCount++;
       }
     });
+    
+    const totalPackages = results.length;
+    const iosFullySupported = (iosCount + pureCount) === totalPackages;
+    const androidFullySupported = (androidCount + pureCount) === totalPackages;
+    const iosPartiallySupported = (iosCount + pureCount) > 0 && (iosCount + pureCount) < totalPackages;
+    const androidPartiallySupported = (androidCount + pureCount) > 0 && (androidCount + pureCount) < totalPackages;
     
     // Update stats
     document.getElementById('req-total').textContent = `Total: ${results.length}`;
@@ -845,9 +889,73 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
     document.getElementById('req-missing').textContent = `Not Found: ${missingCount}`;
     statsBar.style.display = 'flex';
     
+    // Build compatibility warning
+    let warningHtml = '';
+    
+    if (!iosFullySupported && !androidFullySupported) {
+      if (iosUnsupported === totalPackages && androidUnsupported === totalPackages) {
+        warningHtml = `
+          <div class="compatibility-warning critical">
+            <strong>⛔️ NOT SUPPORTED:</strong> This requirements.txt is <strong>NOT compatible</strong> with iOS or Android. 
+            pip install will fail on both platforms. All packages lack mobile platform support.
+          </div>
+        `;
+      } else if (iosPartiallySupported && androidPartiallySupported) {
+        warningHtml = `
+          <div class="compatibility-warning warning">
+            <strong>⚠️ PARTIALLY SUPPORTED:</strong> This requirements.txt is partially compatible with mobile platforms.<br>
+            pip install may fail on:<br>
+            • iOS (${iosUnsupported} unsupported)<br>
+            • Android (${androidUnsupported} unsupported)
+          </div>
+        `;
+      } else if (iosUnsupported === totalPackages) {
+        warningHtml = `
+          <div class="compatibility-warning warning">
+            <strong>⚠️ iOS NOT SUPPORTED:</strong> pip install will <strong>fail on iOS</strong>. All packages lack iOS support.<br>
+            Android support: ${androidCount + pureCount}/${totalPackages} packages supported.
+          </div>
+        `;
+      } else if (androidUnsupported === totalPackages) {
+        warningHtml = `
+          <div class="compatibility-warning warning">
+            <strong>⚠️ Android NOT SUPPORTED:</strong> pip install will <strong>fail on Android</strong>. All packages lack Android support.<br>
+            iOS support: ${iosCount + pureCount}/${totalPackages} packages supported.
+          </div>
+        `;
+      } else {
+        warningHtml = `
+          <div class="compatibility-warning warning">
+            <strong>⚠️ PARTIALLY SUPPORTED:</strong> pip install may fail on mobile platforms.<br>
+            iOS: ${iosUnsupported} unsupported packages | Android: ${androidUnsupported} unsupported packages
+          </div>
+        `;
+      }
+    } else if (!iosFullySupported) {
+      warningHtml = `
+        <div class="compatibility-warning warning">
+          <strong>⚠️ iOS PARTIALLY SUPPORTED:</strong> pip install may fail on iOS. ${iosUnsupported} packages are not supported on iOS.<br>
+          Android: ✅ Fully supported
+        </div>
+      `;
+    } else if (!androidFullySupported) {
+      warningHtml = `
+        <div class="compatibility-warning warning">
+          <strong>⚠️ Android PARTIALLY SUPPORTED:</strong> pip install may fail on Android. ${androidUnsupported} packages are not supported on Android.<br>
+          iOS: ✅ Fully supported
+        </div>
+      `;
+    } else {
+      warningHtml = `
+        <div class="compatibility-warning success">
+          <strong>✅ FULLY SUPPORTED:</strong> All packages are compatible with iOS and Android. pip install should work successfully on both platforms.
+        </div>
+      `;
+    }
+    
     // Build results table
-    let html = `
-      <div style="margin-bottom: 10px; color: var(--md-default-fg-color--light);">
+    let html = warningHtml + `
+      <div style="margin-bottom: 10px; margin-top: 20px; color: var(--md-default-fg-color--light);">
         Analysis completed in ${analysisTime}s
       </div>
       <table class="requirements-table">
