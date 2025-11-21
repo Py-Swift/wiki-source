@@ -61,7 +61,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
             <input type="checkbox" id="req-filter-ios" checked> Show iOS compatibility
           </label>
           <label>
-            <input type="checkbox" id="req-filter-android" checked> Show Android compatibility
+            <input type="checkbox" id="req-filter-android"> Show Android compatibility
           </label>
         </div>
         
@@ -456,7 +456,17 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
 .package-name {
   font-family: var(--md-code-font-family);
   font-weight: 600;
+}
+
+.package-name a {
   color: var(--md-primary-fg-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.package-name a:hover {
+  color: var(--md-accent-fg-color);
+  text-decoration: underline;
 }
 
 .package-details {
@@ -674,7 +684,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
       html += `
         <tr>
           <td>
-            <div class="package-name">${pkg.name}</div>
+            <div class="package-name"><a href="https://pypi.org/project/${pkg.name}/" target="_blank" rel="noopener noreferrer">${pkg.name}</a></div>
             <div class="package-details">Source: ${pkg.source || 'Unknown'}</div>
           </td>
           <td>${formatStatus(pkg.ios, pkg.iosVersion)}</td>
@@ -1069,7 +1079,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
         html += `
           <tr>
             <td>
-              <div class="package-name">${req.name}</div>
+              <div class="package-name"><a href="https://pypi.org/project/${req.name}/" target="_blank" rel="noopener noreferrer">${req.name}</a></div>
               <div class="version-spec">${req.version}</div>
             </td>
             <td colspan="${colspan}">
@@ -1081,7 +1091,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
         html += `
           <tr>
             <td>
-              <div class="package-name">${pkg.name}</div>
+              <div class="package-name"><a href="https://pypi.org/project/${pkg.name}/" target="_blank" rel="noopener noreferrer">${pkg.name}</a></div>
               <div class="version-spec">${req.version}</div>
               <div class="package-details">Source: ${pkg.source || 'Unknown'}</div>
             </td>

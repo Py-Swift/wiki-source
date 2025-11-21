@@ -4,7 +4,7 @@
 !!! info "Add Brew Tap"
 
     ```sh
-    brew tap PythonSwiftLink/tools
+    brew tap py-swift/tools
     ```
 * * *
 ## PSProject
