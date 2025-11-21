@@ -122,6 +122,8 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
   border: 2px solid var(--md-primary-fg-color);
   border-radius: 0 8px 8px 8px;
   background: var(--md-default-bg-color);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #tab-search:checked ~ #content-search {
@@ -134,7 +136,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
 
 /* Requirements Tab Styles */
 .requirements-container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -274,6 +276,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 100%;
 }
 
 #package-search {
