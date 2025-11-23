@@ -27,6 +27,32 @@
     --8<-- "docs/project/kivy/new-project/pyproject_post.toml"
     ```
 
+!!! info "Add Kivy as dependency"
+    ```sh
+    uv add kivy
+    uv sync
+    ```
+
+!!! info "update app.py code with the following"
+    ```sh
+    from kivy.app import App
+    from kivy.lang import Builder
+
+    kv = """
+    Button:
+        text: "Hello World"
+    """
+
+
+    class MainApp(App):
+        def build(self):
+            return Builder.load_string(kv)
+
+    def main():
+        app = MainApp()
+        app.run()
+    ```
+
 
 !!! info "To create the xcode project, type the following command"
     ```sh
