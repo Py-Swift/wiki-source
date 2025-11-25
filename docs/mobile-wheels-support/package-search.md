@@ -1,6 +1,15 @@
 # Package Database Search
 
-Search through 700,000+ Python packages to check iOS and Android mobile platform support.
+Search through 714,850+ Python packages to check iOS and Android mobile platform support.
+
+<!-- Load sql.js library from jsdelivr (more reliable) -->
+<script src="https://cdn.jsdelivr.net/npm/sql.js@1.8.0/dist/sql-wasm.js"></script>
+
+<noscript>
+  <div style="padding: 20px; background: #fff3cd; color: #856404; border-radius: 8px; margin: 20px 0;">
+    <strong>⚠️ JavaScript Required:</strong> This search feature requires JavaScript to be enabled.
+  </div>
+</noscript>
 
 <div class="tabs">
   <input type="radio" id="tab-search" name="tabs" checked>
@@ -34,7 +43,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
     </div>
 
     <div id="search-stats" class="stats-bar">
-      <span id="total-results">Ready to search 702,223 packages</span>
+      <span id="total-results">Loading database...</span>
       <span id="search-time"></span>
     </div>
 
@@ -524,16 +533,93 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
 
 <script>
 (function() {
-  const INDEX_URL = '../json-chunks/index.json';
-  const CHUNK_BASE_URL = '../json-chunks/';
+  const DB_BASE_URL = '../mobile-wheels-sql/';
   const RESULTS_PER_PAGE = 50;
   
-  let indexData = null;
+  let SQL = null; // sql.js instance
+  let indexDB = null; // Index database
+  let dataDBs = {}; // Cache for loaded data chunks
+  let totalPackages = 714850;
   let currentResults = [];
   let currentPage = 1;
   
-  // Cache for loaded chunks
-  const chunkCache = new Map();
+  // Initialize sql.js and load index database
+  async function initDatabase() {
+    try {
+      console.log('Starting database initialization...');
+      
+      // Check if initSqlJs is available
+      if (typeof initSqlJs === 'undefined') {
+        throw new Error('sql.js library not loaded. Check if the CDN script is accessible.');
+      }
+      
+      console.log('Initializing sql.js...');
+      // Initialize sql.js
+      SQL = await initSqlJs({
+        locateFile: file => {
+          const url = `https://cdn.jsdelivr.net/npm/sql.js@1.8.0/dist/${file}`;
+          console.log('Loading sql.js file:', url);
+          return url;
+        }
+      });
+      
+      console.log('sql.js initialized successfully');
+      
+      // Load index database
+      console.log('Fetching index database from:', DB_BASE_URL + 'index.sqlite');
+      const indexResponse = await fetch(DB_BASE_URL + 'index.sqlite');
+      if (!indexResponse.ok) {
+        throw new Error(`Failed to fetch index.sqlite: ${indexResponse.status} ${indexResponse.statusText}`);
+      }
+      
+      const indexBuffer = await indexResponse.arrayBuffer();
+      console.log('Index database buffer size:', indexBuffer.byteLength, 'bytes');
+      
+      indexDB = new SQL.Database(new Uint8Array(indexBuffer));
+      console.log('Index database loaded successfully');
+      
+      // Get total package count
+      const countResult = indexDB.exec('SELECT COUNT(*) FROM package_index');
+      if (countResult.length > 0) {
+        totalPackages = countResult[0].values[0][0];
+      }
+      
+      console.log(`Total packages in index: ${totalPackages}`);
+      
+      // Test query for specific packages
+      const testResults = indexDB.exec("SELECT name, CAST(hash_id AS TEXT) as hash_id, chunk_file FROM package_index WHERE name IN ('numpy', 'pillow', 'pandas') COLLATE NOCASE");
+      console.log('Test query results:', testResults);
+      
+      // Check schema
+      const schemaResult = indexDB.exec("SELECT sql FROM sqlite_master WHERE type='table' AND name='package_index'");
+      console.log('Index table schema:', schemaResult);
+      
+      document.getElementById('total-results').textContent = `Ready to search ${totalPackages.toLocaleString()} packages`;
+      console.log('Database initialization complete!');
+    } catch (error) {
+      console.error('FATAL ERROR during database initialization:', error);
+      console.error('Error stack:', error.stack);
+      showError('Failed to load package database: ' + error.message);
+      document.getElementById('total-results').textContent = 'Database failed to load';
+    }
+  }
+  
+  // Load a specific data chunk
+  async function loadDataChunk(chunkNum) {
+    if (dataDBs[chunkNum]) {
+      return dataDBs[chunkNum];
+    }
+    
+    try {
+      const buffer = await fetch(DB_BASE_URL + `data-${chunkNum}.sqlite`).then(r => r.arrayBuffer());
+      dataDBs[chunkNum] = new SQL.Database(new Uint8Array(buffer));
+      console.log(`Loaded data chunk ${chunkNum}`);
+      return dataDBs[chunkNum];
+    } catch (error) {
+      console.error(`Error loading chunk ${chunkNum}:`, error);
+      return null;
+    }
+  }
   
   // Get filter state
   function getFilters() {
@@ -545,74 +631,165 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
     };
   }
   
-  // Load index.json
-  async function loadIndex() {
-    try {
-      const response = await fetch(INDEX_URL);
-      indexData = await response.json();
-      console.log(`Loaded index: ${indexData.total_chunks} chunks, ${indexData.total_packages} packages`);
-    } catch (error) {
-      console.error('Error loading index:', error);
-      showError('Failed to load package index');
-    }
+  // Map database support codes to our format
+  function mapSupportStatus(supportCode) {
+    // 1=Binary, 2=Pure Python, 3=Both
+    if (supportCode === 1) return 'supported'; // Binary support
+    if (supportCode === 2) return 'pure_python'; // Pure Python
+    if (supportCode === 3) return 'supported'; // Both (treat as supported)
+    return 'not_available';
   }
   
-  // Load a specific chunk
-  async function loadChunk(filename) {
-    if (chunkCache.has(filename)) {
-      return chunkCache.get(filename);
-    }
+  // Map source integer to text
+  function mapSource(sourceCode) {
+    const sources = {
+      0: 'PyPI',
+      1: 'PySwift',
+      2: 'KivySchool'
+    };
+    return sources[sourceCode] || 'Unknown';
+  }
+  
+  // Map category integer to our format
+  function mapCategory(categoryCode, androidSupport, iosSupport) {
+    // If pure python support, always return pure_python
+    if (androidSupport === 2 || iosSupport === 2) return 'pure_python';
     
-    try {
-      const response = await fetch(CHUNK_BASE_URL + filename);
-      const data = await response.json();
-      chunkCache.set(filename, data);
-      return data;
-    } catch (error) {
-      console.error(`Error loading chunk ${filename}:`, error);
-      return [];
-    }
+    // Category codes (based on typical patterns)
+    const categories = {
+      0: 'binary_without_mobile',
+      1: 'official_binary',
+      2: 'pyswift_binary',
+      3: 'pure_python'
+    };
+    return categories[categoryCode] || 'binary_without_mobile';
   }
   
-  // Search across all chunks
+  // Check if package matches filters
+  function matchesFilters(pkg, filters) {
+    const hasIOS = pkg.ios === 'supported';
+    const hasAndroid = pkg.android === 'supported';
+    const isPure = pkg.ios === 'pure_python' || pkg.android === 'pure_python';
+    const isBinary = pkg.category === 'official_binary' || pkg.category === 'pyswift_binary';
+    
+    if (!filters.ios && hasIOS && !isPure) return false;
+    if (!filters.android && hasAndroid && !isPure) return false;
+    if (!filters.pure && isPure) return false;
+    if (!filters.binary && isBinary && !isPure) return false;
+    
+    return true;
+  }
+  
+  // Search packages using SQLite
   async function searchPackages(query) {
-    if (!indexData || !query || query.length < 2) {
+    if (!indexDB || !query || query.length < 2) {
       return [];
     }
     
     const startTime = performance.now();
     const searchTerm = query.toLowerCase().trim();
-    const results = [];
     const filters = getFilters();
     
-    // Search through all chunks
-    for (const chunk of indexData.chunks) {
-      const packages = await loadChunk(chunk.filename);
+    try {
+      // Search in index for matching package names (LIKE query)
+      const searchQuery = `SELECT name, CAST(hash_id AS TEXT) as hash_id, chunk_file FROM package_index WHERE LOWER(name) LIKE LOWER(?) LIMIT 1000`;
+      console.log(`Executing search query with term: %${searchTerm}%`);
+      const indexResults = indexDB.exec(searchQuery, [`%${searchTerm}%`]);
       
-      for (const pkg of packages) {
-        if (pkg.name.toLowerCase().includes(searchTerm)) {
-          // Apply filters
-          if (!matchesFilters(pkg, filters)) continue;
-          
-          results.push(pkg);
-          
-          // Limit results to prevent browser from hanging
-          if (results.length >= 500) {
-            break;
-          }
-        }
+      console.log('Raw index results:', indexResults);
+      
+      if (indexResults.length === 0 || indexResults[0].values.length === 0) {
+        console.warn('No results found in index');
+        const endTime = performance.now();
+        const searchTime = ((endTime - startTime) / 1000).toFixed(2);
+        document.getElementById('search-time').textContent = `Search completed in ${searchTime}s`;
+        return [];
       }
       
-      if (results.length >= 500) break;
+      console.log(`Found ${indexResults[0].values.length} matching packages in index`);
+      console.log('First 5 results:', indexResults[0].values.slice(0, 5));
+      
+      // Group by chunk file to batch load
+      const chunkGroups = {};
+      for (const [name, hashId, chunkFile] of indexResults[0].values) {
+        if (!chunkGroups[chunkFile]) chunkGroups[chunkFile] = [];
+        chunkGroups[chunkFile].push({ name, hashId, chunkFile });
+      }
+      
+      console.log(`Need to load ${Object.keys(chunkGroups).length} chunks`);
+      
+      const results = [];
+      
+      // Load each chunk and fetch package data
+      for (const [chunkFile, packages] of Object.entries(chunkGroups)) {
+        const dataDB = await loadDataChunk(chunkFile);
+        if (!dataDB) {
+          console.error(`Failed to load chunk ${chunkFile}`);
+          continue;
+        }
+        
+        const hashIds = packages.map(p => p.hashId);
+        const placeholders = hashIds.map(() => '?').join(',');
+        // Column order: hash_id, downloads, android_support, ios_support, source, category, android_version, ios_version, latest_version, dependency_status, dependency_count, dependencies
+        const dataQuery = `SELECT CAST(hash_id AS TEXT) as hash_id, downloads, android_support, ios_support, source, category, android_version, ios_version, latest_version FROM package_data WHERE CAST(hash_id AS TEXT) IN (${placeholders})`;
+        
+        const dataResults = dataDB.exec(dataQuery, hashIds);
+        if (dataResults.length === 0) {
+          console.warn(`No data found in chunk ${chunkFile} for hash_ids`);
+          continue;
+        }
+        
+        console.log(`Found ${dataResults[0].values.length} packages in chunk ${chunkFile}`);
+        
+        // Create a map of hash_id to data
+        const dataMap = {};
+        for (const row of dataResults[0].values) {
+          dataMap[row[0]] = row;
+        }
+        
+        // Combine index and data results
+        for (const pkg of packages) {
+          const data = dataMap[pkg.hashId];
+          if (!data) {
+            console.warn(`No data found for package ${pkg.name} (hash_id: ${pkg.hashId})`);
+            continue;
+          }
+          
+          // Correct column positions: hash_id(0), downloads(1), android_support(2), ios_support(3), source(4), category(5), android_version(6), ios_version(7), latest_version(8)
+          const [hashId, downloads, androidSupport, iosSupport, sourceCode, categoryCode, androidVersion, iosVersion, latestVersion] = data;
+          
+          const packageData = {
+            name: pkg.name,
+            ios: mapSupportStatus(iosSupport),
+            android: mapSupportStatus(androidSupport),
+            iosVersion: iosVersion || '',
+            androidVersion: androidVersion || '',
+            category: mapCategory(categoryCode, androidSupport, iosSupport),
+            source: mapSource(sourceCode)
+          };
+          
+          // Apply filters
+          if (matchesFilters(packageData, filters)) {
+            results.push(packageData);
+          }
+          
+          if (results.length >= 500) break;
+        }
+        
+        if (results.length >= 500) break;
+      }
+      
+      console.log(`Final results: ${results.length} packages after filtering`);
+      
+      const endTime = performance.now();
+      const searchTime = ((endTime - startTime) / 1000).toFixed(2);
+      document.getElementById('search-time').textContent = `Search completed in ${searchTime}s`;
+      
+      return results;
+    } catch (error) {
+      console.error('Search error:', error);
+      return [];
     }
-    
-    const endTime = performance.now();
-    const searchTime = ((endTime - startTime) / 1000).toFixed(2);
-    
-    document.getElementById('search-time').textContent = 
-      `Search completed in ${searchTime}s`;
-    
-    return results;
   }
   
   // Check if package matches filters
@@ -643,9 +820,15 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
   }
   
   // Get category display name
-  function getCategoryName(category) {
+  function getCategoryName(category, source) {
+    // For official_binary, show the actual source
+    if (category === 'official_binary') {
+      if (source === 'PySwift') return 'PySwift Binary';
+      if (source === 'KivySchool') return 'KivySchool Binary';
+      return 'Official Binary (PyPI)';
+    }
+    
     const categories = {
-      'official_binary': 'Official Binary (PyPI)',
       'pyswift_binary': 'PySwift Binary',
       'pure_python': 'Pure Python',
       'binary_without_mobile': 'Binary (No Mobile)'
@@ -689,7 +872,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
           </td>
           <td>${formatStatus(pkg.ios, pkg.iosVersion)}</td>
           <td>${formatStatus(pkg.android, pkg.androidVersion)}</td>
-          <td>${getCategoryName(pkg.category)}</td>
+          <td>${getCategoryName(pkg.category, pkg.source)}</td>
         </tr>
       `;
     }
@@ -770,10 +953,10 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
             <li><strong>Filter results:</strong> Use checkboxes to filter by platform support</li>
             <li><strong>View details:</strong> Click on a package to see version and source info</li>
           </ul>
-          <p class="tip">💡 <strong>Tip:</strong> Search is case-insensitive and searches across all 702,223 packages in real-time.</p>
+          <p class="tip">💡 <strong>Tip:</strong> Search is case-insensitive and searches across all 714,850 packages in real-time.</p>
         </div>
       `;
-      document.getElementById('total-results').textContent = 'Ready to search 702,223 packages';
+      document.getElementById('total-results').textContent = `Ready to search ${totalPackages.toLocaleString()} packages`;
       document.getElementById('search-time').textContent = '';
       return;
     }
@@ -796,7 +979,24 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
   
   // Initialize
   async function init() {
-    await loadIndex();
+    console.log('Init function called');
+    document.getElementById('total-results').textContent = 'Loading database...';
+    
+    // Check if sql.js loaded
+    if (typeof initSqlJs === 'undefined') {
+      console.error('sql.js library failed to load from CDN');
+      document.getElementById('total-results').textContent = 'Error: Database library failed to load';
+      document.getElementById('results-container').innerHTML = `
+        <div class="no-results">
+          ❌ <strong>Database library failed to load.</strong><br>
+          This may be due to browser security settings or CDN issues.<br>
+          Try refreshing the page or using a different browser.
+        </div>
+      `;
+      return;
+    }
+    
+    await initDatabase();
     
     // Set up event listeners
     document.getElementById('package-search').addEventListener('input', handleSearch);
@@ -868,25 +1068,74 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
     const results = [];
     const startTime = performance.now();
     
-    for (const req of requirements) {
-      if (!req) continue;
+    try {
+      // Batch lookup all package names at once
+      const packageNames = requirements.map(r => r.name);
+      const placeholders = packageNames.map(() => '?').join(',');
+      const indexQuery = `SELECT name, CAST(hash_id AS TEXT) as hash_id, chunk_file FROM package_index WHERE name IN (${placeholders})`;
+      const indexResults = indexDB.exec(indexQuery, packageNames);
       
-      // Search for the package
-      let found = null;
-      for (const chunk of indexData.chunks) {
-        const packages = await loadChunk(chunk.filename);
-        const pkg = packages.find(p => p.name.toLowerCase() === req.name);
-        
-        if (pkg) {
-          found = pkg;
-          break;
+      // Create a map of package name to index data
+      const indexMap = {};
+      if (indexResults.length > 0) {
+        for (const [name, hashId, chunkFile] of indexResults[0].values) {
+          indexMap[name] = { hashId, chunkFile };
         }
       }
       
-      results.push({
-        requirement: req,
-        package: found
-      });
+      // Group by chunk file
+      const chunkGroups = {};
+      for (const req of requirements) {
+        const indexData = indexMap[req.name];
+        if (indexData) {
+          if (!chunkGroups[indexData.chunkFile]) chunkGroups[indexData.chunkFile] = [];
+          chunkGroups[indexData.chunkFile].push({ req, indexData });
+        }
+      }
+      
+      // Load chunks and fetch data
+      const packageDataMap = {};
+      for (const [chunkFile, items] of Object.entries(chunkGroups)) {
+        const dataDB = await loadDataChunk(chunkFile);
+        if (!dataDB) continue;
+        
+        const hashIds = items.map(item => item.indexData.hashId);
+        const placeholders = hashIds.map(() => '?').join(',');
+        const dataQuery = `SELECT CAST(hash_id AS TEXT) as hash_id, downloads, android_support, ios_support, source, category, android_version, ios_version, latest_version FROM package_data WHERE CAST(hash_id AS TEXT) IN (${placeholders})`;
+        
+        const dataResults = dataDB.exec(dataQuery, hashIds);
+        if (dataResults.length === 0) continue;
+        
+        for (const row of dataResults[0].values) {
+          // Correct column positions: hash_id(0), downloads(1), android_support(2), ios_support(3), source(4), category(5), android_version(6), ios_version(7), latest_version(8)
+          const [hashId, downloads, androidSupport, iosSupport, sourceCode, categoryCode, androidVersion, iosVersion, latestVersion] = row;
+          
+          // Find the package name for this hash_id
+          const item = items.find(i => i.indexData.hashId === hashId);
+          if (item) {
+            packageDataMap[item.req.name] = {
+              name: item.req.name,
+              ios: mapSupportStatus(iosSupport),
+              android: mapSupportStatus(androidSupport),
+              iosVersion: iosVersion || '',
+              androidVersion: androidVersion || '',
+              category: mapCategory(categoryCode, androidSupport, iosSupport),
+              source: mapSource(sourceCode)
+            };
+          }
+        }
+      }
+      
+      // Build final results array maintaining original order
+      for (const req of requirements) {
+        results.push({
+          requirement: req,
+          package: packageDataMap[req.name] || null
+        });
+      }
+      
+    } catch (error) {
+      console.error('Analysis error:', error);
     }
     
     const endTime = performance.now();
@@ -1097,7 +1346,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
             </td>
             ${showIOS ? `<td>${formatStatus(pkg.ios, pkg.iosVersion)}</td>` : ''}
             ${showAndroid ? `<td>${formatStatus(pkg.android, pkg.androidVersion)}</td>` : ''}
-            <td>${getCategoryName(pkg.category)}</td>
+            <td>${getCategoryName(pkg.category, pkg.source)}</td>
           </tr>
         `;
       }
@@ -1167,7 +1416,7 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
         return;
       }
       
-      if (!indexData) {
+      if (!indexDB) {
         alert('Package database is still loading. Please wait...');
         return;
       }
@@ -1198,6 +1447,8 @@ Search through 700,000+ Python packages to check iOS and Android mobile platform
   } else {
     init();
   }
+  
+  console.log('Package search script loaded. Waiting for DOM...');
   
 })();
 </script>
