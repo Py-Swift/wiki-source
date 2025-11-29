@@ -4,7 +4,7 @@ This folder contains a chunked SQLite database of Python package compatibility w
 
 ## 📊 Database Statistics
 
-- **Total Packages**: 714.850
+- **Total Packages**: 714.851
 - **Data Chunks**: 15 files (~50,000 packages each)
 - **Chunk Size**: ~9-10 MB per file (optimized for lazy loading)
 - **All files**: Under 100 MB (GitHub LFS compatible)
@@ -350,24 +350,6 @@ WHERE hash_id IN (
   - `2` = Pure Python (works everywhere)
   - `3` = Both (has both binary and pure Python support)
 
-- **dependency_status**:
-  - `0` = Unprocessed (not yet analyzed)
-  - `1` = iOS Only (all dependencies work on iOS)
-  - `2` = Android Only (all dependencies work on Android)
-  - `3` = Both Platforms (all dependencies work on both iOS and Android)
-  - `4` = Unsupported (has unsupported dependencies)
-
-- **source**:
-  - `0` = Unknown
-  - `1` = PyPI (official Python Package Index)
-  - `2` = PySwift (custom mobile wheels)
-
-- **category**:
-  - `0` = Binary Without Mobile (has compiled code but no mobile support)
-  - `1` = Official Binary (has mobile-compatible wheels)
-  - `2` = PySwift Binary (custom PySwift wheels)
-  - `3` = Pure Python (no compilation needed)
-
 ## 🔧 Tools Required
 
 - **SQLite**: Any SQLite3 client (command-line, Python's `sqlite3`, Node.js, etc.)
@@ -381,4 +363,4 @@ Repository: https://github.com/Py-Swift/MobilePlatformSupport
 
 ---
 
-Generated on 25 November 2025 at 16.15
+Generated on 25 November 2025 at 19.14

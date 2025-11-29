@@ -1,0 +1,104 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wiki-source}/MobileWheelsDatabase",
+            "name": "Debug MobileWheelsDatabase (MobileWheelsDatabase)",
+            "target": "MobileWheelsDatabase",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug MobileWheelsDatabase (MobileWheelsDatabase)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wiki-source}/MobileWheelsDatabase",
+            "name": "Release MobileWheelsDatabase (MobileWheelsDatabase)",
+            "target": "MobileWheelsDatabase",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release MobileWheelsDatabase (MobileWheelsDatabase)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wiki-source}/MobilePlatformSupport-new",
+            "name": "Debug mobile-wheels-checker (MobilePlatformSupport-new)",
+            "target": "mobile-wheels-checker",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug mobile-wheels-checker (MobilePlatformSupport-new)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wiki-source}/MobilePlatformSupport-new",
+            "name": "Release mobile-wheels-checker (MobilePlatformSupport-new)",
+            "target": "mobile-wheels-checker",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release mobile-wheels-checker (MobilePlatformSupport-new)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wiki-source}/MobilePlatformSupport-new",
+            "name": "Debug dependency-checker (MobilePlatformSupport-new)",
+            "target": "dependency-checker",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug dependency-checker (MobilePlatformSupport-new)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wiki-source}/MobilePlatformSupport-new",
+            "name": "Release dependency-checker (MobilePlatformSupport-new)",
+            "target": "dependency-checker",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release dependency-checker (MobilePlatformSupport-new)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wiki-source}/MobileWheelsDatabase_new",
+            "name": "Debug MobileWheelsDatabaseWasm (MobileWheelsDatabase_new)",
+            "target": "MobileWheelsDatabaseWasm",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug MobileWheelsDatabaseWasm (MobileWheelsDatabase_new)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wiki-source}/MobileWheelsDatabase_new",
+            "name": "Release MobileWheelsDatabaseWasm (MobileWheelsDatabase_new)",
+            "target": "MobileWheelsDatabaseWasm",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release MobileWheelsDatabaseWasm (MobileWheelsDatabase_new)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wiki-source}/MobileWheelsDatabase",
+            "name": "Debug MobileWheelsDatabaseWasm (MobileWheelsDatabase)",
+            "target": "MobileWheelsDatabaseWasm",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug MobileWheelsDatabaseWasm (MobileWheelsDatabase)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wiki-source}/MobileWheelsDatabase",
+            "name": "Release MobileWheelsDatabaseWasm (MobileWheelsDatabase)",
+            "target": "MobileWheelsDatabaseWasm",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release MobileWheelsDatabaseWasm (MobileWheelsDatabase)"
+        }
+    ]
+}

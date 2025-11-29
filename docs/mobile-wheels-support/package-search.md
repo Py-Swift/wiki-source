@@ -1,9 +1,290 @@
 # Package Database Search
 
 Search through 714,850+ Python packages to check iOS and Android mobile platform support.
+---
 
-<!-- Load sql.js library from jsdelivr (more reliable) -->
-<script src="https://cdn.jsdelivr.net/npm/sql.js@1.8.0/dist/sql-wasm.js"></script>
+<!-- Load Swift WASM Runtime -->
+<script>
+  console.log('🧪 Script tag executed');
+  window.scriptTagWorks = true;
+</script>
+
+<script type="module">
+  console.log('🧪 Module script executed');
+  window.moduleScriptWorks = true;
+  
+  (async () => {
+    try {
+      console.log('🚀 Starting Swift WASM load...');
+      console.log('📍 Current page:', window.location.href);
+      
+      console.log('🚀 Loading Swift WASM module...');
+      
+      const wasmPath = '/Py-Swift/assets/MobileWheelsDatabase.wasm';
+      console.log('📦 Fetching WASM from:', wasmPath);
+      const wasmResponse = await fetch(wasmPath);
+      
+      if (!wasmResponse.ok) {
+        throw new Error(`Failed to fetch WASM: ${wasmResponse.status}`);
+      }
+      
+      console.log('✅ WASM fetched successfully');
+      const wasmBytes = await wasmResponse.arrayBuffer();
+      console.log(`📊 WASM size: ${(wasmBytes.byteLength / 1024 / 1024).toFixed(2)} MB`);
+      const textDecoder = new TextDecoder('utf-8');
+      
+      // Set up memory reference
+      let wasmMemory = null;
+      
+      // Complete wasi_snapshot_preview1 module
+      const wasi = {
+        fd_write: () => 0,
+        fd_close: () => 0,
+        fd_seek: () => 0,
+        fd_read: () => 0,
+        fd_fdstat_get: () => 0,
+        fd_fdstat_set_flags: () => 0,
+        fd_filestat_get: () => 0,
+        fd_filestat_set_size: () => 0,
+        fd_filestat_set_times: () => 0,
+        fd_pread: () => 0,
+        fd_pwrite: () => 0,
+        fd_readdir: () => 0,
+        fd_sync: () => 0,
+        fd_tell: () => 0,
+        fd_advise: () => 0,
+        fd_allocate: () => 0,
+        fd_datasync: () => 0,
+        fd_prestat_get: () => 0,
+        fd_prestat_dir_name: () => 0,
+        path_open: () => 0,
+        path_create_directory: () => 0,
+        path_filestat_get: () => 0,
+        path_filestat_set_times: () => 0,
+        path_link: () => 0,
+        path_readlink: () => 0,
+        path_remove_directory: () => 0,
+        path_rename: () => 0,
+        path_symlink: () => 0,
+        path_unlink_file: () => 0,
+        environ_get: () => 0,
+        environ_sizes_get: () => 0,
+        args_get: () => 0,
+        args_sizes_get: () => 0,
+        clock_res_get: () => 0,
+        clock_time_get: () => 0,
+        poll_oneoff: () => 0,
+        proc_exit: (code) => {},
+        proc_raise: () => 0,
+        sched_yield: () => 0,
+        random_get: (buf, buf_len) => 0,
+        sock_recv: () => 0,
+        sock_send: () => 0,
+        sock_shutdown: () => 0
+      };
+      
+      // Instantiate WASM with required import modules (no JavaScriptKit needed)
+      const { instance } = await WebAssembly.instantiate(wasmBytes, {
+        wasi_snapshot_preview1: wasi,
+        env: {
+          // Swift calls this to log to console
+          consoleLog: (messagePtr, messageLen) => {
+            if (!wasmMemory) return;
+            const memory = new Uint8Array(wasmMemory.buffer);
+            const messageBytes = memory.subarray(messagePtr, messagePtr + messageLen);
+            const message = textDecoder.decode(messageBytes);
+            console.log('[Swift]', message);
+          }
+        }
+      });
+      wasmMemory = instance.exports.memory;
+      window.wasmInstance = instance; // Store globally for search function
+      
+      console.log('✅ WASM instantiated');
+      console.log('📋 Instance exports:', Object.keys(instance.exports));
+      
+      // Must call _initialize first for reactor mode
+      if (instance.exports._initialize) {
+        console.log('🔧 Calling _initialize()...');
+        instance.exports._initialize();
+        console.log('✅ _initialize() completed');
+      }
+      
+      // Test swiftTest function
+      const testResult = instance.exports.swiftTest();
+      console.log('🧪 swiftTest() returned:', testResult);
+      
+      // Load index database directly (no sql.js needed - Swift has native SQLite)
+      console.log('📥 Loading all database files for Swift...');
+      const dbBaseUrl = '../mobile-wheels-sql/';
+      const dbUrl = dbBaseUrl + 'index.sqlite';
+      const indexBuffer = await fetch(dbUrl).then(r => r.arrayBuffer());
+      const dbBytes = new Uint8Array(indexBuffer);
+      console.log(`📦 Index database size: ${(dbBytes.byteLength / 1024 / 1024).toFixed(2)} MB`);
+      
+      // Load all 15 data chunk files
+      const dataChunks = [];
+      for (let i = 1; i <= 15; i++) {
+        const chunkUrl = dbBaseUrl + `data-${i}.sqlite`;
+        const chunkBuffer = await fetch(chunkUrl).then(r => r.arrayBuffer());
+        dataChunks.push(new Uint8Array(chunkBuffer));
+        console.log(`📦 Loaded data-${i}.sqlite: ${(chunkBuffer.byteLength / 1024 / 1024).toFixed(2)} MB`);
+      }
+      
+      // Calculate total size needed
+      let totalSize = dbBytes.byteLength;
+      dataChunks.forEach(chunk => totalSize += chunk.byteLength);
+      console.log(`📊 Total database size: ${(totalSize / 1024 / 1024).toFixed(2)} MB`);
+      
+      // Allocate memory in WASM for all databases
+      const dbMemoryOffset = 100 * 1024 * 1024;  // 100MB offset for safety
+      const memory = new Uint8Array(instance.exports.memory.buffer);
+      
+      // Check if memory is large enough
+      if (memory.length < dbMemoryOffset + totalSize) {
+        console.log(`📈 Growing WASM memory from ${memory.length} to ${dbMemoryOffset + totalSize}`);
+        const pagesNeeded = Math.ceil((dbMemoryOffset + totalSize - memory.length) / 65536);
+        instance.exports.memory.grow(pagesNeeded);
+      }
+      
+      // Copy index database bytes to WASM memory
+      let currentOffset = dbMemoryOffset;
+      const updatedMemory = new Uint8Array(instance.exports.memory.buffer);
+      updatedMemory.set(dbBytes, currentOffset);
+      console.log(`✅ Index database copied to offset ${currentOffset}`);
+      const indexDbOffset = currentOffset;
+      const indexDbSize = dbBytes.length;
+      currentOffset += dbBytes.length;
+      
+      // Copy all data chunks to WASM memory
+      const chunkOffsets = [];
+      for (let i = 0; i < dataChunks.length; i++) {
+        const chunk = dataChunks[i];
+        updatedMemory.set(chunk, currentOffset);
+        chunkOffsets.push({ offset: currentOffset, size: chunk.length });
+        console.log(`✅ data-${i + 1}.sqlite copied to offset ${currentOffset}`);
+        currentOffset += chunk.length;
+      }
+      
+      // Call swiftInit with index database pointer and size, plus chunk info
+      console.log(`🔧 Calling swiftInit(${indexDbOffset}, ${indexDbSize})...`);
+      let swiftInitialized = false;
+      try {
+        if (typeof instance.exports.swiftInit === 'function') {
+          const initResult = instance.exports.swiftInit(indexDbOffset, indexDbSize);
+          console.log(`✅ swiftInit() returned: ${initResult}`);
+          if (initResult === 0) {
+            console.error('❌ swiftInit() failed - returned 0');
+            throw new Error('Swift initialization failed');
+          }
+          swiftInitialized = true;
+          
+          // Now attach the data chunks
+          if (typeof instance.exports.swiftAttachChunk === 'function') {
+            for (let i = 0; i < chunkOffsets.length; i++) {
+              const { offset, size } = chunkOffsets[i];
+              const chunkNum = i + 1;
+              const attachResult = instance.exports.swiftAttachChunk(chunkNum, offset, size);
+              console.log(`✅ Attached data-${chunkNum}.sqlite: ${attachResult}`);
+            }
+          }
+        } else {
+          throw new Error('swiftInit function not found');
+        }
+      } catch (e) {
+        console.error('❌ swiftInit() crashed:', e);
+        throw e;
+      }
+      
+      // Create SwiftSearch API that calls Swift WASM
+      window.SwiftSearch = {
+        search: async (query) => {
+          console.log('🔍 SwiftSearch.search called with:', query);
+          
+          if (!swiftInitialized) {
+            console.error('❌ Swift not initialized, cannot search');
+            return [];
+          }
+            
+            try {
+              if (!instance.exports.swiftSearch) {
+                console.error('❌ swiftSearch export not found');
+                return [];
+              }
+              
+              console.log('📝 Encoding query to UTF-8...');
+              // Allocate memory for query
+              const queryBytes = new TextEncoder().encode(query);
+              console.log(`📝 Query bytes: [${Array.from(queryBytes).join(', ')}]`);
+              console.log(`📝 Query bytes length: ${queryBytes.length}`);
+              
+              const queryMemory = new Uint8Array(instance.exports.memory.buffer);
+              queryMemory.set(queryBytes, 0);  // Write at offset 0
+              
+              // Verify the write
+              const verifyBytes = queryMemory.slice(0, queryBytes.length);
+              console.log(`📝 Verification read: [${Array.from(verifyBytes).join(', ')}]`);
+              console.log('📝 Query written to memory at offset 0');
+              
+              // Allocate output buffer (10MB for JSON results)
+              // Place it FAR from databases (300MB+) to avoid SQLite memory conflicts
+              const outputOffset = 314572800;  // 300MB - after all databases
+              const outputSize = 10 * 1024 * 1024;  // 10MB
+              
+              console.log(`📞 Calling swiftSearch(0, ${queryBytes.length}, ${outputOffset}, ${outputSize})...`);
+              
+              // Call Swift: swiftSearch(queryPtr, queryLen, outputPtr, outputLen) -> bytesWritten
+              let bytesWritten;
+              try {
+                bytesWritten = instance.exports.swiftSearch(
+                  0,                  // queryPtr
+                  queryBytes.length,  // queryLen
+                  outputOffset,       // outputPtr
+                  outputSize          // outputLen
+                );
+                console.log(`📞 swiftSearch returned: ${bytesWritten} bytes`);
+              } catch (swiftError) {
+                console.error('❌ Swift function threw error:', swiftError);
+                console.error('Stack:', swiftError.stack);
+                return [];
+              }
+              
+              if (bytesWritten <= 0) {
+                console.log('📊 No results from Swift (0 bytes)');
+                return [];
+              }
+              
+              console.log(`📖 Reading ${bytesWritten} bytes from memory at offset ${outputOffset}...`);
+              // Read JSON results from memory
+              const outputMemory = new Uint8Array(instance.exports.memory.buffer);
+              const jsonBytes = outputMemory.slice(outputOffset, outputOffset + bytesWritten);
+              const jsonString = new TextDecoder().decode(jsonBytes);
+              console.log('📖 JSON string:', jsonString.substring(0, 200) + '...');
+              
+              const results = JSON.parse(jsonString);
+              
+              console.log(`✅ Swift returned ${results.length} results`);
+              return results;
+            } catch (e) {
+              console.error('❌ Swift search failed:', e);
+              console.error('Stack:', e.stack);
+              return [];
+            }
+          }
+        };
+        
+        console.log('✅ SwiftSearch API created');
+        
+        // Set global flag that Swift is ready
+        window.swiftWasmReady = true;
+        window.dispatchEvent(new Event('swiftWasmLoaded'));
+      } catch (error) {
+        console.error('❌ Failed to load Swift WASM:', error);
+        console.error('Stack:', error.stack);
+        window.swiftWasmReady = false;
+      }
+    })();
+</script>
 
 <noscript>
   <div style="padding: 20px; background: #fff3cd; color: #856404; border-radius: 8px; margin: 20px 0;">
@@ -536,63 +817,37 @@ Search through 714,850+ Python packages to check iOS and Android mobile platform
   const DB_BASE_URL = '../mobile-wheels-sql/';
   const RESULTS_PER_PAGE = 50;
   
-  let SQL = null; // sql.js instance
-  let indexDB = null; // Index database
+  let SQL = null; // sql.js instance for data chunks only
+  let indexDB = null; // Deprecated - Swift handles index
   let dataDBs = {}; // Cache for loaded data chunks
   let totalPackages = 714850;
   let currentResults = [];
   let currentPage = 1;
   
-  // Initialize sql.js and load index database
+  // Initialize database connection (Swift WASM handles index, sql.js for data chunks)
   async function initDatabase() {
     try {
+      // Wait for Swift WASM to load
+      if (!window.swiftWasmReady) {
+        console.log('⏳ Waiting for Swift WASM to load...');
+        await new Promise(resolve => {
+          if (window.swiftWasmReady) {
+            resolve();
+          } else {
+            window.addEventListener('swiftWasmLoaded', resolve, { once: true });
+          }
+        });
+      }
+      
       console.log('Starting database initialization...');
+      console.log('🦅 Swift WASM backend:', window.SwiftSearch ? 'loaded' : 'unavailable');
       
-      // Check if initSqlJs is available
-      if (typeof initSqlJs === 'undefined') {
-        throw new Error('sql.js library not loaded. Check if the CDN script is accessible.');
+      if (!window.SwiftSearch) {
+        throw new Error('Swift WASM not available');
       }
       
-      console.log('Initializing sql.js...');
-      // Initialize sql.js
-      SQL = await initSqlJs({
-        locateFile: file => {
-          const url = `https://cdn.jsdelivr.net/npm/sql.js@1.8.0/dist/${file}`;
-          console.log('Loading sql.js file:', url);
-          return url;
-        }
-      });
-      
-      console.log('sql.js initialized successfully');
-      
-      // Load index database
-      console.log('Fetching index database from:', DB_BASE_URL + 'index.sqlite');
-      const indexResponse = await fetch(DB_BASE_URL + 'index.sqlite');
-      if (!indexResponse.ok) {
-        throw new Error(`Failed to fetch index.sqlite: ${indexResponse.status} ${indexResponse.statusText}`);
-      }
-      
-      const indexBuffer = await indexResponse.arrayBuffer();
-      console.log('Index database buffer size:', indexBuffer.byteLength, 'bytes');
-      
-      indexDB = new SQL.Database(new Uint8Array(indexBuffer));
-      console.log('Index database loaded successfully');
-      
-      // Get total package count
-      const countResult = indexDB.exec('SELECT COUNT(*) FROM package_index');
-      if (countResult.length > 0) {
-        totalPackages = countResult[0].values[0][0];
-      }
-      
-      console.log(`Total packages in index: ${totalPackages}`);
-      
-      // Test query for specific packages
-      const testResults = indexDB.exec("SELECT name, CAST(hash_id AS TEXT) as hash_id, chunk_file FROM package_index WHERE name IN ('numpy', 'pillow', 'pandas') COLLATE NOCASE");
-      console.log('Test query results:', testResults);
-      
-      // Check schema
-      const schemaResult = indexDB.exec("SELECT sql FROM sqlite_master WHERE type='table' AND name='package_index'");
-      console.log('Index table schema:', schemaResult);
+      // Swift has already loaded the index database during WASM initialization
+      console.log('✅ Swift WASM ready with native SQLite for all databases');
       
       document.getElementById('total-results').textContent = `Ready to search ${totalPackages.toLocaleString()} packages`;
       console.log('Database initialization complete!');
@@ -665,131 +920,59 @@ Search through 714,850+ Python packages to check iOS and Android mobile platform
     return categories[categoryCode] || 'binary_without_mobile';
   }
   
-  // Check if package matches filters
-  function matchesFilters(pkg, filters) {
-    const hasIOS = pkg.ios === 'supported';
-    const hasAndroid = pkg.android === 'supported';
-    const isPure = pkg.ios === 'pure_python' || pkg.android === 'pure_python';
-    const isBinary = pkg.category === 'official_binary' || pkg.category === 'pyswift_binary';
-    
-    if (!filters.ios && hasIOS && !isPure) return false;
-    if (!filters.android && hasAndroid && !isPure) return false;
-    if (!filters.pure && isPure) return false;
-    if (!filters.binary && isBinary && !isPure) return false;
-    
-    return true;
-  }
-  
-  // Search packages using SQLite
+  // Search packages using Swift WASM with native SQLite
   async function searchPackages(query) {
-    if (!indexDB || !query || query.length < 2) {
+    if (!query || query.length < 2) {
+      return [];
+    }
+    
+    // Wait for SwiftSearch if not ready yet
+    if (!window.SwiftSearch) {
+      console.log('⏳ Waiting for SwiftSearch to load...');
+      await new Promise(resolve => {
+        if (window.SwiftSearch) {
+          resolve();
+        } else {
+          window.addEventListener('swiftWasmLoaded', resolve, { once: true });
+          // Timeout after 5 seconds
+          setTimeout(resolve, 5000);
+        }
+      });
+    }
+    
+    // Check if SwiftSearch is available
+    if (!window.SwiftSearch || !window.SwiftSearch.search) {
+      console.error('SwiftSearch not available after waiting');
       return [];
     }
     
     const startTime = performance.now();
     const searchTerm = query.toLowerCase().trim();
-    const filters = getFilters();
     
-    try {
-      // Search in index for matching package names (LIKE query)
-      const searchQuery = `SELECT name, CAST(hash_id AS TEXT) as hash_id, chunk_file FROM package_index WHERE LOWER(name) LIKE LOWER(?) LIMIT 1000`;
-      console.log(`Executing search query with term: %${searchTerm}%`);
-      const indexResults = indexDB.exec(searchQuery, [`%${searchTerm}%`]);
-      
-      console.log('Raw index results:', indexResults);
-      
-      if (indexResults.length === 0 || indexResults[0].values.length === 0) {
-        console.warn('No results found in index');
-        const endTime = performance.now();
-        const searchTime = ((endTime - startTime) / 1000).toFixed(2);
-        document.getElementById('search-time').textContent = `Search completed in ${searchTime}s`;
-        return [];
-      }
-      
-      console.log(`Found ${indexResults[0].values.length} matching packages in index`);
-      console.log('First 5 results:', indexResults[0].values.slice(0, 5));
-      
-      // Group by chunk file to batch load
-      const chunkGroups = {};
-      for (const [name, hashId, chunkFile] of indexResults[0].values) {
-        if (!chunkGroups[chunkFile]) chunkGroups[chunkFile] = [];
-        chunkGroups[chunkFile].push({ name, hashId, chunkFile });
-      }
-      
-      console.log(`Need to load ${Object.keys(chunkGroups).length} chunks`);
-      
-      const results = [];
-      
-      // Load each chunk and fetch package data
-      for (const [chunkFile, packages] of Object.entries(chunkGroups)) {
-        const dataDB = await loadDataChunk(chunkFile);
-        if (!dataDB) {
-          console.error(`Failed to load chunk ${chunkFile}`);
-          continue;
-        }
-        
-        const hashIds = packages.map(p => p.hashId);
-        const placeholders = hashIds.map(() => '?').join(',');
-        // Column order: hash_id, downloads, android_support, ios_support, source, category, android_version, ios_version, latest_version, dependency_status, dependency_count, dependencies
-        const dataQuery = `SELECT CAST(hash_id AS TEXT) as hash_id, downloads, android_support, ios_support, source, category, android_version, ios_version, latest_version FROM package_data WHERE CAST(hash_id AS TEXT) IN (${placeholders})`;
-        
-        const dataResults = dataDB.exec(dataQuery, hashIds);
-        if (dataResults.length === 0) {
-          console.warn(`No data found in chunk ${chunkFile} for hash_ids`);
-          continue;
-        }
-        
-        console.log(`Found ${dataResults[0].values.length} packages in chunk ${chunkFile}`);
-        
-        // Create a map of hash_id to data
-        const dataMap = {};
-        for (const row of dataResults[0].values) {
-          dataMap[row[0]] = row;
-        }
-        
-        // Combine index and data results
-        for (const pkg of packages) {
-          const data = dataMap[pkg.hashId];
-          if (!data) {
-            console.warn(`No data found for package ${pkg.name} (hash_id: ${pkg.hashId})`);
-            continue;
-          }
-          
-          // Correct column positions: hash_id(0), downloads(1), android_support(2), ios_support(3), source(4), category(5), android_version(6), ios_version(7), latest_version(8)
-          const [hashId, downloads, androidSupport, iosSupport, sourceCode, categoryCode, androidVersion, iosVersion, latestVersion] = data;
-          
-          const packageData = {
-            name: pkg.name,
-            ios: mapSupportStatus(iosSupport),
-            android: mapSupportStatus(androidSupport),
-            iosVersion: iosVersion || '',
-            androidVersion: androidVersion || '',
-            category: mapCategory(categoryCode, androidSupport, iosSupport),
-            source: mapSource(sourceCode)
-          };
-          
-          // Apply filters
-          if (matchesFilters(packageData, filters)) {
-            results.push(packageData);
-          }
-          
-          if (results.length >= 500) break;
-        }
-        
-        if (results.length >= 500) break;
-      }
-      
-      console.log(`Final results: ${results.length} packages after filtering`);
-      
-      const endTime = performance.now();
-      const searchTime = ((endTime - startTime) / 1000).toFixed(2);
-      document.getElementById('search-time').textContent = `Search completed in ${searchTime}s`;
-      
-      return results;
-    } catch (error) {
-      console.error('Search error:', error);
-      return [];
-    }
+    // Call Swift WASM - it queries SQL and returns enhanced JSON results
+    console.log('🔍 Calling Swift to search SQL for:', searchTerm);
+    const swiftResults = await window.SwiftSearch.search(searchTerm);
+    
+    // Swift returns results - just SQL query results with enum conversions
+    // Convert to display format
+    const results = swiftResults.map(pkg => ({
+      name: pkg.name,
+      ios: pkg.ios,
+      android: pkg.android,
+      iosVersion: pkg.ios_version || '',
+      androidVersion: pkg.android_version || '',
+      category: pkg.category,
+      source: pkg.source,
+      downloads: pkg.downloads || 0,
+      latestVersion: pkg.latest_version || ''
+    }));
+    
+    const endTime = performance.now();
+    const searchTime = ((endTime - startTime) / 1000).toFixed(2);
+    document.getElementById('search-time').textContent = `Found ${results.length} packages in ${searchTime}s (Swift + SQL)`;
+    
+    console.log(`📦 Search complete: ${results.length} results from Swift`);
+    return results;
   }
   
   // Check if package matches filters
@@ -980,21 +1163,7 @@ Search through 714,850+ Python packages to check iOS and Android mobile platform
   // Initialize
   async function init() {
     console.log('Init function called');
-    document.getElementById('total-results').textContent = 'Loading database...';
-    
-    // Check if sql.js loaded
-    if (typeof initSqlJs === 'undefined') {
-      console.error('sql.js library failed to load from CDN');
-      document.getElementById('total-results').textContent = 'Error: Database library failed to load';
-      document.getElementById('results-container').innerHTML = `
-        <div class="no-results">
-          ❌ <strong>Database library failed to load.</strong><br>
-          This may be due to browser security settings or CDN issues.<br>
-          Try refreshing the page or using a different browser.
-        </div>
-      `;
-      return;
-    }
+    document.getElementById('total-results').textContent = 'Loading Swift WASM...';
     
     await initDatabase();
     
