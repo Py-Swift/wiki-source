@@ -329,7 +329,7 @@ wheels = [
 [[package]]
 name = "mkdocs-mobilewheelsdb-plugin"
 version = "0.1.0"
-source = { git = "https://github.com/Py-Swift/MobileWheelsDatabase.git#b46899b0888fdf1200712c3d963ee067ca27b029" }
+source = { git = "https://github.com/Py-Swift/MobileWheelsDatabase.git#748bdcbcf6b0e6dc025443e5c91b1ea15914772a" }
 dependencies = [
     { name = "mkdocs" },
     { name = "mkdocs-material" },
