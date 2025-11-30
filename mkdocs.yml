@@ -76,6 +76,8 @@ plugins:
   - search
   - table-reader
   - mkdocstrings
+  - mobilewheelsdb:
+      page_path: "mobile-wheels-support/package-search"
 
 
 extra_css:
