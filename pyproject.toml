@@ -24,4 +24,4 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.uv.sources]
-mkdocs-mobilewheelsdb-plugin = { git = "https://github.com/Py-Swift/MobileWheelsDatabase.git" }
+mkdocs-mobilewheelsdb-plugin = { git = "https://github.com/Py-Swift/MobileWheelsDatabase.git", tag = "v0.1.2" }
