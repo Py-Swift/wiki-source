@@ -583,8 +583,15 @@ Search through 714,850+ Python packages to check iOS and Android mobile platform
 </style>
 
 <div style="text-align: center; padding: 20px 0; margin-top: 40px; color: var(--md-default-fg-color--light); font-size: 12px; border-top: 1px solid var(--md-default-fg-color--lightest);">
-  Powered by <a href="https://github.com/Py-Swift/MobileWheelsDatabase" target="_blank" style="color: var(--md-primary-fg-color); text-decoration: none;">mkdocs-mobilewheelsdb-plugin</a>
+  Powered by <a href="https://github.com/Py-Swift/MobileWheelsDatabase" target="_blank" style="color: var(--md-primary-fg-color); text-decoration: none;">mkdocs-mobilewheelsdb-plugin <span id="plugin-version"></span></a>
 </div>
+
+<script>
+  // Display plugin version if available
+  if (window.MOBILEWHEELS_PLUGIN_VERSION) {
+    document.getElementById('plugin-version').textContent = 'v' + window.MOBILEWHEELS_PLUGIN_VERSION;
+  }
+</script>
 
 <!-- The search functionality is now provided by the mkdocs-mobilewheelsdb-plugin -->
 <!-- WASM module and database are automatically injected by the plugin -->
