@@ -7,11 +7,6 @@ Search through 714,850+ Python packages to check iOS and Android mobile platform
 <!-- The search functionality is now provided by the mkdocs-mobilewheelsdb-plugin -->
 <!-- WASM module and database are automatically injected by the plugin -->
 
-<script>
-  window.MOBILEWHEELS_DB_URL = '../../mobilewheels_assets/';
-</script>
-<script src="../../mobilewheels_assets/package-search.js"></script>
-
 <noscript>
   <div style="padding: 20px; background: #fff3cd; color: #856404; border-radius: 8px; margin: 20px 0;">
     <strong>⚠️ JavaScript Required:</strong> This search feature requires JavaScript to be enabled.
